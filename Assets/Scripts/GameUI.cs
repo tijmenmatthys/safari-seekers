@@ -8,30 +8,38 @@ public class GameUI : MonoBehaviour
 {
 
     [SerializeField]
-    private float _startTime;
+    private float _startingTime;
 
     [SerializeField]
     private TextMeshProUGUI _timeUI;
 
-    private float _timer;
+    [SerializeField]
+    private float _timeTillInstructionsPopUp;
+    [SerializeField]
+    private GameObject _instructionsPopUp;
+
+    private float _gameTimer;
+    private float _idleTimer;
+    private bool _isIdle;
 
     // Start is called before the first frame update
     void Start()
     {
-        _timer = _startTime;
+        _gameTimer = _startingTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _timer -= Time.deltaTime;
+        _gameTimer -= Time.deltaTime;
         UpdateTimeUI();
+        CheckIdle();
         CheckGameOver();
     }
 
     private void CheckGameOver()
     {
-        if (_timer <= 0)
+        if (_gameTimer <= 0)
         {
             Debug.Log("Game Over");
         }
@@ -39,9 +47,34 @@ public class GameUI : MonoBehaviour
 
     private void UpdateTimeUI()
     {
-        int seconds = (int)(_timer % 60);
-        int minutes = (int)(_timer / 60);
+        int seconds = (int)(_gameTimer % 60);
+        int minutes = (int)(_gameTimer / 60);
 
         _timeUI.text = $"{minutes:00}:{seconds:00}";
+    }
+
+    public void CheckIdle()
+    {
+        if ( _isIdle )
+        {
+            _idleTimer += Time.deltaTime;
+            Debug.Log(_idleTimer);
+            if (_idleTimer > _timeTillInstructionsPopUp)
+            {
+                _instructionsPopUp.SetActive(true);
+            }
+        }
+    }
+
+    public void StartIdleTimer()
+    {
+        _isIdle = true;
+    }
+
+    public void ResetIdleTimer()
+    {
+        _idleTimer = 0;
+        _isIdle = false;
+        _instructionsPopUp.SetActive(false);
     }
 }
