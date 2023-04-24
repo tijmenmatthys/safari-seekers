@@ -26,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     private bool _isJumping = false;
     private float _jumpForce;
 
+    public Vector3 MovementFromPlatforms = Vector3.zero;
+
     private void Start()
     {
         _charController = GetComponent<CharacterController>();
@@ -50,6 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 totalMovement = _horizontalMovement;
         totalMovement.y = _verticalMovement;
+        totalMovement += MovementFromPlatforms;
         _charController.Move(totalMovement * Time.deltaTime);
     }
 
@@ -97,6 +100,5 @@ public class PlayerMovement : MonoBehaviour
         {
             _inputVector = _inputVector.normalized;
         }
-        Debug.Log("Move input: " + _inputVector);
     }
 }
