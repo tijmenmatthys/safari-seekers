@@ -1,0 +1,24 @@
+﻿public enum AnimalCriterium
+{
+    Mammal,
+    Reptile,
+    Invertebrate,
+    LivesOnLand,
+    Viviparous,
+    Oviparous,
+    Herbivore,
+    Carnivore,
+    Omnivore,
+    HasTail,
+    HasSnout,
+    HasFur,
+    HasScales,
+    FourLegs,
+    TwoLegs,
+    HasArms,
+    Grasslands,
+    Forest,
+    Mountains,
+    Swamp,
+    Ocean
+}
