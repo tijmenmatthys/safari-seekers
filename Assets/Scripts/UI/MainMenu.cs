@@ -3,11 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenuObject, instructionsMenuObject, animalGuideMenuObject;
     public GameObject mainMenuFirstButton, instructionsFirstButton, instructionsClosedButton, animalGuideFirstButton, animalGuideClosedButton;
+
+    [SerializeField]
+    private Button _instructionButton;
+    [SerializeField]
+    private Button _animalGuideButton;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (_instructionButton.IsActive()) 
+                _instructionButton.onClick?.Invoke();
+            if (_animalGuideButton.IsActive())
+                _animalGuideButton.onClick?.Invoke();
+        }
+    }
     public void PlayGame()
     {
         Debug.Log("Play the Game");

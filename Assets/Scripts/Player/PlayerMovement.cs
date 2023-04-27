@@ -40,8 +40,8 @@ public class PlayerMovement : MonoBehaviour
         ApplyRotation();
         ApplyAcceleration();
         ApplyDeceleration();
-        ApplyJump();
         ApplyGravity();
+        ApplyJump();
         Move();
     }
 
@@ -58,7 +58,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyGravity()
     {
-        _verticalMovement -= (_verticalMovement >= 0f ? _gravityUp : _gravityDown) * Time.deltaTime;
+        if (_charController.isGrounded)
+            // Reset vertical movement, but make sure we still collide with ground to make the jump work
+            _verticalMovement = - _gravityDown * _charController.skinWidth;
+        else
+            _verticalMovement -= (_verticalMovement >= 0f ? _gravityUp : _gravityDown) * Time.deltaTime;
     }
 
     private void ApplyJump()
