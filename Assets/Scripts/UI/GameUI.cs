@@ -18,8 +18,6 @@ public class GameUI : MonoBehaviour
     private float _timeTillInstructionsPopUp;
     [SerializeField]
     private GameObject _instructionsPopUp;
-    [SerializeField]
-    private GameObject _pauseScreen;
 
 
     private GameOverScreenUI _gameOverScreenUI;
@@ -47,12 +45,6 @@ public class GameUI : MonoBehaviour
             UpdateTimeUI();
             CheckIdle();
             CheckGameOver();
-        }
-
-        //Replace with code once proper GameState changes are made
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            _pauseScreen.SetActive(true);
         }
     }
 
