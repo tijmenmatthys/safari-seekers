@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class PlayingState : State<States>
 {
-    private int _animalsFound = 10;
+    private int _animalsFound = 0;
     private Mission currentMission;
 
     private PlayerInput _playerInput;

@@ -84,7 +84,7 @@ public class MissionGenerator : MonoBehaviour
                 }
             }
             Debug.LogWarning($"Mission generation failed after {_retryAttempts} attempts with {criteriumCount} criteria.");
-            criteriumCount--;
+            if (criteriumCount > 1) criteriumCount--;
             Debug.LogWarning($"Mission generation will retry with only {criteriumCount} criteria.");
         }
     }
