@@ -1,24 +1,66 @@
 ﻿
 using System;
 using System.Collections.Generic;
+using UnityEngine.Rendering.Universal;
 
 public static class AnimalCriteria
 {
-    private static Dictionary<AnimalType, List<AnimalCriterium>> _criteria
+    private static Dictionary<AnimalType, List<AnimalCriterium>> _animalCriteria
         = new Dictionary<AnimalType, List<AnimalCriterium>>();
+
+    private static List<List<AnimalCriterium>> _mutuallyExclusiveCriteria
+        = new List<List<AnimalCriterium>>();
 
     static AnimalCriteria()
     {
-        InitCriteria();
+        InitAnimalCriteria();
+        InitMutuallyExclusiveCriteria();
     }
 
     public static List<AnimalCriterium> Get(AnimalType type)
-        => _criteria[type];
+        => _animalCriteria[type];
 
+    public static List<List<AnimalCriterium>> GetMutuallyExclusive()
+        => _mutuallyExclusiveCriteria;
 
-    private static void InitCriteria()
+    private static void InitMutuallyExclusiveCriteria()
     {
-        _criteria.Add(AnimalType.Rabbit, new List<AnimalCriterium>() {
+        _mutuallyExclusiveCriteria.Add(new List<AnimalCriterium>()
+        {
+            AnimalCriterium.Mammal,
+            AnimalCriterium.Reptile,
+            AnimalCriterium.Invertebrate,
+        });
+        _mutuallyExclusiveCriteria.Add(new List<AnimalCriterium>()
+        {
+            AnimalCriterium.Viviparous,
+            AnimalCriterium.Oviparous
+        });
+        _mutuallyExclusiveCriteria.Add(new List<AnimalCriterium>()
+        {
+            AnimalCriterium.Herbivore,
+            AnimalCriterium.Carnivore,
+            AnimalCriterium.Omnivore,
+        });
+        _mutuallyExclusiveCriteria.Add(new List<AnimalCriterium>()
+        {
+            AnimalCriterium.FourLegs,
+            AnimalCriterium.TwoLegs
+        });
+        _mutuallyExclusiveCriteria.Add(new List<AnimalCriterium>()
+        {
+            AnimalCriterium.Grasslands,
+            AnimalCriterium.Forest,
+            AnimalCriterium.Mountains,
+            AnimalCriterium.Swamp,
+            AnimalCriterium.Ocean
+        });
+    }
+
+    private static void InitAnimalCriteria()
+    {
+        _animalCriteria.Add(AnimalType.Rabbit, new List<AnimalCriterium>()
+        {
             AnimalCriterium.Mammal,
             AnimalCriterium.Herbivore,
             AnimalCriterium.FourLegs,
@@ -29,7 +71,7 @@ public static class AnimalCriteria
             AnimalCriterium.Grasslands,
             AnimalCriterium.Forest
         });
-        _criteria.Add(AnimalType.Dolphin, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Dolphin, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.Viviparous,
@@ -38,7 +80,7 @@ public static class AnimalCriteria
             AnimalCriterium.HasSnout,
             AnimalCriterium.Ocean
         });
-        _criteria.Add(AnimalType.Crocodile, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Crocodile, new List<AnimalCriterium>()
         {
             AnimalCriterium.Reptile,
             AnimalCriterium.FourLegs,
@@ -50,7 +92,7 @@ public static class AnimalCriteria
             AnimalCriterium.HasScales,
             AnimalCriterium.Swamp
         });
-        _criteria.Add(AnimalType.Giraffe, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Giraffe, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.Herbivore,
@@ -61,7 +103,7 @@ public static class AnimalCriteria
             AnimalCriterium.HasFur,
             AnimalCriterium.Grasslands
         });
-        _criteria.Add(AnimalType.Goat, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Goat, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.Herbivore,
@@ -72,7 +114,7 @@ public static class AnimalCriteria
             AnimalCriterium.HasFur,
             AnimalCriterium.Mountains
         });
-        _criteria.Add(AnimalType.Eagle, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Eagle, new List<AnimalCriterium>()
         {
             AnimalCriterium.Oviparous,
             AnimalCriterium.HasTail,
@@ -84,7 +126,7 @@ public static class AnimalCriteria
             AnimalCriterium.Forest,
             AnimalCriterium.Mountains
         });
-        _criteria.Add(AnimalType.Fish, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Fish, new List<AnimalCriterium>()
         {
             AnimalCriterium.Oviparous,
             AnimalCriterium.HasTail,
@@ -93,7 +135,7 @@ public static class AnimalCriteria
             AnimalCriterium.Swamp,
             AnimalCriterium.Ocean
         });
-        _criteria.Add(AnimalType.Chimpanzee, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Chimpanzee, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.Viviparous,
@@ -105,7 +147,7 @@ public static class AnimalCriteria
             AnimalCriterium.HasArms,
             AnimalCriterium.Forest,
         });
-        _criteria.Add(AnimalType.Octopus, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Octopus, new List<AnimalCriterium>()
         {
             AnimalCriterium.Oviparous,
             AnimalCriterium.Carnivore,
@@ -113,7 +155,7 @@ public static class AnimalCriteria
             AnimalCriterium.Invertebrate,
             AnimalCriterium.Ocean
         });
-        _criteria.Add(AnimalType.Tiger, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Tiger, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.FourLegs,
@@ -125,7 +167,7 @@ public static class AnimalCriteria
             AnimalCriterium.Grasslands,
             AnimalCriterium.Forest
         });
-        _criteria.Add(AnimalType.Parrot, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Parrot, new List<AnimalCriterium>()
         {
             AnimalCriterium.Mammal,
             AnimalCriterium.Herbivore,
@@ -136,7 +178,7 @@ public static class AnimalCriteria
             AnimalCriterium.TwoLegs,
             AnimalCriterium.Forest,
         });
-        _criteria.Add(AnimalType.Snake, new List<AnimalCriterium>()
+        _animalCriteria.Add(AnimalType.Snake, new List<AnimalCriterium>()
         {
             AnimalCriterium.Reptile,
             AnimalCriterium.Oviparous,

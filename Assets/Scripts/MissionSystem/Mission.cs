@@ -7,7 +7,22 @@ using System.Threading.Tasks;
 public class Mission
 {
     public List<AnimalCriterium> Criteria { get; }
-        = new List<AnimalCriterium>();
+
+    public List<AnimalType> CorrectAnimals
+    {
+        get
+        {
+            List<AnimalType> correct = new List<AnimalType>();
+            foreach (var type in Enum.GetValues(typeof(AnimalType)).Cast<AnimalType>())
+                if (IsSuccess(type)) correct.Add(type);
+            return correct;
+        }
+    }
+
+    public Mission(List<AnimalCriterium> criteria)
+    {
+        Criteria = criteria;
+    }
 
     public bool IsSuccess(AnimalType type)
     {
@@ -27,9 +42,6 @@ public class Mission
 
     public override string ToString()
     {
-        string output = $"Mission with {Criteria.Count} criteria:";
-        foreach (AnimalCriterium target in Criteria)
-            output += "\n" + target.ToString();
-        return output;
+        return $"Mission with {Criteria.Count} criteria:\n{String.Join(", ", Criteria)}";
     }
 }
