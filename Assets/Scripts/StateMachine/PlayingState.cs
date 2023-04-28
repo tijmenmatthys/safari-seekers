@@ -1,20 +1,28 @@
 ﻿using UnityEngine;
 using System;
 using UnityEngine.InputSystem;
+using System.Collections.Generic;
 
 public class PlayingState : State<States>
 {
     private int _animalsFound = 0;
-    private Mission currentMission;
+    private Mission _currentMission;
 
     private PlayerInput _playerInput;
+    private PlayerAnimalInteractions _playerAnimalInteractions;
     private MissionGenerator _missionGenerator;
 
     public override void OnEnter()
     {
         InitReferences();
+        _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
         GenerateNextMission();
         OnResume();
+    }
+
+    public override void OnExit()
+    {
+        _playerAnimalInteractions.AnimalSelected -= OnAnimalSelected;
     }
 
 
@@ -34,14 +42,31 @@ public class PlayingState : State<States>
 
     private void InitReferences()
     {
-        var playerMovement = UnityEngine.Object.FindObjectOfType<PlayerMovement>();
-        _playerInput = playerMovement.GetComponent<PlayerInput>();
+        _playerInput = UnityEngine.Object.FindObjectOfType<PlayerInput>();
+        _playerAnimalInteractions = UnityEngine.Object.FindObjectOfType<PlayerAnimalInteractions>();
         _missionGenerator = UnityEngine.Object.FindObjectOfType<MissionGenerator>();
     }
 
-    public void GenerateNextMission()
+    private void GenerateNextMission()
     {
         _missionGenerator.UpdateDifficulty(_animalsFound);
-        currentMission = _missionGenerator.Generate();
+        _currentMission = _missionGenerator.Generate();
+    }
+
+    private void OnAnimalSelected(Animal animal)
+    {
+        bool missionSuccess = _currentMission.IsSuccess(animal.AnimalType);
+        Dictionary<AnimalCriterium, bool> missionResults = _currentMission.CriteriaSuccesses(animal.AnimalType);
+        if (missionSuccess) _animalsFound++;
+        Debug.Log($"Animal {animal.AnimalType} selected, mission success is {missionSuccess}");
+
+        // TODO call timing system to increase/decrease timer based on mission success
+        // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
+
+        // TODO should we delay the following?
+        GenerateNextMission();
+        // TODO call mission start UI screen, use _currentMission.Criteria to get the criteria
+        // TODO call mission spawning system to spawn the next animal
+        GameObject.Destroy(animal.gameObject);
     }
 }
