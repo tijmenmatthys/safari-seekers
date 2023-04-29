@@ -16,6 +16,7 @@ public class GameUI : MonoBehaviour
 
     [SerializeField]
     private float _timeTillInstructionsPopUp;
+
     [SerializeField]
     private GameObject _instructionsPopUp;
 

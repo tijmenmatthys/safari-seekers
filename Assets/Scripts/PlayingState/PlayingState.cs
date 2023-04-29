@@ -12,12 +12,14 @@ public class PlayingState : State<States>
     private PlayerAnimalInteractions _playerAnimalInteractions;
     private MissionGenerator _missionGenerator;
     private Timer _timer;
+    private MissionReviewScreen _missionReviewScreen;
 
     public override void OnEnter()
     {
         InitReferences();
         _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
-        _timer.TimeUp += OnGameOver;
+        //TODO uncomment once Timer is implemented
+        //_timer.TimeUp += OnGameOver;
         GenerateNextMission();
         OnResume();
     }
@@ -49,6 +51,7 @@ public class PlayingState : State<States>
         _playerAnimalInteractions = UnityEngine.Object.FindObjectOfType<PlayerAnimalInteractions>();
         _missionGenerator = UnityEngine.Object.FindObjectOfType<MissionGenerator>();
         _timer = UnityEngine.Object.FindObjectOfType<Timer>();
+        _missionReviewScreen = UnityEngine.Object.FindObjectOfType<MissionReviewScreen>();
     }
 
     private void GenerateNextMission()
@@ -65,11 +68,14 @@ public class PlayingState : State<States>
         if (missionSuccess) _animalsFound++;
         Debug.Log($"Animal {animal.AnimalType} selected, mission success is {missionSuccess}");
 
+        /* TODO Uncomment once Time is added
         // Add or subtract from timer based on mission success
         if (missionSuccess) _timer.OnCorrectAnimalSelected();
         else _timer.OnWrongAnimalSelected();
+        */
 
         // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
+        _missionReviewScreen.SetUpMissionReview(missionResults, animal, missionSuccess);
 
         // TODO should we delay the following?
         GenerateNextMission();
