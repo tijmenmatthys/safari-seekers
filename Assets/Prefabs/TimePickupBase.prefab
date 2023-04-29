@@ -9,7 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 719025790675864333}
-  m_Layer: 0
+  - component: {fileID: 6763889495495376831}
+  - component: {fileID: 8469206514232298296}
+  m_Layer: 7
   m_Name: TimePickupBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -32,6 +34,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6763889495495376831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719025790675864330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5924cfdbfe3c5da4280b1c823b2ce1de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Type: 0
+  PickupCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 719025790675864330}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!135 &8469206514232298296
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719025790675864330}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &719025791853937046
 GameObject:
   m_ObjectHideFlags: 0
@@ -43,8 +86,7 @@ GameObject:
   - component: {fileID: 719025791853937049}
   - component: {fileID: 719025791853937053}
   - component: {fileID: 719025791853937050}
-  - component: {fileID: 719025791853937051}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Pickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -116,16 +158,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &719025791853937051
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719025791853937046}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}

@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private bool _isJumping = false;
     private float _jumpForce;
 
-    public Vector3 MovementFromPlatforms = Vector3.zero;
+    public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
 
     private void Start()
     {

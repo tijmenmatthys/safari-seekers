@@ -11,11 +11,13 @@ public class PlayingState : State<States>
     private PlayerInput _playerInput;
     private PlayerAnimalInteractions _playerAnimalInteractions;
     private MissionGenerator _missionGenerator;
+    private Timer _timer;
 
     public override void OnEnter()
     {
         InitReferences();
         _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
+        _timer.TimeUp += OnGameOver;
         GenerateNextMission();
         OnResume();
     }
@@ -23,6 +25,7 @@ public class PlayingState : State<States>
     public override void OnExit()
     {
         _playerAnimalInteractions.AnimalSelected -= OnAnimalSelected;
+        _timer.TimeUp -= OnGameOver;
     }
 
 
@@ -45,6 +48,7 @@ public class PlayingState : State<States>
         _playerInput = UnityEngine.Object.FindObjectOfType<PlayerInput>();
         _playerAnimalInteractions = UnityEngine.Object.FindObjectOfType<PlayerAnimalInteractions>();
         _missionGenerator = UnityEngine.Object.FindObjectOfType<MissionGenerator>();
+        _timer = UnityEngine.Object.FindObjectOfType<Timer>();
     }
 
     private void GenerateNextMission()
@@ -55,12 +59,16 @@ public class PlayingState : State<States>
 
     private void OnAnimalSelected(Animal animal)
     {
+        // Get the result of the mission
         bool missionSuccess = _currentMission.IsSuccess(animal.AnimalType);
         Dictionary<AnimalCriterium, bool> missionResults = _currentMission.CriteriaSuccesses(animal.AnimalType);
         if (missionSuccess) _animalsFound++;
         Debug.Log($"Animal {animal.AnimalType} selected, mission success is {missionSuccess}");
 
-        // TODO call timing system to increase/decrease timer based on mission success
+        // Add or subtract from timer based on mission success
+        if (missionSuccess) _timer.OnCorrectAnimalSelected();
+        else _timer.OnWrongAnimalSelected();
+
         // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
 
         // TODO should we delay the following?
@@ -68,5 +76,11 @@ public class PlayingState : State<States>
         // TODO call mission start UI screen, use _currentMission.Criteria to get the criteria
         // TODO call mission spawning system to spawn the next animal
         GameObject.Destroy(animal.gameObject);
+    }
+
+    private void OnGameOver()
+    {
+        Debug.Log("GAME OVER -----------------------------------------");
+        // TODO
     }
 }
