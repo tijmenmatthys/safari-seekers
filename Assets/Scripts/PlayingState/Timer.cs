@@ -17,6 +17,7 @@ public class Timer : MonoBehaviour
     [SerializeField] float _bigPickupRewardTime = 5;
 
     private float _timeRemainingSeconds;
+    public float totalTime;
 
     public float TimeRemainingSeconds
     {
@@ -41,6 +42,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         TimeRemainingSeconds -= Time.deltaTime;
+        totalTime += Time.deltaTime;
     }
 
     public void OnWrongAnimalSelected()

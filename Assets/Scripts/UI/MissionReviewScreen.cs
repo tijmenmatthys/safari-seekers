@@ -30,8 +30,6 @@ public class MissionReviewScreen : MonoBehaviour
     [SerializeField]
     private TMP_Text _nextCriteriaList;
 
-
-
     [SerializeField]
     private float _timeUntilNextCriteriumCheck = 1f;
 
@@ -54,14 +52,6 @@ public class MissionReviewScreen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*
-        while (_currentCriteriaIndex < _resultValues.Count)
-            CheckNextCriteria();
-
-        _timeUntilNextMissionFades -= Time.deltaTime;
-        if (_timeUntilNextMissionFades <= 0 )
-            _missionReviewScreen.SetActive(false);
-        */
 
         if (_counter > 0 && _isActive)
             _counter -= Time.deltaTime;
@@ -73,7 +63,7 @@ public class MissionReviewScreen : MonoBehaviour
             else if (!_hasFinishedShowingFinalResult)
                 ShowFinalResult();
             else if (!_hasFinishedShowingNextCriteria)
-                ShowNextCriteria();
+                ShowNextCriteriaList();
             else
             {
                 _isActive = false;
@@ -137,15 +127,6 @@ public class MissionReviewScreen : MonoBehaviour
         _currentCriteriaListText.text = criteriaList;
     }
 
-    private void UpdateNextCriteriaList(Mission nextCriteria)
-    {
-        string criteriaList = "";
-        foreach (var Criteria in nextCriteria.Criteria)
-            criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}\n";
-
-        _nextCriteriaList.text = criteriaList;
-    }
-
     private void CheckNextCriteria()
     {
         if (_resultValues[_currentCriteriaIndex])
@@ -176,12 +157,22 @@ public class MissionReviewScreen : MonoBehaviour
 
     }
 
-    private void ShowNextCriteria()
+    private void ShowNextCriteriaList()
     {
         _nextCriteriaScreen.SetActive(true);
         _criteriaList.UpdateCriteriaList(_nextMission);
         _counter = _timeUntilNextMissionFades;
         _hasFinishedShowingNextCriteria = true;
+    }
+
+
+    private void UpdateNextCriteriaList(Mission nextCriteria)
+    {
+        string criteriaList = "";
+        foreach (var Criteria in nextCriteria.Criteria)
+            criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}\n";
+
+        _nextCriteriaList.text = criteriaList;
     }
 
 

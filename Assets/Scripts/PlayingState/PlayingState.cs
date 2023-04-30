@@ -14,14 +14,14 @@ public class PlayingState : State<States>
     private Timer _timer;
     private MissionReviewScreen _missionReviewScreen;
     private CriteriaList _criteriaList;
+    private GameOverScreenUI _gameOverScreenUI;
 
     public override void OnEnter()
     {
         InitReferences();
         _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
 
-        //TODO uncomment once Timer is implemented
-        //_timer.TimeUp += OnGameOver;
+        _timer.TimeUp += OnGameOver;
 
         GenerateNextMission();
         _criteriaList.UpdateCriteriaList(_currentMission);
@@ -57,6 +57,7 @@ public class PlayingState : State<States>
         _timer = UnityEngine.Object.FindObjectOfType<Timer>();
         _missionReviewScreen = UnityEngine.Object.FindObjectOfType<MissionReviewScreen>();
         _criteriaList = UnityEngine.Object.FindObjectOfType<CriteriaList>();
+        _gameOverScreenUI = UnityEngine.Object.FindObjectOfType<GameOverScreenUI>();
     }
 
     private void GenerateNextMission()
@@ -73,11 +74,9 @@ public class PlayingState : State<States>
         if (missionSuccess) _animalsFound++;
         Debug.Log($"Animal {animal.AnimalType} selected, mission success is {missionSuccess}");
 
-        /* TODO Uncomment once Time is added
         // Add or subtract from timer based on mission success
         if (missionSuccess) _timer.OnCorrectAnimalSelected();
         else _timer.OnWrongAnimalSelected();
-        */
 
         // TODO should we delay the following?
         GenerateNextMission();
@@ -94,6 +93,7 @@ public class PlayingState : State<States>
     private void OnGameOver()
     {
         Debug.Log("GAME OVER -----------------------------------------");
+        _gameOverScreenUI.ShowGameOverScreen(_timer.totalTime, _animalsFound);
         // TODO
     }
 }
