@@ -13653,31 +13653,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
-        type: 3}
-      propertyPath: _gravityUp
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
-        type: 3}
-      propertyPath: _jumpHeight
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
-        type: 3}
-      propertyPath: _gravityDown
-      value: 45
-      objectReference: {fileID: 0}
-    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
-        type: 3}
-      propertyPath: _movementDrag
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
-        type: 3}
-      propertyPath: _movementAcceleration
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 95701693158512478, guid: 7216460950bc51a41a9ec09d050b9b86,
         type: 3}
       propertyPath: m_RootOrder
