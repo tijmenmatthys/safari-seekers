@@ -528,12 +528,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _movementMaxSpeed: 20
-  _movementAcceleration: 20
-  _movementDrag: 3
+  _movementAcceleration: 40
+  _movementDrag: 4
   _rotationSpeed: 200
-  _jumpHeight: 2
-  _gravityUp: 20
-  _gravityDown: 40
+  _jumpHeight: 3
+  _gravityUp: 35
+  _gravityDown: 45
   _startedWalking:
     m_PersistentCalls:
       m_Calls: []
@@ -543,7 +543,6 @@ MonoBehaviour:
   _startedJump:
     m_PersistentCalls:
       m_Calls: []
-  MovementFromPlatforms: {x: 0, y: 0, z: 0}
 --- !u!143 &95701693158512476
 CharacterController:
   m_ObjectHideFlags: 0
