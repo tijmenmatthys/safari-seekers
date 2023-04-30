@@ -13,14 +13,18 @@ public class PlayingState : State<States>
     private MissionGenerator _missionGenerator;
     private Timer _timer;
     private MissionReviewScreen _missionReviewScreen;
+    private CriteriaList _criteriaList;
 
     public override void OnEnter()
     {
         InitReferences();
         _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
+
         //TODO uncomment once Timer is implemented
         //_timer.TimeUp += OnGameOver;
+
         GenerateNextMission();
+        _criteriaList.UpdateCriteriaList(_currentMission);
         OnResume();
     }
 
@@ -52,6 +56,7 @@ public class PlayingState : State<States>
         _missionGenerator = UnityEngine.Object.FindObjectOfType<MissionGenerator>();
         _timer = UnityEngine.Object.FindObjectOfType<Timer>();
         _missionReviewScreen = UnityEngine.Object.FindObjectOfType<MissionReviewScreen>();
+        _criteriaList = UnityEngine.Object.FindObjectOfType<CriteriaList>();
     }
 
     private void GenerateNextMission()
@@ -74,11 +79,13 @@ public class PlayingState : State<States>
         else _timer.OnWrongAnimalSelected();
         */
 
-        // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
-        _missionReviewScreen.SetUpMissionReview(missionResults, animal, missionSuccess);
-
         // TODO should we delay the following?
         GenerateNextMission();
+
+        // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
+        _missionReviewScreen.SetUpMissionReview(missionResults, animal, missionSuccess, _currentMission);
+
+
         // TODO call mission start UI screen, use _currentMission.Criteria to get the criteria
         // TODO call mission spawning system to spawn the next animal
         GameObject.Destroy(animal.gameObject);
