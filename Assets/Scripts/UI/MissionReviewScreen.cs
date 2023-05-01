@@ -43,18 +43,20 @@ public class MissionReviewScreen : MonoBehaviour
     private CriteriaList _criteriaList;
     private PrefixAdder _prefixAdder;
     private Mission _nextMission;
+    private GameLoop _gameLoop;
 
     private void Start()
     {
         _criteriaList = FindObjectOfType<CriteriaList>();
         _prefixAdder = new PrefixAdder();
+        _gameLoop = FindObjectOfType<GameLoop>();
     }
     // Update is called once per frame
     void Update()
     {
 
         if (_counter > 0 && _isActive)
-            _counter -= Time.deltaTime;
+            _counter -= Time.unscaledDeltaTime;
 
         if (_counter <= 0 && _isActive)
         {
@@ -66,6 +68,7 @@ public class MissionReviewScreen : MonoBehaviour
                 ShowNextCriteriaList();
             else
             {
+                _gameLoop.TransitionToPlaying();
                 _isActive = false;
                 _missionReviewScreen.SetActive(false);
             }
@@ -75,6 +78,7 @@ public class MissionReviewScreen : MonoBehaviour
 
     public void SetUpMissionReview(Dictionary<AnimalCriterium, bool> missionResults, Animal currentAnimal, bool missionSuccess, Mission nextMission)
     {
+        _gameLoop.TransitionToPause();
         _isActive = true;
         ResetValues();
         _finalResult = missionSuccess;

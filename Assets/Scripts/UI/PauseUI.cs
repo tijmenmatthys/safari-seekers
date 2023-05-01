@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class PauseUI : MonoBehaviour
 {
@@ -18,19 +19,11 @@ public class PauseUI : MonoBehaviour
     private bool _isPaused;
     private bool _isAboutToQuit;
 
-    // Update is called once per frame
-    void Update()
+    private GameLoop _gameLoop;
+
+    private void Start()
     {
-        //Replace with code once proper GameState changes are made
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (!_isPaused)
-                PauseGame();
-            else if (_isPaused && _isAboutToQuit)
-                LeaveQuitConfirmationScreen();
-            else
-                ContinueGame();
-        }
+        _gameLoop = FindObjectOfType<GameLoop>();
     }
 
     private void PauseGame()
@@ -39,12 +32,15 @@ public class PauseUI : MonoBehaviour
         _isPaused = true;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(_pauseFirstButton);
+        _gameLoop.TransitionToPause();
     }
 
     public void ContinueGame()
     {
+        Debug.Log("Continue Game");
         _pauseScreen.SetActive(false);
         _isPaused = false;
+        _gameLoop.TransitionToPlaying();
     }
 
     private void LeaveQuitConfirmationScreen()
@@ -65,5 +61,17 @@ public class PauseUI : MonoBehaviour
         _isAboutToQuit = true;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(_exitLeaveButton);
+    }
+
+    //TODO Fix Bug where ESC from Exit Confirmation screen exits the pause screen
+    //TODO Fix Bug where ESC doesn't even work nor does it pause the game
+    private void OnPause(InputValue value)
+    {
+        if (!_isPaused)
+            PauseGame();
+        else if (_isPaused && _isAboutToQuit)
+            LeaveQuitConfirmationScreen();
+        else if (_isPaused && !_isAboutToQuit)
+            ContinueGame();
     }
 }

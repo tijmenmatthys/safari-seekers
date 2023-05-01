@@ -29,6 +29,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Debug.Log("Play the Game");
+        StartCoroutine(LoadGameScene());
     }
 
     public void QuitGame()
@@ -75,5 +76,16 @@ public class MainMenu : MonoBehaviour
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(animalGuideClosedButton);
+    }
+
+    IEnumerator LoadGameScene()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1);
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
     }
 }

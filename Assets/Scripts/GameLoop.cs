@@ -19,4 +19,14 @@ public class GameLoop : MonoBehaviour
     {
         // if needed later, update the current state here
     }
+
+    public void TransitionToPause()
+    {
+        _stateMachine.Transition(States.Paused);
+    }
+
+    public void TransitionToPlaying()
+    {
+        _stateMachine.Transition(States.Playing, true);
+    }
 }
