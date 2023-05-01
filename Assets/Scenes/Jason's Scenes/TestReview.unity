@@ -123,6 +123,18 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &190399895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4215269318688380154, guid: 3ff0b32ee9248974baa488b475ae7d04,
+    type: 3}
+  m_PrefabInstance: {fileID: 4215269318845223277}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952ac219db8aff14299468db1de33d9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &240230778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -327,6 +339,136 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 190399895}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 190399895}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetAnimalInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ShowInteractButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: GetAnimalNotInteractable
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: HideInteractButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AnimalInteractUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIBillboarding, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AnimalInteractUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIBillboarding, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552766646661587672, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
+      propertyPath: AnimalNotSelectable.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7216460950bc51a41a9ec09d050b9b86, type: 3}
@@ -1173,7 +1315,7 @@ RectTransform:
   - {fileID: 625762253}
   - {fileID: 631226172}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1187,6 +1329,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1656458679}
     m_Modifications:
+    - target: {fileID: 2480699664402270320, guid: a30782b0556facf4e83a6b6ab12dc86a,
+        type: 3}
+      propertyPath: _startTime
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 6208423985311665929, guid: a30782b0556facf4e83a6b6ab12dc86a,
         type: 3}
       propertyPath: m_Name
@@ -1469,5 +1616,74 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &4215269318845223277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.103113
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.6482239
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.0860553
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380149, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215269318688380155, guid: 3ff0b32ee9248974baa488b475ae7d04,
+        type: 3}
+      propertyPath: m_Name
+      value: InteractUI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3ff0b32ee9248974baa488b475ae7d04, type: 3}
