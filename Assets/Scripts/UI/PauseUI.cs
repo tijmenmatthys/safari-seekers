@@ -64,7 +64,8 @@ public class PauseUI : MonoBehaviour
     }
 
     //TODO Fix Bug where ESC from Exit Confirmation screen exits the pause screen
-    //TODO Fix Bug where ESC doesn't even work nor does it pause the game
+    //TODO Fix Bug where ESC doesn't even work nor does it pause the game (except it does sometimes?)
+    //TODO Fix Bug where if you Pause during the Mission Review and then Unapuse, you can move during the Mission Review
     private void OnPause(InputValue value)
     {
         if (!_isPaused)

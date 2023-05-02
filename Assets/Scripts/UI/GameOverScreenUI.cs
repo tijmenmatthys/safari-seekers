@@ -15,13 +15,19 @@ public class GameOverScreenUI : MonoBehaviour
     [SerializeField]
     private TMP_Text _scoreText;
 
+    private bool _gameOver = false;
+
     public void ShowGameOverScreen(float time, int score)
     {
-        _gameOverScreen.SetActive(true);
-        int m = (int)(time / 60);
-        int s = (int)(time % 60);
-        _timeText.text = $"Total Playtime: " + $"{m:00}:{s:00}"; ;
-        _scoreText.text = $"Correct Guesses: {score}";
+        if (!_gameOver)
+        {
+            _gameOverScreen.SetActive(true);
+            int m = (int)(time / 60);
+            int s = (int)(time % 60);
+            _timeText.text = $"Total Playtime: " + $"{m:00}:{s:00}"; ;
+            _scoreText.text = $"Correct Guesses: {score}";
+            _gameOver = true;
+        }
     }
 
     public void HideGameOverScreen()
