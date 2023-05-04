@@ -28,7 +28,6 @@ public class GameUI : MonoBehaviour
         if (_isIdle)
         {
             _idleTimer += Time.deltaTime;
-            Debug.Log(_idleTimer);
             if (_idleTimer > _timeTillInstructionsPopUp)
             {
                 _instructionsPopUp.SetActive(true);

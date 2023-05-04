@@ -17,6 +17,7 @@ public class AnimalGuideMenu : MonoBehaviour
 
     private int _animalGuideIndex;
 
+
     private void Start()
     {
         UpdateGuidePage();

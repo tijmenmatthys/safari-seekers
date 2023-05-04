@@ -21,12 +21,6 @@ public class CriteriaList : MonoBehaviour
     {
         foreach (var text in _criteriaList)
             text.text = "";
-        /*
-        foreach (var Criteria in currentMission.Criteria)
-            criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}\n";
-
-        _nextCriteriaList.text = criteriaList;
-        */
 
         int counter = 0;
         foreach (var Criteria in currentMission.Criteria)

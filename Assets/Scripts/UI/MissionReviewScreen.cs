@@ -130,16 +130,6 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void UpdateCurrentCriteriaList(Dictionary<AnimalCriterium, bool> criterias)
     {
-        /*
-        string criteriaList = "";
-        foreach (var kvp in criterias)
-        {
-            criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(kvp.Key)}\n";
-        }
-
-        _currentCriteriaListText.text = criteriaList;
-        */
-
         int counter = 0;
         foreach (var kvp in criterias)
         {
@@ -189,14 +179,6 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void UpdateNextCriteriaList(Mission nextCriteria)
     {
-        /*
-        string criteriaList = "";
-        foreach (var Criteria in nextCriteria.Criteria)
-            criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}\n";
-
-        _nextCriteriaList.text = criteriaList;
-        */
-
         int counter = 0;
         foreach (var Criteria in nextCriteria.Criteria)
         {

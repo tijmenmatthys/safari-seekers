@@ -16,23 +16,32 @@ public class PauseUI : MonoBehaviour
     [SerializeField]
     private GameObject _pauseFirstButton, _exitFirstButton, _exitLeaveButton;
 
-    private bool _isPaused;
+    private bool _isPaused, _inReviewOrOverScreen;
     private bool _isAboutToQuit;
 
     private GameLoop _gameLoop;
+    private InputAction _pauseGame;
 
     private void Start()
     {
+        MainInputActions mainInputActions = new MainInputActions();
+        mainInputActions.UI.Enable();
+        mainInputActions.UI.Pause.performed += OnPause;
+
         _gameLoop = FindObjectOfType<GameLoop>();
     }
 
     private void PauseGame()
     {
-        _pauseScreen.SetActive(true);
-        _isPaused = true;
-        EventSystem.current.SetSelectedGameObject(null);
-        EventSystem.current.SetSelectedGameObject(_pauseFirstButton);
-        _gameLoop.TransitionToPause();
+        if (!_isPaused)
+        {
+            _pauseScreen.SetActive(true);
+            _isPaused = true;
+            EventSystem.current.SetSelectedGameObject(null);
+            EventSystem.current.SetSelectedGameObject(_pauseFirstButton);
+            _gameLoop.TransitionToPause();
+            _inReviewOrOverScreen = false;
+        }
     }
 
     public void ContinueGame()
@@ -62,17 +71,27 @@ public class PauseUI : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(_exitLeaveButton);
     }
-
-    //TODO Fix Bug where ESC from Exit Confirmation screen exits the pause screen
-    //TODO Fix Bug where ESC doesn't even work nor does it pause the game (except it does sometimes?)
-    //TODO Fix Bug where if you Pause during the Mission Review and then Unapuse, you can move during the Mission Review
-    private void OnPause(InputValue value)
+    private void OnPause(InputAction.CallbackContext obj)
     {
-        if (!_isPaused)
-            PauseGame();
-        else if (_isPaused && _isAboutToQuit)
-            LeaveQuitConfirmationScreen();
-        else if (_isPaused && !_isAboutToQuit)
-            ContinueGame();
+        Debug.Log("Pressed ESC");
+        if (!_inReviewOrOverScreen)
+        {
+            if (!_isPaused)
+                PauseGame();
+            else if (_isPaused && _isAboutToQuit)
+                LeaveQuitConfirmationScreen();
+            else if (_isPaused && !_isAboutToQuit)
+                ContinueGame();
+        }
+    }
+
+    public void InPauseState()
+    {
+        _inReviewOrOverScreen = true;
+    }
+
+    public void ExitPauseState()
+    {
+        _inReviewOrOverScreen = false;
     }
 }
