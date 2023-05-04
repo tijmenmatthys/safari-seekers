@@ -4789,28 +4789,14 @@ GameObject:
   - component: {fileID: 160263711}
   - component: {fileID: 160263710}
   - component: {fileID: 160263709}
-  - component: {fileID: 160263708}
-  m_Layer: 0
+  - component: {fileID: 160263712}
+  m_Layer: 4
   m_Name: MudPlane  (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &160263708
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 160263707}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &160263709
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4876,6 +4862,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 11.963, z: 0}
+--- !u!65 &160263712
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160263707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0.0000038146973}
 --- !u!1001 &162426048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8648,28 +8647,14 @@ GameObject:
   - component: {fileID: 331479454}
   - component: {fileID: 331479453}
   - component: {fileID: 331479452}
-  - component: {fileID: 331479451}
-  m_Layer: 0
+  - component: {fileID: 331479455}
+  m_Layer: 4
   m_Name: MudPlane  (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &331479451
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331479450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &331479452
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8735,6 +8720,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &331479455
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 331479450}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 9.999999}
+  m_Center: {x: 0.00000047683716, y: 0, z: -0.0000038146973}
 --- !u!1001 &336772812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19229,28 +19227,14 @@ GameObject:
   - component: {fileID: 833719482}
   - component: {fileID: 833719481}
   - component: {fileID: 833719480}
-  - component: {fileID: 833719479}
-  m_Layer: 0
+  - component: {fileID: 833719483}
+  m_Layer: 4
   m_Name: MudPlane  (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &833719479
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 833719478}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &833719480
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19316,6 +19300,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &833719483
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833719478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 10}
+  m_Center: {x: 0.0000009536743, y: 0, z: -0.0000009536743}
 --- !u!4 &835034310 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 719025790675864333, guid: f68197213a9242142a3a99d0c0666449,
@@ -19826,104 +19823,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dbcfce122eed41b41ba8ee890a8c3c1c, type: 3}
---- !u!1 &875264223
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 875264227}
-  - component: {fileID: 875264226}
-  - component: {fileID: 875264225}
-  - component: {fileID: 875264224}
-  m_Layer: 0
-  m_Name: 'MudPlane '
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &875264224
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875264223}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &875264225
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875264223}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 1972c15ba10019c4fa60077d6d6e60cc, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &875264226
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875264223}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &875264227
+--- !u!4 &875264227 stripped
 Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1244269776820553852}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 875264223}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 69.19461, y: 6.1000004, z: -145.78253}
-  m_LocalScale: {x: 2.731467, y: 2.415319, z: 3.7683806}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 380147768}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &877507347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29473,28 +29378,14 @@ GameObject:
   - component: {fileID: 1284522293}
   - component: {fileID: 1284522292}
   - component: {fileID: 1284522291}
-  - component: {fileID: 1284522290}
-  m_Layer: 0
+  - component: {fileID: 1284522294}
+  m_Layer: 4
   m_Name: MudPlane  (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1284522290
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1284522289}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1284522291
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29560,6 +29451,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1284522294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1284522289}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1285761036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 719025790675864333, guid: f68197213a9242142a3a99d0c0666449,
@@ -31200,28 +31104,14 @@ GameObject:
   - component: {fileID: 1342270484}
   - component: {fileID: 1342270483}
   - component: {fileID: 1342270482}
-  - component: {fileID: 1342270481}
-  m_Layer: 0
+  - component: {fileID: 1342270485}
+  m_Layer: 4
   m_Name: MudPlane  (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1342270481
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342270480}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1342270482
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31287,6 +31177,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1342270485
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1342270480}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 9.999999}
+  m_Center: {x: 0, y: 0, z: 0.00000047683716}
 --- !u!4 &1346037758 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 719025790675864333, guid: e2d05465cb63be44fb8bf0b5bad68fdc,
@@ -31365,28 +31268,14 @@ GameObject:
   - component: {fileID: 1348839210}
   - component: {fileID: 1348839209}
   - component: {fileID: 1348839208}
-  - component: {fileID: 1348839207}
-  m_Layer: 0
+  - component: {fileID: 1348839211}
+  m_Layer: 4
   m_Name: MudPlane  (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1348839207
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348839206}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1348839208
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31452,6 +31341,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1348839211
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348839206}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 9.999999}
+  m_Center: {x: 0, y: 0, z: 0.0000019073486}
 --- !u!4 &1350610492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4087767264255734, guid: 27cc7f696b19bba49bc46796c717d699,
@@ -32096,28 +31998,14 @@ GameObject:
   - component: {fileID: 1403968882}
   - component: {fileID: 1403968881}
   - component: {fileID: 1403968880}
-  - component: {fileID: 1403968879}
-  m_Layer: 0
+  - component: {fileID: 1403968883}
+  m_Layer: 4
   m_Name: MudPlane  (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1403968879
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403968878}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1403968880
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32183,6 +32071,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1403968883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1403968878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 9.999999}
+  m_Center: {x: -0.00000023841858, y: 0, z: 0}
 --- !u!1001 &1404051282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36526,28 +36427,14 @@ GameObject:
   - component: {fileID: 1571008921}
   - component: {fileID: 1571008920}
   - component: {fileID: 1571008919}
-  - component: {fileID: 1571008918}
-  m_Layer: 0
+  - component: {fileID: 1571008922}
+  m_Layer: 4
   m_Name: MudPlane  (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1571008918
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1571008917}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1571008919
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36613,6 +36500,19 @@ Transform:
   m_Father: {fileID: 380147768}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 11.963, z: 0}
+--- !u!65 &1571008922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571008917}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 2.2204459e-16, z: 10.000001}
+  m_Center: {x: 0.0000009536743, y: 0, z: 0.0000076293945}
 --- !u!4 &1577684229 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7122049535174410029, guid: ab6a47ce9460f0749905247fb581fbed,
@@ -50851,6 +50751,75 @@ RectTransform:
   m_AnchoredPosition: {x: 0.49996948, y: -0.5}
   m_SizeDelta: {x: 2.8555984, y: 5.1649017}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &1244269776820553852
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 380147768}
+    m_Modifications:
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 69.19461
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.1000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -145.78253
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368991, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1244269777557368995, guid: 0cadc6e51fbbeea498a5cdf603d6eef2,
+        type: 3}
+      propertyPath: m_Name
+      value: 'MudPlane '
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0cadc6e51fbbeea498a5cdf603d6eef2, type: 3}
 --- !u!1 &1267920639289305312
 GameObject:
   m_ObjectHideFlags: 0
