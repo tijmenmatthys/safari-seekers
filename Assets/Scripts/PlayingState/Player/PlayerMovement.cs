@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
+using System;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _movementDrag = .1f;
     [SerializeField] private float _rotationSpeed = 100f;
     [SerializeField] private float _jumpHeight = 2f;
+    [SerializeField] private float _springJumpHeight = 5f;
     [SerializeField] private float _gravityUp = 20f;
     [SerializeField] private float _gravityDown = 40f;
 
@@ -25,7 +27,9 @@ public class PlayerMovement : MonoBehaviour
     private float _verticalMovement = 0f;
     private float _playerRotation = 0f;
     private bool _isJumping = false;
+    private bool _isSpringJumping = false;
     private float _jumpForce;
+    private float _springJumpForce;
 
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
     public bool IsWading { get; set; } = false;
@@ -35,6 +39,7 @@ public class PlayerMovement : MonoBehaviour
         _charController = GetComponent<CharacterController>();
         _playerRotation = transform.rotation.eulerAngles.y;
         _jumpForce = Mathf.Sqrt(2f * _jumpHeight * _gravityUp);
+        _springJumpForce = Mathf.Sqrt(2f * _springJumpHeight * _gravityUp);
     }
 
     private void Update()
@@ -69,11 +74,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyJump()
     {
-        if (!_isJumping) return;
-
-        _verticalMovement = _jumpForce;
-        _isJumping = false;
-        _startedJump?.Invoke();
+        if (_isSpringJumping)
+        {
+            _verticalMovement = _springJumpForce;
+            _isSpringJumping = false;
+            _startedJump?.Invoke();
+        }
+        if (_isJumping)
+        {
+            _verticalMovement = _jumpForce;
+            _isJumping = false;
+            _startedJump?.Invoke();
+        }
     }
 
     private void ApplyDeceleration()
@@ -93,6 +105,11 @@ public class PlayerMovement : MonoBehaviour
     {
         _playerRotation += _inputVector.x * _rotationSpeed * Time.deltaTime;
         transform.rotation = Quaternion.Euler(0f, _playerRotation, 0f);
+    }
+
+    public void OnSpringJump()
+    {
+        _isSpringJumping = true;
     }
 
     public void OnJump(InputValue value)

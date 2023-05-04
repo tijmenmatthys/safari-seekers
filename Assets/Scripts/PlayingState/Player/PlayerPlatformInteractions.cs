@@ -18,6 +18,11 @@ public class PlayerPlatformInteractions : MonoBehaviour
         var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();
         if (crumblingPlatform != null)
             crumblingPlatform.OnPlayerStay();
+
+        var spring = other.gameObject.GetComponent<Spring>();
+        if (spring != null)
+            if (spring.TryJump())
+                _playerMovement.OnSpringJump();
     }
 
     private void OnTriggerExit(Collider other)
@@ -29,5 +34,9 @@ public class PlayerPlatformInteractions : MonoBehaviour
         var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();
         if (crumblingPlatform != null)
             crumblingPlatform.OnPlayerExit();
+
+        var spring = other.gameObject.GetComponent<Spring>();
+        if (spring != null)
+            spring.ResetJump();
     }
 }
