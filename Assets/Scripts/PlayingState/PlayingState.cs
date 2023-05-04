@@ -15,6 +15,8 @@ public class PlayingState : State<States>
     private MissionReviewScreen _missionReviewScreen;
     private CriteriaList _criteriaList;
     private GameOverScreenUI _gameOverScreenUI;
+    private Dictionary<AnimalType, AnimalSpawner> _animalSpawners
+        = new Dictionary<AnimalType, AnimalSpawner>();
 
     public override void OnEnter()
     {
@@ -58,6 +60,8 @@ public class PlayingState : State<States>
         _missionReviewScreen = UnityEngine.Object.FindObjectOfType<MissionReviewScreen>();
         _criteriaList = UnityEngine.Object.FindObjectOfType<CriteriaList>();
         _gameOverScreenUI = UnityEngine.Object.FindObjectOfType<GameOverScreenUI>();
+        foreach (var spawner in UnityEngine.Object.FindObjectsOfType<AnimalSpawner>())
+            _animalSpawners[spawner.AnimalType] = spawner;
     }
 
     private void GenerateNextMission()
@@ -78,16 +82,14 @@ public class PlayingState : State<States>
         if (missionSuccess) _timer.OnCorrectAnimalSelected();
         else _timer.OnWrongAnimalSelected();
 
-        // TODO should we delay the following?
+        // Next mission
         GenerateNextMission();
 
-        // TODO call mission result UI screen, use the missionSuccess & missionResults variables above
+        // Launch mission review & next mission screens
         _missionReviewScreen.SetUpMissionReview(missionResults, animal, missionSuccess, _currentMission);
 
-
-        // TODO call mission start UI screen, use _currentMission.Criteria to get the criteria
-        // TODO call mission spawning system to spawn the next animal
-        GameObject.Destroy(animal.gameObject);
+        // Respawn the selected animal
+        _animalSpawners[animal.AnimalType].Respawn(animal);
     }
 
     private void OnGameOver()
