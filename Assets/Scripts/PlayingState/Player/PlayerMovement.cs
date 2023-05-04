@@ -6,7 +6,8 @@ using UnityEngine.Events;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float _movementMaxSpeed = 10f;
+    [SerializeField] private float _walkingMaxSpeed = 10f;
+    [SerializeField] private float _wadingMaxSpeed = 5f;
     [SerializeField] private float _movementAcceleration = 5f;
     [SerializeField] private float _movementDrag = .1f;
     [SerializeField] private float _rotationSpeed = 100f;
@@ -27,6 +28,7 @@ public class PlayerMovement : MonoBehaviour
     private float _jumpForce;
 
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
+    public bool IsWading { get; set; } = false;
 
     private void Start()
     {
@@ -82,8 +84,9 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyAcceleration()
     {
         _horizontalMovement += transform.forward * _inputVector.y * _movementAcceleration * Time.deltaTime;
-        if (_horizontalMovement.magnitude > _movementMaxSpeed)
-            _horizontalMovement = _horizontalMovement.normalized * _movementMaxSpeed;
+        float maxSpeed = IsWading ? _wadingMaxSpeed : _walkingMaxSpeed;
+        if (_horizontalMovement.magnitude > maxSpeed)
+            _horizontalMovement = _horizontalMovement.normalized * maxSpeed;
     }
 
     private void ApplyRotation()
