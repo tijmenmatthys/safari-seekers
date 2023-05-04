@@ -16,6 +16,11 @@ public class MissionReviewScreen : MonoBehaviour
     private TMP_Text _currentCriteriaListText;
 
     [SerializeField]
+    private List<TMP_Text> _criteriaListTextboxes;
+    [SerializeField]
+    private List<TMP_Text> _nextCriteriaTextboxes;
+
+    [SerializeField]
     private List<GameObject> _criteriaCheckmarks;
     [SerializeField]
     private List<GameObject> _criteriaXMarks;
@@ -108,6 +113,8 @@ public class MissionReviewScreen : MonoBehaviour
 
         for (int i = 0; i < _criteriaCheckmarks.Count; i++)
         {
+            _criteriaListTextboxes[i].text = "";
+            _nextCriteriaTextboxes[i].text = "";
             _criteriaCheckmarks[i].SetActive(false);
             _criteriaXMarks[i].SetActive(false);
         }
@@ -123,11 +130,22 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void UpdateCurrentCriteriaList(Dictionary<AnimalCriterium, bool> criterias)
     {
+        /*
         string criteriaList = "";
         foreach (var kvp in criterias)
+        {
             criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(kvp.Key)}\n";
+        }
 
         _currentCriteriaListText.text = criteriaList;
+        */
+
+        int counter = 0;
+        foreach (var kvp in criterias)
+        {
+            _criteriaListTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(kvp.Key)}";
+            counter++;
+        }
     }
 
     private void CheckNextCriteria()
@@ -171,11 +189,20 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void UpdateNextCriteriaList(Mission nextCriteria)
     {
+        /*
         string criteriaList = "";
         foreach (var Criteria in nextCriteria.Criteria)
             criteriaList += $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}\n";
 
         _nextCriteriaList.text = criteriaList;
+        */
+
+        int counter = 0;
+        foreach (var Criteria in nextCriteria.Criteria)
+        {
+            _nextCriteriaTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}";
+            counter++;
+        }
     }
 
 

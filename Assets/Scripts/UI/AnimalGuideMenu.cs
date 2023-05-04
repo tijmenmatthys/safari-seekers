@@ -1,11 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class AnimalGuideMenu : MonoBehaviour
 {
     [SerializeField]
     private List<GameObject> _animalGuides = new List<GameObject>();
+
+    [SerializeField]
+    private Button _leftButton;
+    [SerializeField]
+    private Button _rightButton;
 
     private int _animalGuideIndex;
 
@@ -40,5 +48,15 @@ public class AnimalGuideMenu : MonoBehaviour
         }
 
         _animalGuides[_animalGuideIndex].SetActive(true);
+    }
+
+    private void OnRight(InputValue value)
+    {
+        _rightButton.onClick?.Invoke();
+    }
+
+    private void OnLeft(InputValue value)
+    {
+        _leftButton.onClick?.Invoke();
     }
 }
