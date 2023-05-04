@@ -10,20 +10,24 @@ public class PlayerPlatformInteractions : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (!_platformLayerMask.Contains(other.gameObject.layer)) return;
-        Debug.Log("trigger stay");
 
         var movingPlatform = other.gameObject.GetComponent<MovingPlatform>();
         if (movingPlatform != null)
-        {
             _playerMovement.MovementFromPlatforms = movingPlatform.Velocity;
-        }
+
+        var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();
+        if (crumblingPlatform != null)
+            crumblingPlatform.OnPlayerStay();
     }
 
     private void OnTriggerExit(Collider other)
     {
         if (!_platformLayerMask.Contains(other.gameObject.layer)) return;
-        Debug.Log("trigger exit");
 
         _playerMovement.MovementFromPlatforms = Vector3.zero;
+
+        var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();
+        if (crumblingPlatform != null)
+            crumblingPlatform.OnPlayerExit();
     }
 }
