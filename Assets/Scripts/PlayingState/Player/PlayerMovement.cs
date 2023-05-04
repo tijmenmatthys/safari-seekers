@@ -25,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _inputVector = Vector2.zero;
     private Vector3 _horizontalMovement = Vector3.zero;
     private float _verticalMovement = 0f;
-    private float _playerRotation = 0f;
     private bool _isJumping = false;
     private bool _isSpringJumping = false;
     private float _jumpForce;
@@ -33,11 +32,12 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
     public bool IsWading { get; set; } = false;
+    public float PlayerRotation { get; private set; } = 0f;
 
     private void Start()
     {
         _charController = GetComponent<CharacterController>();
-        _playerRotation = transform.rotation.eulerAngles.y;
+        PlayerRotation = transform.rotation.eulerAngles.y;
         _jumpForce = Mathf.Sqrt(2f * _jumpHeight * _gravityUp);
         _springJumpForce = Mathf.Sqrt(2f * _springJumpHeight * _gravityUp);
     }
@@ -103,8 +103,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyRotation()
     {
-        _playerRotation += _inputVector.x * _rotationSpeed * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0f, _playerRotation, 0f);
+        PlayerRotation += _inputVector.x * _rotationSpeed * Time.deltaTime;
+        transform.rotation = Quaternion.Euler(0f, PlayerRotation, 0f);
     }
 
     public void OnSpringJump()
