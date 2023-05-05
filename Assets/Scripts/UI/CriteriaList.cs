@@ -5,9 +5,6 @@ using UnityEngine;
 public class CriteriaList : MonoBehaviour
 {
     [SerializeField]
-    private TMP_Text _nextCriteriaList;
-
-    [SerializeField]
     private List<TMP_Text> _criteriaList;
 
     private PrefixAdder _prefixAdder;

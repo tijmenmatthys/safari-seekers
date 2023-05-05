@@ -511,6 +511,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8837030357390537833, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
+        type: 3}
+      propertyPath: m_DefaultActionMap
+      value: UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8837030357390537833, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
+        type: 3}
+      propertyPath: m_NotificationBehavior
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9181552578539106862, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
