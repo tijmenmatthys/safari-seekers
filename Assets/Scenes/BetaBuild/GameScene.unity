@@ -15165,6 +15165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
         type: 3}
+      propertyPath: _springJumpHeight
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 95701693158512477, guid: 7216460950bc51a41a9ec09d050b9b86,
+        type: 3}
       propertyPath: _startedIdle.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1514974147}

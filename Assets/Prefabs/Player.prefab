@@ -556,7 +556,7 @@ MonoBehaviour:
   _movementDrag: 4
   _rotationSpeed: 200
   _jumpHeight: 3
-  _springJumpHeight: 5
+  _springJumpHeight: 10
   _gravityUp: 35
   _gravityDown: 45
   _idleAnimationTreshold: 2
