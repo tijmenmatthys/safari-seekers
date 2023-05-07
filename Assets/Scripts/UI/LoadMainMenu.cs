@@ -10,9 +10,25 @@ public class LoadMainMenu : MonoBehaviour
         StartCoroutine(LoadMenuScene());
     }
 
+    public void LoadGameScene()
+    {
+        StartCoroutine(LoadGame());
+    }
+
     IEnumerator LoadMenuScene()
     {
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(0);
+
+        // Wait until the asynchronous scene fully loads
+        while (!asyncLoad.isDone)
+        {
+            yield return null;
+        }
+    }
+
+    IEnumerator LoadGame()
+    {
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(1);
 
         // Wait until the asynchronous scene fully loads
         while (!asyncLoad.isDone)
