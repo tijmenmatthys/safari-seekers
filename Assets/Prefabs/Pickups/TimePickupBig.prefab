@@ -72,10 +72,50 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 6dc62df7c759edd43abe4191772b9e39, type: 2}
+    - target: {fileID: 1054249913949242957, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: sounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054249913949242957, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: e47f39061e14d2843a9757706aa2d0bf, type: 3}
+    - target: {fileID: 1054249913949242957, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: TimePickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054249913949242957, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1054249913949242957, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
       propertyPath: Type
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: AudioManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
+        type: 3}
+      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}

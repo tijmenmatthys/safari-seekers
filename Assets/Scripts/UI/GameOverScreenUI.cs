@@ -4,6 +4,7 @@ using UnityEngine;
 using TMPro;
 using JetBrains.Annotations;
 using static UnityEngine.Rendering.DebugUI;
+using UnityEngine.Events;
 
 public class GameOverScreenUI : MonoBehaviour
 {
@@ -15,12 +16,15 @@ public class GameOverScreenUI : MonoBehaviour
     [SerializeField]
     private TMP_Text _scoreText;
 
+    public UnityEvent OnGameOver;
+
     private bool _gameOver = false;
 
     public void ShowGameOverScreen(float time, int score)
     {
         if (!_gameOver)
         {
+            OnGameOver?.Invoke();
             _gameOverScreen.SetActive(true);
             int m = (int)(time / 60);
             int s = (int)(time % 60);

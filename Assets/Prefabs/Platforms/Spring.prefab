@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 719025790675864333}
   - component: {fileID: 107876951128317533}
   - component: {fileID: 4651253447679592503}
+  - component: {fileID: 6235341382072842557}
   m_Layer: 6
   m_Name: Spring
   m_TagString: Untagged
@@ -59,6 +60,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc78d8f3f21fbfa4ca79aa37240d839b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnActivate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6235341382072842557}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlaySpringSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &6235341382072842557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 719025790675864330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81886a1204476d4428722a5229502b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Spring
+    clip: {fileID: 8300000, guid: 34755a54bf841934fb24aee6c6640db7, type: 3}
+    volume: 0.7
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
 --- !u!1 &719025791853937046
 GameObject:
   m_ObjectHideFlags: 0

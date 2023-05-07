@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1329292447862253166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1329292447862253164}
+  - component: {fileID: 1329292447862253167}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1329292447862253164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329292447862253166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.103113, y: 2.6482239, z: 4.0860553}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1329292447862253167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1329292447862253166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81886a1204476d4428722a5229502b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Jump
+    clip: {fileID: 8300000, guid: 4284db1f2826fbc48b9859d2ff19e89c, type: 3}
+    volume: 0.85
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: Running
+    clip: {fileID: 8300000, guid: eeb9705daf2f8c34c958fb7b80fd0b56, type: 3}
+    volume: 0.9
+    pitch: 1
+    loops: 1
+    source: {fileID: 0}
+  - name: Spring
+    clip: {fileID: 8300000, guid: 34755a54bf841934fb24aee6c6640db7, type: 3}
+    volume: 0.7
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: Crumbling
+    clip: {fileID: 8300000, guid: 4f6c36c736e5ffa49a57088b034f4a41, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: AnimalSelect
+    clip: {fileID: 8300000, guid: 427d8aba8d32ad1469e43c1e5b7dfc5c, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: TimePickup
+    clip: {fileID: 8300000, guid: e47f39061e14d2843a9757706aa2d0bf, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: Correct
+    clip: {fileID: 8300000, guid: 4bd3f77b6be90fe46a6466c2279ec169, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: Wrong
+    clip: {fileID: 8300000, guid: c5a13897c7c245140ab19df841292726, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 8001ef667b91e0f48bf38834d3b7ef2d, type: 3}
+    volume: 0.5
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
