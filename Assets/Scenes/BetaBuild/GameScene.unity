@@ -6390,6 +6390,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3126705425780561215}
     m_Modifications:
+    - target: {fileID: 5626208269971864060, guid: a30782b0556facf4e83a6b6ab12dc86a,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 90.45
+      objectReference: {fileID: 0}
     - target: {fileID: 6208423985311665929, guid: a30782b0556facf4e83a6b6ab12dc86a,
         type: 3}
       propertyPath: m_Name
@@ -34370,6 +34375,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameOverScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818956, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.size
@@ -34513,7 +34523,17 @@ PrefabInstance:
     - target: {fileID: 8446519269748544001, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519270026662941, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 6.9276123
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519270026662941, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -12.85788
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e51afa8ec2d73b46a9e15fe153270fe, type: 3}
