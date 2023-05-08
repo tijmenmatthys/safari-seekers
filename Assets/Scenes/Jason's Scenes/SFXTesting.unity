@@ -14756,20 +14756,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3126705425780561215}
     m_Modifications:
-    - target: {fileID: 6261204198793774, guid: 786e5dea813778d40b2b2cfff78c3a26, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.1459961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2452881412801658781, guid: 786e5dea813778d40b2b2cfff78c3a26,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0.1459961
-      objectReference: {fileID: 0}
-    - target: {fileID: 2961203320802479336, guid: 786e5dea813778d40b2b2cfff78c3a26,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.9276428
-      objectReference: {fileID: 0}
     - target: {fileID: 3449242808732762284, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: m_Name
@@ -14879,11 +14865,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4988318570300639542, guid: 786e5dea813778d40b2b2cfff78c3a26,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -0.9999695
       objectReference: {fileID: 0}
     - target: {fileID: 7202287739984714781, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
@@ -58441,10 +58422,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
