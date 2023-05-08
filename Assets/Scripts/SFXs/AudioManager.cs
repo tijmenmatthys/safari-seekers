@@ -18,9 +18,6 @@ public class AudioManager : MonoBehaviour
             sound.source.pitch = sound.pitch;
             sound.source.loop = sound.loops;
         }
-
-        Sound s = Array.Find(sounds, sound => sound.name == "Running");
-        s.source.enabled = false;
     }
 
     public void PlayJumpSFX()
@@ -39,47 +36,5 @@ public class AudioManager : MonoBehaviour
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Running");
         s.source.enabled = false;
-    }
-
-    public void PlaySpringSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "Spring");
-        s.source.Play();
-    }
-
-    public void PlayCrumblingSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "Crumbling");
-        s.source.Play();
-    }
-
-    public void PlayAnimalSelectSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "AnimalSelect");
-        s.source.Play();
-    }
-
-    public void PlayTimePickupSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "TimePickup");
-        s.source.Play();
-    }
-
-    public void PlayCorrectSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "Correct");
-        s.source.Play();
-    }
-
-    public void PlayWrongSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
-        s.source.Play();
-    }
-
-    public void PlayGameOverSFX()
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == "GameOver");
-        s.source.Play();
     }
 }

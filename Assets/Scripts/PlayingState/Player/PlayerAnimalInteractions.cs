@@ -11,7 +11,6 @@ public class PlayerAnimalInteractions : MonoBehaviour
 
     public UnityEvent<Transform> AnimalSelectable;
     public UnityEvent<Transform> AnimalNotSelectable;
-    public UnityEvent OnPlayerSelectAnimal;
 
     [SerializeField] private LayerMask _animalLayerMask;
 
@@ -37,7 +36,6 @@ public class PlayerAnimalInteractions : MonoBehaviour
     {
         if (_interactableAnimals.Count == 0) return;
         Animal selectedAnimal = GetClosestAnimal();
-        OnPlayerSelectAnimal?.Invoke();
         _interactableAnimals.Remove(selectedAnimal);
         AnimalNotSelectable?.Invoke(selectedAnimal.transform);
         AnimalSelected?.Invoke(selectedAnimal);

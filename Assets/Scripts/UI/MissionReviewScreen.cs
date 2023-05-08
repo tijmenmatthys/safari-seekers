@@ -29,16 +29,13 @@ public class MissionReviewScreen : MonoBehaviour
     [SerializeField] 
     private GameObject _overallWrong;
 
-    public UnityEvent OnCorrect;
-    public UnityEvent OnWrong;
-
     [SerializeField]
     private GameObject _nextCriteriaScreen;
     [SerializeField]
     private TMP_Text _nextCriteriaList;
 
     [SerializeField]
-    private float _timeUntilNextCriteriumCheck = 0.75f;
+    private float _timeUntilNextCriteriumCheck = 1f;
 
     [SerializeField]
     private float _timeUntilNextMissionFades = 2f;
@@ -112,7 +109,7 @@ public class MissionReviewScreen : MonoBehaviour
         _hasFinishedShowingFinalResult = false;
         _hasFinishedShowingNextCriteria = false;
 
-        _counter = _timeUntilNextCriteriumCheck + 0.5f;
+        _counter = _timeUntilNextCriteriumCheck;
 
         for (int i = 0; i < _criteriaCheckmarks.Count; i++)
         {
@@ -144,15 +141,9 @@ public class MissionReviewScreen : MonoBehaviour
     private void CheckNextCriteria()
     {
         if (_resultValues[_currentCriteriaIndex])
-        {
             _criteriaCheckmarks[_currentCriteriaIndex].SetActive(true);
-            OnCorrect?.Invoke();
-        }
         else
-        {
             _criteriaXMarks[_currentCriteriaIndex].SetActive(true);
-            OnWrong?.Invoke();
-        }
 
         _currentCriteriaIndex++;
 
@@ -168,15 +159,9 @@ public class MissionReviewScreen : MonoBehaviour
     private void ShowFinalResult()
     {
         if (_finalResult)
-        {
             _overallCorrect.SetActive(true);
-            OnCorrect?.Invoke();
-        }
         else
-        {
             _overallWrong.SetActive(true);
-            OnWrong?.Invoke();
-        }
 
         _counter = _timeUntilNextMissionFades;
         _hasFinishedShowingFinalResult = true;

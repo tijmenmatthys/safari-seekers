@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 719025790675864333}
   - component: {fileID: 5576923605255139018}
   - component: {fileID: 991283642830199920}
-  - component: {fileID: 5455797369291468181}
   m_Layer: 6
   m_Name: CrumblingPlatform
   m_TagString: Untagged
@@ -65,19 +64,7 @@ MonoBehaviour:
   _timeUntilRespawn: 3
   OnCrumbleWarn:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5455797369291468181}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: PlayCrumblingSFX
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   OnCrumble:
     m_PersistentCalls:
       m_Calls:
@@ -108,25 +95,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
---- !u!114 &5455797369291468181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719025790675864330}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 81886a1204476d4428722a5229502b97, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Crumbling
-    clip: {fileID: 8300000, guid: 4f6c36c736e5ffa49a57088b034f4a41, type: 3}
-    volume: 0.7
-    pitch: 1
-    loops: 0
-    source: {fileID: 0}
 --- !u!1 &719025791853937046
 GameObject:
   m_ObjectHideFlags: 0
