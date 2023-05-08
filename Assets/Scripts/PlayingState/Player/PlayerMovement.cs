@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private UnityEvent _startedRunningBackward;
     [SerializeField] private UnityEvent _startedIdle;
     [SerializeField] private UnityEvent _startedJump;
+    [SerializeField] private UnityEvent _startedFall;
 
     private CharacterController _charController;
     private Vector2 _inputVector = Vector2.zero;
@@ -48,6 +49,9 @@ public class PlayerMovement : MonoBehaviour
             else if (value == PlayerState.RunningForward) _startedRunningForward?.Invoke();
             else if (value == PlayerState.RunningBackward) _startedRunningBackward?.Invoke();
             else if (value == PlayerState.Jump) _startedJump?.Invoke();
+            else if (value == PlayerState.Fall) _startedFall?.Invoke();
+
+            Debug.Log(value);
         }
     }
 
@@ -67,9 +71,18 @@ public class PlayerMovement : MonoBehaviour
         ApplyGravity();
         ApplyJump();
         Move();
+        UpdateAnimationStates();
     }
 
     private void Move()
+    {
+        Vector3 totalMovement = _horizontalMovement;
+        totalMovement.y = _verticalMovement;
+        totalMovement += MovementFromPlatforms;
+        _charController.Move(totalMovement * Time.deltaTime);
+    }
+
+    private void UpdateAnimationStates()
     {
         if (_charController.isGrounded && _horizontalMovement.magnitude > _idleAnimationTreshold)
         {
@@ -78,11 +91,8 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (_charController.isGrounded && _horizontalMovement.magnitude <= _idleAnimationTreshold)
             PlayerState = PlayerState.Idle;
-
-        Vector3 totalMovement = _horizontalMovement;
-        totalMovement.y = _verticalMovement;
-        totalMovement += MovementFromPlatforms;
-        _charController.Move(totalMovement * Time.deltaTime);
+        else if (PlayerState != PlayerState.Jump)
+            PlayerState = PlayerState.Fall;
     }
 
     private bool IsMovingForward()
@@ -159,5 +169,6 @@ public enum PlayerState
     Idle,
     RunningForward,
     RunningBackward,
-    Jump
+    Jump,
+    Fall
 }
