@@ -264,10 +264,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _timeText: {fileID: 5626208269971864060}
-  _startTime: 90
-  _wrongAnimalPenaltyTime: 5
+  _startTime: 120
+  _wrongAnimalPenaltyTime: 20
   _correctAnimalRewardTime: 30
-  _smallPickupRewardTime: 1
-  _middlePickupRewardTime: 3
-  _bigPickupRewardTime: 5
+  _smallPickupRewardTime: 5
+  _middlePickupRewardTime: 10
+  _bigPickupRewardTime: 15
   totalTime: 0

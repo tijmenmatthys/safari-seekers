@@ -143,6 +143,18 @@ MonoBehaviour:
   _animalPrefab: {fileID: 0}
   _animalCount: 2
   _spawnPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 6369498988789406448}
   - {fileID: 4741387493173707317}
   - {fileID: 7552387164253971745}

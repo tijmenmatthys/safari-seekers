@@ -6028,11 +6028,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3126705425780561215}
     m_Modifications:
-    - target: {fileID: 2480699664402270320, guid: a30782b0556facf4e83a6b6ab12dc86a,
-        type: 3}
-      propertyPath: _startTime
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 5626208269971864060, guid: a30782b0556facf4e83a6b6ab12dc86a,
         type: 3}
       propertyPath: m_fontSize
