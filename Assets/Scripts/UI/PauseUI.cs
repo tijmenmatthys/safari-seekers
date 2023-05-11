@@ -34,7 +34,7 @@ public class PauseUI : MonoBehaviour
         _gameLoop = FindObjectOfType<GameLoop>();
     }
 
-    private void PauseGame()
+    public void PauseGame()
     {
         if (!_isPaused)
         {
