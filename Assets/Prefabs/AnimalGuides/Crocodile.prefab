@@ -7,11 +7,112 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867074436317322432, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063595270824384227, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b704c284b5be3f74c9892d65d72ec520,
+        type: 3}
+    - target: {fileID: 1406978273515743862, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d5dfb263550e0b84a82e3ecdc2442233,
+        type: 3}
+    - target: {fileID: 1512699664351114612, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0672d684ad05d5941886af172ea4eb4d,
+        type: 3}
+    - target: {fileID: 1599610257232950750, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b942fe0941ca5734ba5671b5e5657553,
+        type: 3}
+    - target: {fileID: 2285786014909401719, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846148811646557099, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cea92184295d5fa41971dc092736de92,
+        type: 3}
+    - target: {fileID: 3858674686532367541, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75a13050861c3424eadb19091e2d5e3c,
+        type: 3}
+    - target: {fileID: 3951695138433067904, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 47aa7e2da3640c740a11038f5c979ce3,
+        type: 3}
+    - target: {fileID: 4197273041281075018, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52adde985df5071449a240cfc793ae50,
+        type: 3}
+    - target: {fileID: 5705302765997433567, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28b9e82a24542a642836cd707a6f0d39,
+        type: 3}
+    - target: {fileID: 7726503874965298893, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5be5a4cb3cda2fd42bcc601c8b173808,
+        type: 3}
+    - target: {fileID: 8083877193254938503, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_text
+      value: "- Habitats:\n\t- Swamps"
+      objectReference: {fileID: 0}
     - target: {fileID: 8415471940292285421, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
       value: '- Nutrition: Carnivore'
       objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 520.8518
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 461.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 410
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 122
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226023, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 1943da2c452f08b4f9d01010aae269f6,
+        type: 3}
     - target: {fileID: 8415471941295255660, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text

@@ -7,11 +7,111 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867074436317322432, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063595270824384227, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3ca40d082d449c74b90ecbc95062ca5b,
+        type: 3}
+    - target: {fileID: 1406978273515743862, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: caf90a754dbf3d24aaf35c3f6a1db33a,
+        type: 3}
+    - target: {fileID: 1512699664351114612, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d52245fd449561244ac1cb1b843b7ffe,
+        type: 3}
+    - target: {fileID: 1599610257232950750, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 30e16bcebf6a24846915bd072b8c7ded,
+        type: 3}
+    - target: {fileID: 2217346853378754796, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2285786014909401719, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846148811646557099, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: cea92184295d5fa41971dc092736de92,
+        type: 3}
+    - target: {fileID: 3858674686532367541, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75a13050861c3424eadb19091e2d5e3c,
+        type: 3}
+    - target: {fileID: 3951695138433067904, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52adde985df5071449a240cfc793ae50,
+        type: 3}
+    - target: {fileID: 4197273041281075018, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 42ae10a9ff760ae43be441f189e04059,
+        type: 3}
+    - target: {fileID: 7726503874965298893, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 410782fd1d2bf924b9d24e36c8d61f26,
+        type: 3}
+    - target: {fileID: 8083877193254938503, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_text
+      value: "- Habitats:\n\t- Mountains"
+      objectReference: {fileID: 0}
     - target: {fileID: 8415471940292285421, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
       value: '- Nutrition: Herbivore'
       objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 473.735
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 504.5277
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 403
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226023, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ca09c3d33e65f13449820679cb591913,
+        type: 3}
     - target: {fileID: 8415471941295255660, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text

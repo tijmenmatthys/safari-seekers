@@ -7,11 +7,112 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1063595270824384227, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b704c284b5be3f74c9892d65d72ec520,
+        type: 3}
+    - target: {fileID: 1406978273515743862, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c5106c8e6b59a3344978845c61af9f1a,
+        type: 3}
+    - target: {fileID: 1512699664351114612, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0672d684ad05d5941886af172ea4eb4d,
+        type: 3}
+    - target: {fileID: 1599610257232950750, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: b942fe0941ca5734ba5671b5e5657553,
+        type: 3}
+    - target: {fileID: 2105665177998099729, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2217346853378754796, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3846148811646557099, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 75a13050861c3424eadb19091e2d5e3c,
+        type: 3}
+    - target: {fileID: 3858674686532367541, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 52adde985df5071449a240cfc793ae50,
+        type: 3}
+    - target: {fileID: 3951695138433067904, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 28b9e82a24542a642836cd707a6f0d39,
+        type: 3}
+    - target: {fileID: 5823175851139407788, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a62125533a4f0414db57ba628a89cbb5,
+        type: 3}
+    - target: {fileID: 6178267516592357316, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d5dfb263550e0b84a82e3ecdc2442233,
+        type: 3}
+    - target: {fileID: 7726503874965298893, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ff959565ba9d1ca4294112d92157d392,
+        type: 3}
+    - target: {fileID: 8083877193254938503, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_text
+      value: "- Habitats:\n\t- Grasslands\n\t- Forest\n\t- Swamp"
+      objectReference: {fileID: 0}
     - target: {fileID: 8415471940292285421, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
       value: '- Nutrition: Carnivore'
       objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 499.7591
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 526.2462
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 396.56226
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 132.46094
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415471940652226023, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: afbdd436ed3f7364e82ac39e046f16c1,
+        type: 3}
     - target: {fileID: 8415471941295255660, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
@@ -146,6 +247,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_text
       value: "- Features: \n\t- Tail\n\t- Land Animal\n\t- Scales"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8434804602651034146, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d40ad219622e8d46aab4680f5ffb674, type: 3}
