@@ -14,10 +14,13 @@ public class PauseUI : MonoBehaviour
     private Button leaveQuitConfirmationButton;
 
     [SerializeField]
-    private GameObject _pauseFirstButton, _exitFirstButton, _exitLeaveButton;
+    private Button controlsBackButton;
+
+    [SerializeField]
+    private GameObject _pauseFirstButton, _exitFirstButton, _exitLeaveButton, _controlsFirstButton, _controlsLeaveButton;
 
     private bool _isPaused, _inReviewOrOverScreen;
-    private bool _isAboutToQuit;
+    private bool _inExitConfirmationScreen, _inControlsScreen;
 
     private GameLoop _gameLoop;
     private InputAction _pauseGame;
@@ -55,22 +58,41 @@ public class PauseUI : MonoBehaviour
     private void LeaveQuitConfirmationScreen()
     {
         leaveQuitConfirmationButton.onClick?.Invoke();
-        _isAboutToQuit = false;
+    }
+
+    private void LeaveControlsScreen()
+    {
+        controlsBackButton.onClick?.Invoke();
     }
 
     public void OnAboutToQuitScreen()
     {
-        _isAboutToQuit = true;
+        _inExitConfirmationScreen = true;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(_exitFirstButton);
     }
 
     public void ExitAboutToQuitScreen()
     {
-        _isAboutToQuit = true;
+        _inExitConfirmationScreen = false;
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(_exitLeaveButton);
     }
+
+    public void OnControlsScreen()
+    {
+        _inControlsScreen = true;
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(_controlsFirstButton);
+    }
+
+    public void ExitControlsScreen()
+    {
+        _inControlsScreen = false;
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(_controlsLeaveButton);
+    }
+
     private void OnPause(InputAction.CallbackContext obj)
     {
         Debug.Log("Pressed ESC");
@@ -78,9 +100,11 @@ public class PauseUI : MonoBehaviour
         {
             if (!_isPaused)
                 PauseGame();
-            else if (_isPaused && _isAboutToQuit)
+            else if (_isPaused && _inExitConfirmationScreen)
                 LeaveQuitConfirmationScreen();
-            else if (_isPaused && !_isAboutToQuit)
+            else if (_isPaused && _inControlsScreen)
+                LeaveControlsScreen();
+            else if (_isPaused && !_inExitConfirmationScreen && !_inControlsScreen)
                 ContinueGame();
         }
     }
