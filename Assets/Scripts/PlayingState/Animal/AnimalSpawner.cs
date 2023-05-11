@@ -29,11 +29,19 @@ public class AnimalSpawner : MonoBehaviour
 
     void Start()
     {
-        if (_animalCount > _spawnPoints.Count - 1)
-            Debug.LogError($"Not enough spawning points provided ({_spawnPoints.Count}) to handle the amount of animals ({_animalCount})");
+        
         _freeSpawnPoints = new List<Transform>(_spawnPoints);
 
-        InitialSpawn();
+        UpdateAfterStatChange();
+    }
+    public void UpdateAfterStatChange()
+    {
+        if (_animalCount > _spawnPoints.Count - 1)
+        {
+            Debug.LogError($"Not enough spawning points provided ({_spawnPoints.Count}) to handle the amount of animals ({_animalCount})");
+            _animalCount = _spawnPoints.Count - 1;
+        }
+        SpawnAnimals();
     }
 
     public void Respawn(Animal foundAnimal)
@@ -48,9 +56,9 @@ public class AnimalSpawner : MonoBehaviour
         foundAnimal.transform.position = newSpawn.position;
     }
 
-    private void InitialSpawn()
+    private void SpawnAnimals()
     {
-        for (int i = 0; i < _animalCount; i++)
+        for (int i = _occupiedSpawnPoints.Count; i < _animalCount; i++)
         {
             var spawn = GetRandomFreeSpawn();
             var animal = GameObject.Instantiate(_animalPrefab, transform).GetComponent<Animal>();

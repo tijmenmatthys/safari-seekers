@@ -35,6 +35,10 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        UpdateAfterStatChange();
+    }
+    public void UpdateAfterStatChange()
+    {
         TimeRemainingSeconds = _startTime;
     }
 

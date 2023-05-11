@@ -50,8 +50,6 @@ public class PlayerMovement : MonoBehaviour
             else if (value == PlayerState.RunningBackward) _startedRunningBackward?.Invoke();
             else if (value == PlayerState.Jump) _startedJump?.Invoke();
             else if (value == PlayerState.Fall) _startedFall?.Invoke();
-
-            Debug.Log(value);
         }
     }
 
@@ -59,6 +57,10 @@ public class PlayerMovement : MonoBehaviour
     {
         _charController = GetComponent<CharacterController>();
         PlayerRotation = transform.rotation.eulerAngles.y;
+        UpdateAfterStatChange();
+    }
+    public void UpdateAfterStatChange()
+    {
         _jumpForce = Mathf.Sqrt(2f * _jumpHeight * _gravityUp);
         _springJumpForce = Mathf.Sqrt(2f * _springJumpHeight * _gravityUp);
     }
