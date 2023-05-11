@@ -20,7 +20,8 @@ public class AudioManager : MonoBehaviour
         }
 
         Sound s = Array.Find(sounds, sound => sound.name == "Running");
-        s.source.enabled = false;
+        if (s != null)
+            s.source.enabled = false;
     }
 
     public void PlayJumpSFX()
