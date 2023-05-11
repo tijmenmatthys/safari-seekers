@@ -40,6 +40,7 @@ public class PlayerAnimalInteractions : MonoBehaviour
         OnPlayerSelectAnimal?.Invoke();
         _interactableAnimals.Remove(selectedAnimal);
         AnimalNotSelectable?.Invoke(selectedAnimal.transform);
+        Debug.Log(selectedAnimal.name + " is the name");
         AnimalSelected?.Invoke(selectedAnimal);
     }
 

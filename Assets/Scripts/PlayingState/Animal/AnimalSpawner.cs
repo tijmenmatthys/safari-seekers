@@ -46,6 +46,7 @@ public class AnimalSpawner : MonoBehaviour
 
     public void Respawn(Animal foundAnimal)
     {
+        Debug.Log(foundAnimal.name);
         var oldSpawn = _occupiedSpawnPoints[foundAnimal];
         var newSpawn = GetRandomFreeSpawn();
 
