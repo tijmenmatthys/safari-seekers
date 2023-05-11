@@ -152,7 +152,7 @@ public class MissionReviewScreen : MonoBehaviour
         int counter = 0;
         foreach (var criteria in criterias)
         {
-            _criteriaListTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(criteria.Key)}";
+            _criteriaListTextboxes[counter].text = $"-  {_prefixAdder.AddPrefixOrSpace(criteria.Key)}";
             _currentimageGameObjects[counter].SetActive(true);
             _currentImages[counter].sprite = _iconRetriever.GetIcon(criteria.Key);
             counter++;
@@ -215,7 +215,7 @@ public class MissionReviewScreen : MonoBehaviour
         int counter = 0;
         foreach (var criteria in nextCriteria.Criteria)
         {
-            _nextCriteriaTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(criteria)}";
+            _nextCriteriaTextboxes[counter].text = $"-  {_prefixAdder.AddPrefixOrSpace(criteria)}";
             _nextImageGameObjects[counter].SetActive(true);
             _nextImages[counter].sprite = _iconRetriever.GetIcon(criteria);
             counter++;

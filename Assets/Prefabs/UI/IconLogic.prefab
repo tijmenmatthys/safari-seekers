@@ -51,7 +51,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mammal: {fileID: 21300000, guid: 3ca40d082d449c74b90ecbc95062ca5b, type: 3}
   _reptile: {fileID: 21300000, guid: b704c284b5be3f74c9892d65d72ec520, type: 3}
-  _invertebrate: {fileID: 21300000, guid: cf51d4fa9cac056459d63cec3c08b1c4, type: 3}
+  _invertebrate: {fileID: 21300000, guid: bd815370f305d454ca8a43e04b1ccb83, type: 3}
   _livesOnLand: {fileID: 21300000, guid: 52adde985df5071449a240cfc793ae50, type: 3}
   _viviparous: {fileID: 21300000, guid: 30e16bcebf6a24846915bd072b8c7ded, type: 3}
   _oviparous: {fileID: 21300000, guid: b942fe0941ca5734ba5671b5e5657553, type: 3}
