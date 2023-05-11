@@ -18,7 +18,7 @@ public class PlayerPickupInteractions : MonoBehaviour
         if (!_pickupLayerMask.Contains(other.gameObject.layer)) return;
 
         TimePickup pickup = other.gameObject.GetComponent<TimePickup>();
-        pickup.OnCollected();
+        pickup.Collect();
         _timer.OnPickupCollected(pickup.Type);
     }
 }

@@ -8,6 +8,9 @@ public class TimePickup : MonoBehaviour
     public TimePickupType Type;
 
     public UnityEvent PickupCollected;
+    public UnityEvent PickupRespawned;
 
-    public void OnCollected() => PickupCollected?.Invoke();
+    public void Collect() => PickupCollected?.Invoke();
+
+    public void Respawn() => PickupRespawned?.Invoke();
 }

@@ -17,6 +17,7 @@ public class PlayingState : State<States>
     private GameOverScreenUI _gameOverScreenUI;
     private Dictionary<AnimalType, AnimalSpawner> _animalSpawners
         = new Dictionary<AnimalType, AnimalSpawner>();
+    private TimePickup[] _timePickups;
 
     public override void OnEnter()
     {
@@ -62,6 +63,7 @@ public class PlayingState : State<States>
         _gameOverScreenUI = UnityEngine.Object.FindObjectOfType<GameOverScreenUI>();
         foreach (var spawner in UnityEngine.Object.FindObjectsOfType<AnimalSpawner>())
             _animalSpawners[spawner.AnimalType] = spawner;
+        _timePickups = UnityEngine.Object.FindObjectsOfType<TimePickup>();
     }
 
     private void GenerateNextMission()
@@ -90,6 +92,10 @@ public class PlayingState : State<States>
 
         // Respawn the selected animal
         _animalSpawners[animal.AnimalType].Respawn(animal);
+
+        // Respawn pickups
+        foreach (var pickup in _timePickups)
+            pickup.Respawn();
     }
 
     private void OnGameOver()
