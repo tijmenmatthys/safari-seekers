@@ -45299,9 +45299,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _pauseScreen: {fileID: 1194418898}
   leaveQuitConfirmationButton: {fileID: 883825852}
+  controlsBackButton: {fileID: 0}
   _pauseFirstButton: {fileID: 404836157}
   _exitFirstButton: {fileID: 883825848}
   _exitLeaveButton: {fileID: 1675787500}
+  _controlsFirstButton: {fileID: 0}
+  _controlsLeaveButton: {fileID: 0}
 --- !u!1001 &1865304657
 PrefabInstance:
   m_ObjectHideFlags: 0

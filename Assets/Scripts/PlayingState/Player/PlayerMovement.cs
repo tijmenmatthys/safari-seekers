@@ -34,6 +34,9 @@ public class PlayerMovement : MonoBehaviour
     private float _springJumpForce;
     private PlayerState _playerState = PlayerState.Idle;
 
+    public PlayerState DebugPlayerState = PlayerState.Idle;
+    public bool DebugIsGrounded = false;
+
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
     public bool IsWading { get; set; } = false;
     public float PlayerRotation { get; private set; } = 0f;
@@ -42,8 +45,10 @@ public class PlayerMovement : MonoBehaviour
         get => _playerState;
         private set
         {
+            //Debug.Log($"Frame {Time.frameCount} - {value}");
             if (value == _playerState) return;
             _playerState = value;
+            DebugPlayerState = value;
 
             if (value == PlayerState.Idle) _startedIdle?.Invoke();
             else if (value == PlayerState.RunningForward) _startedRunningForward?.Invoke();
@@ -86,13 +91,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void UpdateAnimationStates()
     {
-        if (_charController.isGrounded && _horizontalMovement.magnitude > _idleAnimationTreshold)
+        DebugIsGrounded = _charController.isGrounded;
+        if (_charController.isGrounded)
         {
-            if (IsMovingForward()) PlayerState = PlayerState.RunningForward;
-            else PlayerState = PlayerState.RunningBackward;
+            if (_horizontalMovement.magnitude > _idleAnimationTreshold)
+            {
+                if (IsMovingForward()) PlayerState = PlayerState.RunningForward;
+                else PlayerState = PlayerState.RunningBackward;
+            }
+            else
+                PlayerState = PlayerState.Idle;
         }
-        else if (_charController.isGrounded && _horizontalMovement.magnitude <= _idleAnimationTreshold)
-            PlayerState = PlayerState.Idle;
         else if (PlayerState != PlayerState.Jump)
             PlayerState = PlayerState.Fall;
     }
