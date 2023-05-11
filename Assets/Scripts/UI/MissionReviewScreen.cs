@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class MissionReviewScreen : MonoBehaviour
 {
@@ -12,8 +13,6 @@ public class MissionReviewScreen : MonoBehaviour
 
     [SerializeField]
     private TMP_Text _animalNameText;
-    [SerializeField]
-    private TMP_Text _currentCriteriaListText;
 
     [SerializeField]
     private List<TMP_Text> _criteriaListTextboxes;
@@ -29,6 +28,11 @@ public class MissionReviewScreen : MonoBehaviour
     [SerializeField] 
     private GameObject _overallWrong;
 
+    [SerializeField]
+    private List<GameObject> _currentimageGameObjects;
+    [SerializeField]
+    private List<Image> _currentImages;
+
     public UnityEvent OnCorrect;
     public UnityEvent OnWrong;
 
@@ -36,12 +40,19 @@ public class MissionReviewScreen : MonoBehaviour
     private GameObject _nextCriteriaScreen;
     [SerializeField]
     private TMP_Text _nextCriteriaList;
+    [SerializeField]
+    private List<GameObject> _nextImageGameObjects;
+    [SerializeField]
+    private List<Image> _nextImages;
 
     [SerializeField]
     private float _timeUntilNextCriteriumCheck = 0.75f;
 
     [SerializeField]
     private float _timeUntilNextMissionFades = 2f;
+
+    [SerializeField]
+    private IconRetriever _iconRetriever;
 
     private List<bool> _resultValues = new List<bool>();
     private bool _finalResult, _isActive, _hasFinishedCheckingCriteria, _hasFinishedShowingFinalResult, _hasFinishedShowingNextCriteria;
@@ -122,6 +133,11 @@ public class MissionReviewScreen : MonoBehaviour
             _criteriaXMarks[i].SetActive(false);
         }
 
+        foreach (var go in _currentimageGameObjects)
+            go.SetActive(false);
+        foreach (var go in _nextImageGameObjects) 
+            go.SetActive(false);
+
         _overallCorrect.SetActive(false);
         _overallWrong.SetActive(false);
     }
@@ -134,9 +150,11 @@ public class MissionReviewScreen : MonoBehaviour
     private void UpdateCurrentCriteriaList(Dictionary<AnimalCriterium, bool> criterias)
     {
         int counter = 0;
-        foreach (var kvp in criterias)
+        foreach (var criteria in criterias)
         {
-            _criteriaListTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(kvp.Key)}";
+            _criteriaListTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(criteria.Key)}";
+            _currentimageGameObjects[counter].SetActive(true);
+            _currentImages[counter].sprite = _iconRetriever.GetIcon(criteria.Key);
             counter++;
         }
     }
@@ -195,9 +213,11 @@ public class MissionReviewScreen : MonoBehaviour
     private void UpdateNextCriteriaList(Mission nextCriteria)
     {
         int counter = 0;
-        foreach (var Criteria in nextCriteria.Criteria)
+        foreach (var criteria in nextCriteria.Criteria)
         {
-            _nextCriteriaTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(Criteria)}";
+            _nextCriteriaTextboxes[counter].text = $"- {_prefixAdder.AddPrefixOrSpace(criteria)}";
+            _nextImageGameObjects[counter].SetActive(true);
+            _nextImages[counter].sprite = _iconRetriever.GetIcon(criteria);
             counter++;
         }
     }
