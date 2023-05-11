@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1528696924635447887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3801313009302534371}
+  - component: {fileID: 5339947077637145404}
+  m_Layer: 5
+  m_Name: IconLogic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3801313009302534371
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528696924635447887}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 51.727554, y: 50.372}
+  m_SizeDelta: {x: 112.28, y: 102.64}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &5339947077637145404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1528696924635447887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06dc49cf7f2ef2a459a4c0d48de4a2af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mammal: {fileID: 21300000, guid: 3ca40d082d449c74b90ecbc95062ca5b, type: 3}
+  _reptile: {fileID: 21300000, guid: b704c284b5be3f74c9892d65d72ec520, type: 3}
+  _invertebrate: {fileID: 21300000, guid: cf51d4fa9cac056459d63cec3c08b1c4, type: 3}
+  _livesOnLand: {fileID: 21300000, guid: 52adde985df5071449a240cfc793ae50, type: 3}
+  _viviparous: {fileID: 21300000, guid: 30e16bcebf6a24846915bd072b8c7ded, type: 3}
+  _oviparous: {fileID: 21300000, guid: b942fe0941ca5734ba5671b5e5657553, type: 3}
+  _herbivore: {fileID: 21300000, guid: d52245fd449561244ac1cb1b843b7ffe, type: 3}
+  _carnivore: {fileID: 21300000, guid: 0672d684ad05d5941886af172ea4eb4d, type: 3}
+  _omnivore: {fileID: 21300000, guid: 1fc2b18dbf6fb7e418d1365db8a1b78f, type: 3}
+  _tail: {fileID: 21300000, guid: 75a13050861c3424eadb19091e2d5e3c, type: 3}
+  _snout: {fileID: 21300000, guid: 47aa7e2da3640c740a11038f5c979ce3, type: 3}
+  _fur: {fileID: 21300000, guid: 42ae10a9ff760ae43be441f189e04059, type: 3}
+  _scales: {fileID: 21300000, guid: 28b9e82a24542a642836cd707a6f0d39, type: 3}
+  _fourlegs: {fileID: 21300000, guid: cea92184295d5fa41971dc092736de92, type: 3}
+  _twolegs: {fileID: 21300000, guid: 612f18f48cea5be43867e683d241be29, type: 3}
+  _arms: {fileID: 21300000, guid: c5fbc9fd025fe644cb8edf84737619f6, type: 3}
+  _grasslands: {fileID: 21300000, guid: c5106c8e6b59a3344978845c61af9f1a, type: 3}
+  _forests: {fileID: 21300000, guid: a62125533a4f0414db57ba628a89cbb5, type: 3}
+  _mountains: {fileID: 21300000, guid: caf90a754dbf3d24aaf35c3f6a1db33a, type: 3}
+  _swamps: {fileID: 21300000, guid: d5dfb263550e0b84a82e3ecdc2442233, type: 3}
+  _oceans: {fileID: 21300000, guid: ec294c7e68cec3742a55cf87ee4cda09, type: 3}
