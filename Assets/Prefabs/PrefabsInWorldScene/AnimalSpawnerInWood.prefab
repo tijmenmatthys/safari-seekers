@@ -5834,6 +5834,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 6846204784089598294, guid: e8aea0de33f0ea544a0150db1479d347,
         type: 3}
+      propertyPath: _spawnPoints.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6846204784089598294, guid: e8aea0de33f0ea544a0150db1479d347,
+        type: 3}
       propertyPath: _spawnPoints.Array.data[0]
       value: 
       objectReference: {fileID: 1426204309214300174}
