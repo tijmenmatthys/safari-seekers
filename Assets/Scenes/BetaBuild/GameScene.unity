@@ -6028,6 +6028,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3126705425780561215}
     m_Modifications:
+    - target: {fileID: 2480699664402270320, guid: a30782b0556facf4e83a6b6ab12dc86a,
+        type: 3}
+      propertyPath: _startTime
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5626208269971864060, guid: a30782b0556facf4e83a6b6ab12dc86a,
         type: 3}
       propertyPath: m_fontSize
@@ -12774,7 +12779,7 @@ PrefabInstance:
     - target: {fileID: 3449242808732762285, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3449242808732762285, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
@@ -19441,7 +19446,7 @@ PrefabInstance:
     - target: {fileID: 8949729790217066452, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8949729790217066452, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
@@ -19538,6 +19543,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 8949729790775739650, guid: e70101f17aca2d1479d64cb7d52bf2da,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc628c3e0590a564592aaf7511c2d19a,
+        type: 3}
     - target: {fileID: 8949729790863817143, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
       propertyPath: m_IsActive
@@ -32619,7 +32630,7 @@ PrefabInstance:
     - target: {fileID: 8446519268992818959, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818959, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
@@ -44876,7 +44887,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1915951444}
   - component: {fileID: 1915951443}
-  - component: {fileID: 1915951442}
+  - component: {fileID: 1915951445}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -44884,26 +44895,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1915951442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915951441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &1915951443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44934,6 +44925,47 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1915951445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1915951441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_PointAction: {fileID: 7068235224615000965, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_MoveAction: {fileID: 2309033897487624013, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_SubmitAction: {fileID: -7776764808633544253, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_CancelAction: {fileID: -594382037141396991, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_LeftClickAction: {fileID: 2451487908500108299, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_MiddleClickAction: {fileID: 3134140113808616147, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_RightClickAction: {fileID: 1685034629463230186, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 3360986624902537345, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: -4602928340687075487, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 4879333468357380936, guid: ce2b3d44f59a7834086b0298c7aeb708,
+    type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1001 &1919875420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50964,6 +50996,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Minimap
       objectReference: {fileID: 0}
+    - target: {fileID: 2113770159010767800, guid: d1bbc6f088702e44dacfbca161123183,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dc628c3e0590a564592aaf7511c2d19a,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1bbc6f088702e44dacfbca161123183, type: 3}
 --- !u!1 &3126705425780561211
