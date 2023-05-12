@@ -17,12 +17,7 @@ public class CriteriaList : MonoBehaviour
     [SerializeField]
     private IconRetriever _iconRetriever;
 
-    private PrefixAdder _prefixAdder;
-
-    private void Start()
-    {
-        _prefixAdder = new PrefixAdder();   
-    }
+    private PrefixAdder _prefixAdder = new PrefixAdder();
 
     public void UpdateCriteriaList(Mission currentMission)
     {

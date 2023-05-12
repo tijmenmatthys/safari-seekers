@@ -27,8 +27,8 @@ public class PlayingState : State<States>
         _timer.TimeUp += OnGameOver;
 
         GenerateNextMission();
-        _criteriaList.UpdateCriteriaList(_currentMission);
         OnResume();
+        _criteriaList.UpdateCriteriaList(_currentMission);
     }
 
     public override void OnExit()

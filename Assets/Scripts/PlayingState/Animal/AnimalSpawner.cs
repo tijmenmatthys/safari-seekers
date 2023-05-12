@@ -15,7 +15,7 @@ public class AnimalSpawner : MonoBehaviour
 
     public AnimalType AnimalType { get; private set; }
 
-    private void OnValidate()
+    private void Awake()
     {
         if (_animalPrefab == null) return;
 
