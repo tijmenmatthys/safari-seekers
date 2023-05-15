@@ -121,7 +121,6 @@ public static class AnimalCriteria
             AnimalCriterium.Carnivore,
             AnimalCriterium.HasSnout,
             AnimalCriterium.LivesOnLand,
-            AnimalCriterium.HasFur,
             AnimalCriterium.TwoLegs,
             AnimalCriterium.Forest,
             AnimalCriterium.Mountains
@@ -169,7 +168,6 @@ public static class AnimalCriteria
         });
         _animalCriteria.Add(AnimalType.Parrot, new List<AnimalCriterium>()
         {
-            AnimalCriterium.Mammal,
             AnimalCriterium.Herbivore,
             AnimalCriterium.Oviparous,
             AnimalCriterium.HasTail,
