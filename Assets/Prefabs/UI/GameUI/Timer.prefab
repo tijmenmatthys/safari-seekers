@@ -291,4 +291,34 @@ MonoBehaviour:
   _smallPickupRewardTime: 5
   _middlePickupRewardTime: 10
   _bigPickupRewardTime: 15
-  totalTime: 0
+  _timerLowTime: 30
+  _timeGained:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5940853828114890180}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TimeGained
+          m_BoolArgument: 0
+        m_CallState: 2
+  _timeLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5940853828114890180}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: TimeLost
+          m_BoolArgument: 0
+        m_CallState: 2

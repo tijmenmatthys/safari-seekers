@@ -3,21 +3,32 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Timer : MonoBehaviour
 {
     public event Action TimeUp;
 
     [SerializeField] TextMeshProUGUI _timeText;
+
     [SerializeField] float _startTime = 15;
     [SerializeField] float _wrongAnimalPenaltyTime = 5;
     [SerializeField] float _correctAnimalRewardTime = 30;
     [SerializeField] float _smallPickupRewardTime = 1;
     [SerializeField] float _middlePickupRewardTime = 3;
     [SerializeField] float _bigPickupRewardTime = 5;
+    [SerializeField] float _timerLowTime = 30;
+
+    [SerializeField]
+    private UnityEvent _timeGained;
+
+    [SerializeField]
+    private UnityEvent _timeLost;
 
     private float _timeRemainingSeconds;
-    public float totalTime;
+    [NonSerialized]public float totalTime;
+
+    Animator _timerAnimator;
 
     public float TimeRemainingSeconds
     {
@@ -35,6 +46,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        _timerAnimator = _timeText.GetComponent<Animator>();
         UpdateAfterStatChange();
     }
     public void UpdateAfterStatChange()
@@ -47,16 +59,27 @@ public class Timer : MonoBehaviour
     {
         TimeRemainingSeconds -= Time.deltaTime;
         totalTime += Time.deltaTime;
+
+        if(TimeRemainingSeconds < _timerLowTime)
+        {
+            _timerAnimator.SetBool("TimeLow", true);
+        }
+        else
+        {
+            _timerAnimator.SetBool("TimeLow", false);
+        }
     }
 
     public void OnWrongAnimalSelected()
     {
         TimeRemainingSeconds -= _wrongAnimalPenaltyTime;
+        _timeLost.Invoke();
     }
 
     public void OnCorrectAnimalSelected()
     {
         TimeRemainingSeconds += _correctAnimalRewardTime;
+        _timeGained.Invoke();
     }
 
     public void OnPickupCollected(TimePickupType type)
@@ -64,5 +87,6 @@ public class Timer : MonoBehaviour
         if (type == TimePickupType.Small) TimeRemainingSeconds += _smallPickupRewardTime;
         else if (type == TimePickupType.Middle) TimeRemainingSeconds += _middlePickupRewardTime;
         else if (type == TimePickupType.Big) TimeRemainingSeconds += _bigPickupRewardTime;
+        _timeGained.Invoke();
     }
 }
