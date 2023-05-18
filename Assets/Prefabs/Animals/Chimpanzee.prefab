@@ -78,7 +78,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114372623399879820, guid: cea42b34a5d5b484388618dcd553dccb,
         type: 3}
+      propertyPath: scent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372623399879820, guid: cea42b34a5d5b484388618dcd553dccb,
+        type: 3}
+      propertyPath: awareness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372623399879820, guid: cea42b34a5d5b484388618dcd553dccb,
+        type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372623399879820, guid: cea42b34a5d5b484388618dcd553dccb,
+        type: 3}
+      propertyPath: wanderZone
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114372623399879820, guid: cea42b34a5d5b484388618dcd553dccb,
+        type: 3}
+      propertyPath: drawWanderRange
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8055113648680331392, guid: cea42b34a5d5b484388618dcd553dccb,

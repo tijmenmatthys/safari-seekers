@@ -141,7 +141,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animalPrefab: {fileID: 0}
-  _animalCount: 2
+  _animalWanderRadius: 5
+  _animalCount: 8
   _spawnPoints:
   - {fileID: 0}
   - {fileID: 0}
