@@ -9,6 +9,8 @@ public class ScaleTween : MonoBehaviour
     public GameObject tweenObject;
     [SerializeField]
     private float _duration = 0.5f;
+    [SerializeField]
+    private bool _rescaleOnDisable = false;
     public LeanTweenType easeType;
     public UnityEvent OnTweenUpComplete;
     public UnityEvent OnTweenDownComplete;
@@ -16,6 +18,12 @@ public class ScaleTween : MonoBehaviour
     private void OnEnable()
     {
         ScaleObjectUp();
+    }
+
+    private void OnDisable()
+    {
+        if (_rescaleOnDisable)
+            this.gameObject.transform.localScale = Vector3.zero;
     }
     public void ScaleObjectUp()
     {
