@@ -54,6 +54,8 @@ public class MissionReviewScreen : MonoBehaviour
     [SerializeField]
     private IconRetriever _iconRetriever;
 
+    public UnityEvent OnFinishedNextCriteriaShowing;
+
     private List<bool> _resultValues = new List<bool>();
     private bool _finalResult, _isActive, _hasFinishedCheckingCriteria, _hasFinishedShowingFinalResult, _hasFinishedShowingNextCriteria;
     private int _currentCriteriaIndex;
@@ -89,6 +91,7 @@ public class MissionReviewScreen : MonoBehaviour
                 _gameLoop.TransitionToPlaying();
                 _isActive = false;
                 _missionReviewScreen.SetActive(false);
+                OnFinishedNextCriteriaShowing?.Invoke();
             }
                 
         }

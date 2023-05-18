@@ -1,23 +1,18 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
-public class GameUI : MonoBehaviour
+public class InstructionsPopUp : MonoBehaviour
 {
     [SerializeField]
     private float _timeTillInstructionsPopUp;
 
-    [SerializeField]
-    private GameObject _instructionsPopUp;
-
-    public UnityEvent OnInstructionPopUp;
+    public UnityEvent ShowInstructionPopUp;
+    public UnityEvent HideInstructionPopUp;
 
     private float _idleTimer;
-    private bool _isIdle;
+    private bool _isIdle, _popUpIsActive;
 
 
     // Update is called once per frame
@@ -31,9 +26,11 @@ public class GameUI : MonoBehaviour
         if (_isIdle)
         {
             _idleTimer += Time.deltaTime;
-            if (_idleTimer > _timeTillInstructionsPopUp)
+            if (_idleTimer > _timeTillInstructionsPopUp && !_popUpIsActive)
             {
-                _instructionsPopUp.SetActive(true);
+                Debug.Log("Go");
+                ShowInstructionPopUp?.Invoke();
+                _popUpIsActive = true;
             }
         }
     }
@@ -47,6 +44,7 @@ public class GameUI : MonoBehaviour
     {
         _idleTimer = 0;
         _isIdle = false;
-        _instructionsPopUp.SetActive(false);
+        _popUpIsActive = false;
+        HideInstructionPopUp?.Invoke();
     }
 }
