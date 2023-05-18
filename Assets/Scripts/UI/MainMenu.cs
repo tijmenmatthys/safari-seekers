@@ -10,7 +10,6 @@ public class MainMenu : MonoBehaviour
 {
     public GameObject mainMenuObject, instructionsMenuObject, animalGuideMenuObject;
     public GameObject mainMenuFirstButton, instructionsFirstButton, instructionsClosedButton, animalGuideFirstButton, animalGuideClosedButton;
-
     [SerializeField]
     private Button _instructionButton;
     [SerializeField]
@@ -41,7 +40,7 @@ public class MainMenu : MonoBehaviour
 
     public void OpenInstructionsMenu()
     {
-        mainMenuObject.SetActive(false);
+        //mainMenuObject.SetActive(false);
         instructionsMenuObject.SetActive(true);
         animalGuideMenuObject.SetActive(false);
 
@@ -51,7 +50,7 @@ public class MainMenu : MonoBehaviour
 
     public void OpenAnimalGuideMenu()
     {
-        mainMenuObject.SetActive(false);
+        //mainMenuObject.SetActive(false);
         instructionsMenuObject.SetActive(false);
         animalGuideMenuObject.SetActive(true);
 
@@ -62,7 +61,7 @@ public class MainMenu : MonoBehaviour
     public void CloseInstructionsMenu()
     {
         mainMenuObject.SetActive(true);
-        instructionsMenuObject.SetActive(false);
+        //instructionsMenuObject.SetActive(false);
         animalGuideMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
@@ -73,7 +72,7 @@ public class MainMenu : MonoBehaviour
     {
         mainMenuObject.SetActive(true);
         instructionsMenuObject.SetActive(false);
-        animalGuideMenuObject.SetActive(false);
+        //animalGuideMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(animalGuideClosedButton);
