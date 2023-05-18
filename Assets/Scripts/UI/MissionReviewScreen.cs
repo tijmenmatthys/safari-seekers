@@ -10,6 +10,8 @@ public class MissionReviewScreen : MonoBehaviour
 {
     [SerializeField]
     private GameObject _missionReviewScreen;
+    [SerializeField] 
+    private GameObject _missionReview;
 
     [SerializeField]
     private TMP_Text _animalNameText;
@@ -112,6 +114,7 @@ public class MissionReviewScreen : MonoBehaviour
         _nextMission = nextMission;
 
         _missionReviewScreen.SetActive(true);
+        _missionReview.SetActive(true);
     }
 
     private void ResetValues()
