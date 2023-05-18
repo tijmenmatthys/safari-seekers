@@ -737,8 +737,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114516811404827078, guid: e0e6ac992a860c4468d220dfdd803cab,
         type: 3}
+      propertyPath: scent
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114516811404827078, guid: e0e6ac992a860c4468d220dfdd803cab,
+        type: 3}
+      propertyPath: awareness
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114516811404827078, guid: e0e6ac992a860c4468d220dfdd803cab,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114516811404827078, guid: e0e6ac992a860c4468d220dfdd803cab,
+        type: 3}
+      propertyPath: wanderZone
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e0e6ac992a860c4468d220dfdd803cab, type: 3}

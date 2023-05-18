@@ -1,7 +1,9 @@
+using Polyperfect.Animals;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class AnimalSpawner : MonoBehaviour
 {
@@ -54,7 +56,7 @@ public class AnimalSpawner : MonoBehaviour
         _freeSpawnPoints.Remove(newSpawn);
         _freeSpawnPoints.Add(oldSpawn);
 
-        foundAnimal.transform.position = newSpawn.position;
+        foundAnimal.GetComponent<NavMeshAgent>().Warp(newSpawn.position);
     }
 
     private void SpawnAnimals()
@@ -68,7 +70,8 @@ public class AnimalSpawner : MonoBehaviour
             _occupiedSpawnPoints[animal] = spawn;
             _freeSpawnPoints.Remove(spawn);
 
-            animal.transform.position = spawn.position;
+            //animal.transform.position = spawn.position;
+            animal.GetComponent<NavMeshAgent>().Warp(spawn.position);
         }
     }
 
