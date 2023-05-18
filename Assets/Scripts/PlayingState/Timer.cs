@@ -19,6 +19,9 @@ public class Timer : MonoBehaviour
     [SerializeField] float _bigPickupRewardTime = 5;
     [SerializeField] float _timerLowTime = 30;
 
+    public GameObject notificationObject;
+    public GameObject spawnLocation;
+
     [SerializeField]
     private UnityEvent _timeGained;
 
@@ -74,19 +77,36 @@ public class Timer : MonoBehaviour
     {
         TimeRemainingSeconds -= _wrongAnimalPenaltyTime;
         _timeLost.Invoke();
+        var obj = Instantiate(notificationObject, spawnLocation.transform);
+        obj.GetComponent<TimePickupTweener>().SetUpNotification(-_wrongAnimalPenaltyTime);
     }
 
     public void OnCorrectAnimalSelected()
     {
         TimeRemainingSeconds += _correctAnimalRewardTime;
         _timeGained.Invoke();
+        var obj = Instantiate(notificationObject, spawnLocation.transform);
+        obj.GetComponent<TimePickupTweener>().SetUpNotification(_correctAnimalRewardTime);
     }
 
     public void OnPickupCollected(TimePickupType type)
     {
-        if (type == TimePickupType.Small) TimeRemainingSeconds += _smallPickupRewardTime;
-        else if (type == TimePickupType.Middle) TimeRemainingSeconds += _middlePickupRewardTime;
-        else if (type == TimePickupType.Big) TimeRemainingSeconds += _bigPickupRewardTime;
+        var obj = Instantiate(notificationObject, spawnLocation.transform);
+        if (type == TimePickupType.Small)
+        {
+            TimeRemainingSeconds += _smallPickupRewardTime;
+            obj.GetComponent<TimePickupTweener>().SetUpNotification(_smallPickupRewardTime);
+        }
+        else if (type == TimePickupType.Middle)
+        {
+            TimeRemainingSeconds += _middlePickupRewardTime;
+            obj.GetComponent<TimePickupTweener>().SetUpNotification(_middlePickupRewardTime);
+        }
+        else if (type == TimePickupType.Big)
+        {
+            TimeRemainingSeconds += _bigPickupRewardTime;
+            obj.GetComponent<TimePickupTweener>().SetUpNotification(_bigPickupRewardTime);
+        }
         _timeGained.Invoke();
     }
 }
