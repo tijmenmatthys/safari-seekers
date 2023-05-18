@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.Events;
 
 public class PauseUI : MonoBehaviour
 {
@@ -14,13 +15,14 @@ public class PauseUI : MonoBehaviour
     private Button leaveQuitConfirmationButton;
 
     [SerializeField]
-    private Button controlsBackButton;
+    private Button controlsBackButton, _continueButton;
 
     [SerializeField]
     private GameObject _pauseFirstButton, _exitFirstButton, _exitLeaveButton, _controlsFirstButton, _controlsLeaveButton;
 
     private bool _isPaused, _inReviewOrOverScreen;
     private bool _inExitConfirmationScreen, _inControlsScreen;
+    private bool _canExitMenu = true;
 
     private GameLoop _gameLoop;
     private InputAction _pauseGame;
@@ -36,8 +38,9 @@ public class PauseUI : MonoBehaviour
 
     public void PauseGame()
     {
-        if (!_isPaused)
+        if (!_isPaused && _canExitMenu)
         {
+            CannotExitMenu();
             _pauseScreen.SetActive(true);
             _isPaused = true;
             EventSystem.current.SetSelectedGameObject(null);
@@ -47,22 +50,37 @@ public class PauseUI : MonoBehaviour
         }
     }
 
+    private void InvokeContinueButton()
+    {
+        if (_canExitMenu)
+        {
+            CannotExitMenu();
+            _continueButton.onClick?.Invoke();
+        }
+    }
+
     public void ContinueGame()
     {
-        Debug.Log("Continue Game");
-        _pauseScreen.SetActive(false);
         _isPaused = false;
         _gameLoop.TransitionToPlaying();
     }
 
     private void LeaveQuitConfirmationScreen()
     {
-        leaveQuitConfirmationButton.onClick?.Invoke();
+        if (_canExitMenu)
+        {
+            CannotExitMenu();
+            leaveQuitConfirmationButton.onClick?.Invoke();
+        }
     }
 
     private void LeaveControlsScreen()
     {
-        controlsBackButton.onClick?.Invoke();
+        if (_canExitMenu)
+        {
+            CannotExitMenu();
+            controlsBackButton.onClick?.Invoke();
+        }
     }
 
     public void OnAboutToQuitScreen()
@@ -105,7 +123,7 @@ public class PauseUI : MonoBehaviour
             else if (_isPaused && _inControlsScreen)
                 LeaveControlsScreen();
             else if (_isPaused && !_inExitConfirmationScreen && !_inControlsScreen)
-                ContinueGame();
+                InvokeContinueButton();
         }
     }
 
@@ -117,5 +135,15 @@ public class PauseUI : MonoBehaviour
     public void ExitPauseState()
     {
         _inReviewOrOverScreen = false;
+    }
+
+    public void CanExitMenu()
+    {
+        _canExitMenu = true;
+    }
+
+    public void CannotExitMenu()
+    {
+        _canExitMenu = false;
     }
 }

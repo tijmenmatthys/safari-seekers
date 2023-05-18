@@ -14,11 +14,6 @@ public class PanelMoveTween : MonoBehaviour
     [SerializeField]
     private LeanTweenType _easeType;
 
-
-    public void Update()
-    {
-        Debug.Log(gameObject.transform.position);
-    }
     public void MovePanelOnScreen()
     {
         LeanTween.moveLocalX(_instructionsPopUp, _OnScreenPosX, 0.2f).setEase(_easeType).setIgnoreTimeScale(true);

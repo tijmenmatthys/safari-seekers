@@ -15,7 +15,7 @@ public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandl
     {
         if (eventData.selectedObject == this.gameObject)
         {
-            LeanTween.scale(this.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.15f).setEase(LeanTweenType.easeOutBack);
+            LeanTween.scale(this.gameObject, new Vector3(1.5f, 1.5f, 1.5f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
         }
     }
 
@@ -23,7 +23,7 @@ public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandl
     {
         if (eventData.selectedObject == this.gameObject)
         {
-            LeanTween.scale(this.gameObject, new Vector3(1f, 1f, 1f), 0.15f).setEase(LeanTweenType.easeOutBack);
+            LeanTween.scale(this.gameObject, new Vector3(1f, 1f, 1f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
         }
     }
 
