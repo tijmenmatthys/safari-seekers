@@ -5728,7 +5728,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 712274206}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &203904321
 BoxCollider:
@@ -6396,26 +6396,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSize
       value: 90.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626208269971864060, guid: a30782b0556facf4e83a6b6ab12dc86a,
-        type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4282242629
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626208269971864061, guid: a30782b0556facf4e83a6b6ab12dc86a,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3951759
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626208269971864061, guid: a30782b0556facf4e83a6b6ab12dc86a,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3951759
-      objectReference: {fileID: 0}
-    - target: {fileID: 5626208269971864061, guid: a30782b0556facf4e83a6b6ab12dc86a,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3951759
       objectReference: {fileID: 0}
     - target: {fileID: 6208423985311665929, guid: a30782b0556facf4e83a6b6ab12dc86a,
         type: 3}
