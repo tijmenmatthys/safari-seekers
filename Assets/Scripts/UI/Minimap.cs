@@ -27,6 +27,7 @@ public class Minimap : MonoBehaviour
         _playerMinimap.anchoredPosition = _minimapPoint1.anchoredPosition + 
             new Vector2((_playerWorld.position.x - _worldPoint1.position.x) * _minimapRatio, 
             (_playerWorld.position.z - _worldPoint1.position.z) * _minimapRatio);
+        _playerMinimap.eulerAngles = new Vector3(0, 0, -_playerWorld.rotation.eulerAngles.y);
     }
 
     public void CalculateMapRatio()

@@ -1809,6 +1809,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 5819899894672497302}
   _duration: 0.5
+  _rescaleOnDisable: 0
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2874,7 +2875,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0938c7d81c65ef64eb69d8e767125e88, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ea9f9265932f20a4e9567ef97df05484, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2939,6 +2940,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8949729790815170473}
   _duration: 0.5
+  _rescaleOnDisable: 0
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3056,7 +3058,7 @@ RectTransform:
   m_GameObject: {fileID: 8949729790863817143}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8949729790483263178}
@@ -3089,6 +3091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8949729790863817143}
   _duration: 0.5
+  _rescaleOnDisable: 0
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3191,8 +3194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.014}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 27.3, y: -60}
-  m_SizeDelta: {x: -708.9021, y: -641.9186}
+  m_AnchoredPosition: {x: 25, y: -43.30304}
+  m_SizeDelta: {x: -673.1552, y: -608.5247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8949729790974978832
 CanvasRenderer:
@@ -3222,7 +3225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cfaeec87038f7a46a277b54a4eb22d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8f155c95c42c61d4ca949b52e55d4cd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
