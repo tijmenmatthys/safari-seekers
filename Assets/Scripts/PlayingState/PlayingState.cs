@@ -15,6 +15,7 @@ public class PlayingState : State<States>
     private MissionReviewScreen _missionReviewScreen;
     private CriteriaList _criteriaList;
     private GameOverScreenUI _gameOverScreenUI;
+    private MusicManager _musicManager;
     private Dictionary<AnimalType, AnimalSpawner> _animalSpawners
         = new Dictionary<AnimalType, AnimalSpawner>();
     private TimePickup[] _timePickups;
@@ -22,6 +23,7 @@ public class PlayingState : State<States>
     public override void OnEnter()
     {
         InitReferences();
+        _musicManager?.PlayGameMusic();
         _playerAnimalInteractions.AnimalSelected += OnAnimalSelected;
 
         _timer.TimeUp += OnGameOver;
@@ -60,6 +62,7 @@ public class PlayingState : State<States>
         _timer = UnityEngine.Object.FindObjectOfType<Timer>();
         _missionReviewScreen = UnityEngine.Object.FindObjectOfType<MissionReviewScreen>();
         _criteriaList = UnityEngine.Object.FindObjectOfType<CriteriaList>();
+        _musicManager = UnityEngine.Object.FindObjectOfType<MusicManager>();
         _gameOverScreenUI = UnityEngine.Object.FindObjectOfType<GameOverScreenUI>();
         foreach (var spawner in UnityEngine.Object.FindObjectsOfType<AnimalSpawner>())
             _animalSpawners[spawner.AnimalType] = spawner;

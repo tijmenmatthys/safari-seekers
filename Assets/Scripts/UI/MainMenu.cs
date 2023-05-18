@@ -28,7 +28,6 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Debug.Log("Play the Game");
-        FindObjectOfType<MusicManager>()?.PlayGameMusic();
         StartCoroutine(LoadGameScene());
     }
 

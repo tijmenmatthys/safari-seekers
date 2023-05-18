@@ -32,6 +32,7 @@ public class GameOverScreenUI : MonoBehaviour
     {
         if (!_gameOver)
         {
+            FindObjectOfType<MusicManager>()?.PlayMenuMusic();
             OnGameOver?.Invoke();
             _gameOverScreen.SetActive(true);
             EventSystem.current.SetSelectedGameObject(null);

@@ -47,4 +47,4 @@ MonoBehaviour:
   _fadeTime: 0.5
   _menuMusic: {fileID: 8300000, guid: ddf7a5c06b819ec4fb49983a21788df1, type: 3}
   _gameMusic: {fileID: 8300000, guid: 359e49c1ce9f1ec4581861d440fe5f01, type: 3}
-  _maxVolume: 0.299
+  _maxVolume: 0.08

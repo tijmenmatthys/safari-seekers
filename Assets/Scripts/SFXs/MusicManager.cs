@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Audio;
 
@@ -43,6 +44,8 @@ public class MusicManager : MonoBehaviour
 
     private IEnumerator FadeOut(AudioSource source)
     {
+        if (!source.isPlaying) yield break;
+
         while (source.volume > 0)
         {
             source.volume -= Time.fixedDeltaTime / _fadeTime;
@@ -54,6 +57,8 @@ public class MusicManager : MonoBehaviour
 
     private IEnumerator FadeIn(AudioSource source)
     {
+        if (source.isPlaying) yield break;
+
         source.volume = 0;
         source.Play();
         while (source.volume < _maxVolume)
