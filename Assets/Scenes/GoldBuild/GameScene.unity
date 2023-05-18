@@ -13770,7 +13770,7 @@ PrefabInstance:
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
@@ -13784,22 +13784,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 270545172}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: MovePanelOnScreen
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
@@ -13814,12 +13814,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
       value: PanelMoveTween, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
-      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9132319708411177635, guid: 786e5dea813778d40b2b2cfff78c3a26,

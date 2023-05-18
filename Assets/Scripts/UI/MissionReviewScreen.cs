@@ -90,7 +90,6 @@ public class MissionReviewScreen : MonoBehaviour
             {
                 _gameLoop.TransitionToPlaying();
                 _isActive = false;
-                _missionReviewScreen.SetActive(false);
                 OnFinishedNextCriteriaShowing?.Invoke();
             }
                 
@@ -208,7 +207,7 @@ public class MissionReviewScreen : MonoBehaviour
     {
         _nextCriteriaScreen.SetActive(true);
         _criteriaList.UpdateCriteriaList(_nextMission);
-        _counter = _timeUntilNextMissionFades;
+        _counter = _timeUntilNextMissionFades + 1.5f;
         _hasFinishedShowingNextCriteria = true;
     }
 
