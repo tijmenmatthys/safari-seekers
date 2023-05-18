@@ -83,10 +83,6 @@ public class PlayingState : State<States>
         if (missionSuccess) _animalsFound++;
         Debug.Log($"Animal {animal.AnimalType} selected, mission success is {missionSuccess}");
 
-        // Add or subtract from timer based on mission success
-        if (missionSuccess) _timer.OnCorrectAnimalSelected();
-        else _timer.OnWrongAnimalSelected();
-
         // Next mission
         GenerateNextMission();
 

@@ -66,12 +66,14 @@ public class MissionReviewScreen : MonoBehaviour
     private PrefixAdder _prefixAdder;
     private Mission _nextMission;
     private GameLoop _gameLoop;
+    private Timer _timer;
 
     private void Start()
     {
         _criteriaList = FindObjectOfType<CriteriaList>();
         _prefixAdder = new PrefixAdder();
         _gameLoop = FindObjectOfType<GameLoop>();
+        _timer = FindObjectOfType<Timer>();
     }
     // Update is called once per frame
     void Update()
@@ -91,6 +93,12 @@ public class MissionReviewScreen : MonoBehaviour
             else
             {
                 _gameLoop.TransitionToPlaying();
+
+                if (_finalResult)
+                    _timer.OnCorrectAnimalSelected();
+                else
+                    _timer.OnWrongAnimalSelected();
+
                 _isActive = false;
                 OnFinishedNextCriteriaShowing?.Invoke();
             }
