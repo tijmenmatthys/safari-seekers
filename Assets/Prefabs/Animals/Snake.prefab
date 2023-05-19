@@ -417,6 +417,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AnimalType: 11
+--- !u!1 &9091100519119367762 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1414905912504138, guid: d1b394efe4dbeb14f8a20e2e04bf1d80,
+    type: 3}
+  m_PrefabInstance: {fileID: 9092509365897036056}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5564363591836987911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9091100519119367762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39d85c6f826e879408144d34cab57efa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectToDeactivate: {fileID: 9090915230713779270}
 --- !u!4 &9097089470773282362 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4591237568382754, guid: d1b394efe4dbeb14f8a20e2e04bf1d80,
