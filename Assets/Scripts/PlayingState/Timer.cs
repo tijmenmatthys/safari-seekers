@@ -71,6 +71,15 @@ public class Timer : MonoBehaviour
         {
             _timerAnimator.SetBool("TimeLow", false);
         }
+
+        if (_timerAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "TimeGain")
+        {
+            _timerAnimator.ResetTrigger("TimeGained");
+        }
+        else if(_timerAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.name == "TimeLoss")
+        {
+            _timerAnimator.ResetTrigger("TimeLost");
+        }
     }
 
     public void OnWrongAnimalSelected()
