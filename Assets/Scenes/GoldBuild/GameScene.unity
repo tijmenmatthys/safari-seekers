@@ -3834,7 +3834,7 @@ PrefabInstance:
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
@@ -3853,9 +3853,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 270545172}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 1157450959}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
@@ -3863,8 +3873,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
       value: MovePanelOnScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: FadeObjectOut
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
@@ -3883,7 +3903,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: ScaleTween, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
       propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415383614741765782, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
+      propertyPath: OnFinishedNextCriteriaShowing.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 9132319708411177635, guid: 786e5dea813778d40b2b2cfff78c3a26,
@@ -7711,6 +7741,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d0e76f6d08ce67d48994804f237e67eb, type: 3}
+--- !u!114 &1157450959 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7657841172249000151, guid: 786e5dea813778d40b2b2cfff78c3a26,
+    type: 3}
+  m_PrefabInstance: {fileID: 514491474}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f81d11e4ce74514ebf3073a1a22673f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1161756629
 PrefabInstance:
   m_ObjectHideFlags: 0

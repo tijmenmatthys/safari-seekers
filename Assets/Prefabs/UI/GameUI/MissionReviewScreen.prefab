@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 2600456260738508916}
   - component: {fileID: 1776314800087162448}
   - component: {fileID: 7116983308570812660}
+  - component: {fileID: 4268115164491231558}
   m_Layer: 5
   m_Name: Criteria5
   m_TagString: Untagged
@@ -164,7 +165,7 @@ RectTransform:
   m_GameObject: {fileID: 255118446090430336}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760168162118065237}
@@ -226,10 +227,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 255118446090430336}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 4268115164491231558}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -237,6 +240,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &4268115164491231558
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255118446090430336}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &452955381585968786
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +735,7 @@ GameObject:
   - component: {fileID: 900458113631113815}
   - component: {fileID: 5887778963030633869}
   - component: {fileID: 2573267431658145845}
+  - component: {fileID: 5521593924300955865}
   m_Layer: 5
   m_Name: Criteria4
   m_TagString: Untagged
@@ -736,7 +752,7 @@ RectTransform:
   m_GameObject: {fileID: 1616118339375266592}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4673632372046124309}
@@ -798,10 +814,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 1616118339375266592}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 5521593924300955865}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -809,6 +827,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &5521593924300955865
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616118339375266592}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1755406572906507636
 GameObject:
   m_ObjectHideFlags: 0
@@ -1093,6 +1123,7 @@ GameObject:
   - component: {fileID: 6019784737218602742}
   - component: {fileID: 5774829525081817122}
   - component: {fileID: 3208945070099158647}
+  - component: {fileID: 8187092022947569553}
   m_Layer: 5
   m_Name: Criteria1
   m_TagString: Untagged
@@ -1109,7 +1140,7 @@ RectTransform:
   m_GameObject: {fileID: 1889742258797885330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4673632372046124309}
@@ -1171,10 +1202,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 1889742258797885330}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 8187092022947569553}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -1182,6 +1215,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &8187092022947569553
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889742258797885330}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2431422383466847893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1542,6 +1587,7 @@ GameObject:
   - component: {fileID: 5048311796645864809}
   - component: {fileID: 3299278289385586019}
   - component: {fileID: 1846765572749022276}
+  - component: {fileID: 2017230684642087129}
   m_Layer: 5
   m_Name: Criteria3
   m_TagString: Untagged
@@ -1558,7 +1604,7 @@ RectTransform:
   m_GameObject: {fileID: 3120907663718122023}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760168162118065237}
@@ -1620,10 +1666,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 3120907663718122023}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 2017230684642087129}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -1631,6 +1679,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &2017230684642087129
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3120907663718122023}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &3449242808709417768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1845,7 +1905,7 @@ MonoBehaviour:
   - {fileID: 7530033289517577383}
   - {fileID: 2182857778920577823}
   - {fileID: 7040295874268381175}
-  _timeUntilNextCriteriumCheck: 0.75
+  _timeUntilNextCriteriumCheck: 0.9
   _timeUntilNextMissionFades: 1
   _iconRetriever: {fileID: 8110381973461816493}
   OnFinishedNextCriteriaShowing:
@@ -2004,7 +2064,9 @@ MonoBehaviour:
   tweenObject: {fileID: 0}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 1
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 3498528902618811701}
   easeType: 20
   OnTweenUpComplete:
@@ -2214,6 +2276,7 @@ GameObject:
   - component: {fileID: 7234522707564808995}
   - component: {fileID: 4617751587770282503}
   - component: {fileID: 8370051013772058210}
+  - component: {fileID: 7106571724699725915}
   m_Layer: 5
   m_Name: Criteria4
   m_TagString: Untagged
@@ -2230,7 +2293,7 @@ RectTransform:
   m_GameObject: {fileID: 3916006904108173862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760168162118065237}
@@ -2292,10 +2355,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 3916006904108173862}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 7106571724699725915}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2303,6 +2368,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &7106571724699725915
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3916006904108173862}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &3942534049694917208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2793,7 +2870,9 @@ MonoBehaviour:
   tweenObject: {fileID: 4239927835456427712}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -2826,6 +2905,7 @@ GameObject:
   - component: {fileID: 5153042879831798286}
   - component: {fileID: 1491441329508951611}
   - component: {fileID: 6356218916421019298}
+  - component: {fileID: 1996283036342260424}
   m_Layer: 5
   m_Name: OverallWrong
   m_TagString: Untagged
@@ -2842,7 +2922,7 @@ RectTransform:
   m_GameObject: {fileID: 4415717077445825649}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1829278429987208680}
@@ -2904,10 +2984,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 4415717077445825649}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 1996283036342260424}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2915,6 +2997,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1996283036342260424
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415717077445825649}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &4495520470099968265
 GameObject:
   m_ObjectHideFlags: 0
@@ -2927,6 +3021,7 @@ GameObject:
   - component: {fileID: 277343466301692403}
   - component: {fileID: 597973937906881799}
   - component: {fileID: 1469940520323736772}
+  - component: {fileID: 1957885712827685434}
   m_Layer: 5
   m_Name: OverallRight
   m_TagString: Untagged
@@ -2943,7 +3038,7 @@ RectTransform:
   m_GameObject: {fileID: 4495520470099968265}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1829278429987208680}
@@ -3005,10 +3100,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 4495520470099968265}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 1957885712827685434}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3016,6 +3113,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &1957885712827685434
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495520470099968265}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &4917257237123981605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,7 +3185,9 @@ MonoBehaviour:
   tweenObject: {fileID: 4917257237123981605}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -3498,6 +3609,7 @@ GameObject:
   - component: {fileID: 5169175974341566699}
   - component: {fileID: 7893425151708183685}
   - component: {fileID: 6020047735169800953}
+  - component: {fileID: 7829312516392420874}
   m_Layer: 5
   m_Name: Criteria2
   m_TagString: Untagged
@@ -3514,7 +3626,7 @@ RectTransform:
   m_GameObject: {fileID: 6353256186714619112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760168162118065237}
@@ -3576,10 +3688,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 6353256186714619112}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 7829312516392420874}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3587,6 +3701,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &7829312516392420874
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6353256186714619112}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &6472076224596119801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,6 +3801,7 @@ GameObject:
   - component: {fileID: 2335452576065142048}
   - component: {fileID: 3567615959949808384}
   - component: {fileID: 6223220363341534880}
+  - component: {fileID: 9205366502865507761}
   m_Layer: 5
   m_Name: Criteria3
   m_TagString: Untagged
@@ -3691,7 +3818,7 @@ RectTransform:
   m_GameObject: {fileID: 6999829369567050878}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4673632372046124309}
@@ -3753,10 +3880,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 6999829369567050878}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 9205366502865507761}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3764,6 +3893,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &9205366502865507761
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6999829369567050878}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7102930944083535829
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,7 +4111,9 @@ MonoBehaviour:
   tweenObject: {fileID: 7202287739984714781}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -4003,6 +4146,7 @@ GameObject:
   - component: {fileID: 1175279843667129807}
   - component: {fileID: 6548865708934317953}
   - component: {fileID: 6437402472902184047}
+  - component: {fileID: 4270303817775076253}
   m_Layer: 5
   m_Name: Criteria2
   m_TagString: Untagged
@@ -4019,7 +4163,7 @@ RectTransform:
   m_GameObject: {fileID: 7736548030484786715}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4673632372046124309}
@@ -4081,10 +4225,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 7736548030484786715}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 4270303817775076253}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4092,6 +4238,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &4270303817775076253
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7736548030484786715}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &7859498110951359154
 GameObject:
   m_ObjectHideFlags: 0
@@ -4145,6 +4303,7 @@ GameObject:
   - component: {fileID: 907012764688080843}
   - component: {fileID: 9036498060699004260}
   - component: {fileID: 6124567856071543853}
+  - component: {fileID: 2023836810855168885}
   m_Layer: 5
   m_Name: Criteria5
   m_TagString: Untagged
@@ -4161,7 +4320,7 @@ RectTransform:
   m_GameObject: {fileID: 8053471412652459440}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4673632372046124309}
@@ -4223,10 +4382,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8053471412652459440}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 2023836810855168885}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4234,6 +4395,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &2023836810855168885
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8053471412652459440}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8475374235751491576
 GameObject:
   m_ObjectHideFlags: 0
@@ -4246,6 +4419,7 @@ GameObject:
   - component: {fileID: 4595761263961915523}
   - component: {fileID: 7024222244599398933}
   - component: {fileID: 6118575619224189779}
+  - component: {fileID: 8110013403648490066}
   m_Layer: 5
   m_Name: Criteria1
   m_TagString: Untagged
@@ -4262,7 +4436,7 @@ RectTransform:
   m_GameObject: {fileID: 8475374235751491576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3760168162118065237}
@@ -4324,10 +4498,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8475374235751491576}
-  _duration: 0.1
-  _rescaleOnDisable: 1
+  _duration: 0.15
+  _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 1
   _fadeInOnEnable: 0
-  _canvasGroup: {fileID: 0}
+  _fadeInAndShrinkOnEnable: 1
+  _canvasGroup: {fileID: 8110013403648490066}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4335,6 +4511,18 @@ MonoBehaviour:
   OnTweenDownComplete:
     m_PersistentCalls:
       m_Calls: []
+--- !u!225 &8110013403648490066
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8475374235751491576}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &8577263298013423835
 GameObject:
   m_ObjectHideFlags: 0

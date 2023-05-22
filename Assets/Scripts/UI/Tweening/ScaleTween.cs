@@ -12,7 +12,11 @@ public class ScaleTween : MonoBehaviour
     [SerializeField]
     private bool _rescaleOnDisable = false;
     [SerializeField]
+    private bool _bigRescaleOnDisable = false;
+    [SerializeField]
     private bool _fadeInOnEnable = false;
+    [SerializeField]
+    private bool _fadeInAndShrinkOnEnable = false;
     [SerializeField]
     private CanvasGroup _canvasGroup;
     public LeanTweenType easeType;
@@ -23,6 +27,8 @@ public class ScaleTween : MonoBehaviour
     {
         if (_fadeInOnEnable)
             FadeObjectIn();
+        else if (_fadeInAndShrinkOnEnable)
+            ShrinkObjectAndFadeIn();
         else
             ScaleObjectUp();
     }
@@ -31,6 +37,11 @@ public class ScaleTween : MonoBehaviour
     {
         if (_rescaleOnDisable)
             this.gameObject.transform.localScale = Vector3.zero;
+        else if (_bigRescaleOnDisable)
+        {
+            this.gameObject.transform.localScale = new Vector3(3f, 3f, 3f);
+            _canvasGroup.alpha = 0f;
+        }
     }
     public void ScaleObjectUp()
     {
@@ -50,6 +61,12 @@ public class ScaleTween : MonoBehaviour
     public void FadeObjectOut()
     {
         LeanTween.alphaCanvas(_canvasGroup, 0f, _duration).setEase(easeType).setIgnoreTimeScale(true).setOnComplete(OnTweenDownDone);
+    }
+
+    public void ShrinkObjectAndFadeIn()
+    {
+        LeanTween.alphaCanvas(_canvasGroup, 1f, _duration).setEase(easeType).setIgnoreTimeScale(true);
+        LeanTween.scale(tweenObject, new Vector3(1f, 1f, 1f), _duration).setEase(easeType).setIgnoreTimeScale(true);
     }
 
     private void OnTweenUpDone()
