@@ -228,6 +228,8 @@ MonoBehaviour:
   tweenObject: {fileID: 255118446090430336}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -798,6 +800,8 @@ MonoBehaviour:
   tweenObject: {fileID: 1616118339375266592}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -1169,6 +1173,8 @@ MonoBehaviour:
   tweenObject: {fileID: 1889742258797885330}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -1616,6 +1622,8 @@ MonoBehaviour:
   tweenObject: {fileID: 3120907663718122023}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -1728,6 +1736,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 3449242809305931680}
   - {fileID: 414645405869713411}
   - {fileID: 1033130772251455346}
   m_Father: {fileID: 0}
@@ -1750,6 +1759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afd28f5b94613874baf7c71a9b0b0d80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _missionReviewBackground: {fileID: 3449242809305931687}
   _missionReviewScreen: {fileID: 7202287739984714781}
   _missionReview: {fileID: 4917257237123981605}
   _animalNameText: {fileID: 3449242809580144295}
@@ -1877,6 +1887,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 7657841172249000151}
+        m_TargetAssemblyTypeName: ScaleTween, Assembly-CSharp
+        m_MethodName: FadeObjectOut
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3449242809305931687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1888,6 +1910,8 @@ GameObject:
   - component: {fileID: 3449242809305931680}
   - component: {fileID: 3449242809305931682}
   - component: {fileID: 3449242809305931681}
+  - component: {fileID: 3498528902618811701}
+  - component: {fileID: 7657841172249000151}
   m_Layer: 5
   m_Name: GameScene Darken
   m_TagString: Untagged
@@ -1907,13 +1931,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 414645405869713411}
+  m_Father: {fileID: 3449242808732762285}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0025634766, y: 0}
-  m_SizeDelta: {x: -0.0048828, y: 0}
+  m_AnchoredPosition: {x: 0, y: -0.0009765625}
+  m_SizeDelta: {x: -0.0048828, y: -0.001953125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3449242809305931682
 CanvasRenderer:
@@ -1953,6 +1977,54 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!225 &3498528902618811701
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449242809305931687}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &7657841172249000151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3449242809305931687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f81d11e4ce74514ebf3073a1a22673f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweenObject: {fileID: 0}
+  _duration: 0.25
+  _rescaleOnDisable: 0
+  _fadeInOnEnable: 1
+  _canvasGroup: {fileID: 3498528902618811701}
+  easeType: 20
+  OnTweenUpComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTweenDownComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3449242809305931687}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3449242809580144293
 GameObject:
   m_ObjectHideFlags: 0
@@ -2222,6 +2294,8 @@ MonoBehaviour:
   tweenObject: {fileID: 3916006904108173862}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2697,7 +2771,7 @@ RectTransform:
   - {fileID: 9132319708411177635}
   - {fileID: 2804617820371808565}
   m_Father: {fileID: 414645405869713411}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12352088, y: 0.08059717}
   m_AnchorMax: {x: 0.8757077, y: 0.8622216}
@@ -2719,6 +2793,8 @@ MonoBehaviour:
   tweenObject: {fileID: 4239927835456427712}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2830,6 +2906,8 @@ MonoBehaviour:
   tweenObject: {fileID: 4415717077445825649}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2929,6 +3007,8 @@ MonoBehaviour:
   tweenObject: {fileID: 4495520470099968265}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -2974,7 +3054,7 @@ RectTransform:
   - {fileID: 6598318738730091001}
   - {fileID: 8453486782090311377}
   m_Father: {fileID: 414645405869713411}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.12352088, y: 0.08059717}
   m_AnchorMax: {x: 0.8757077, y: 0.8622216}
@@ -2996,6 +3076,8 @@ MonoBehaviour:
   tweenObject: {fileID: 4917257237123981605}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3496,6 +3578,8 @@ MonoBehaviour:
   tweenObject: {fileID: 6353256186714619112}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3671,6 +3755,8 @@ MonoBehaviour:
   tweenObject: {fileID: 6999829369567050878}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3859,11 +3945,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3449242809305931680}
   - {fileID: 1829278429987208680}
   - {fileID: 4239927835456427727}
   m_Father: {fileID: 3449242808732762285}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -3885,6 +3970,8 @@ MonoBehaviour:
   tweenObject: {fileID: 7202287739984714781}
   _duration: 0.25
   _rescaleOnDisable: 0
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -3996,6 +4083,8 @@ MonoBehaviour:
   tweenObject: {fileID: 7736548030484786715}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4136,6 +4225,8 @@ MonoBehaviour:
   tweenObject: {fileID: 8053471412652459440}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4235,6 +4326,8 @@ MonoBehaviour:
   tweenObject: {fileID: 8475374235751491576}
   _duration: 0.1
   _rescaleOnDisable: 1
+  _fadeInOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -4631,7 +4724,7 @@ PrefabInstance:
     - target: {fileID: 3801313009302534371, guid: 28a071d87dffcae40baeefea297807a0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3801313009302534371, guid: 28a071d87dffcae40baeefea297807a0,
         type: 3}

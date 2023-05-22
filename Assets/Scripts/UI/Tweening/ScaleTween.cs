@@ -11,13 +11,20 @@ public class ScaleTween : MonoBehaviour
     private float _duration = 0.5f;
     [SerializeField]
     private bool _rescaleOnDisable = false;
+    [SerializeField]
+    private bool _fadeInOnEnable = false;
+    [SerializeField]
+    private CanvasGroup _canvasGroup;
     public LeanTweenType easeType;
     public UnityEvent OnTweenUpComplete;
     public UnityEvent OnTweenDownComplete;
 
     private void OnEnable()
     {
-        ScaleObjectUp();
+        if (_fadeInOnEnable)
+            FadeObjectIn();
+        else
+            ScaleObjectUp();
     }
 
     private void OnDisable()
@@ -33,6 +40,16 @@ public class ScaleTween : MonoBehaviour
     public void ScaleObjectDown()
     {
         LeanTween.scale(tweenObject, new Vector3(0f, 0f, 0f), _duration).setEase(easeType).setOnComplete(OnTweenDownDone).setIgnoreTimeScale(true);
+    }
+
+    public void FadeObjectIn()
+    {
+        LeanTween.alphaCanvas(_canvasGroup, 1f, _duration).setEase(easeType).setIgnoreTimeScale(true);
+    }
+
+    public void FadeObjectOut()
+    {
+        LeanTween.alphaCanvas(_canvasGroup, 0f, _duration).setEase(easeType).setIgnoreTimeScale(true).setOnComplete(OnTweenDownDone);
     }
 
     private void OnTweenUpDone()

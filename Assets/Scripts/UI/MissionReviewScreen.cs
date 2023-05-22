@@ -9,6 +9,8 @@ using UnityEngine.UI;
 public class MissionReviewScreen : MonoBehaviour
 {
     [SerializeField]
+    private GameObject _missionReviewBackground;
+    [SerializeField]
     private GameObject _missionReviewScreen;
     [SerializeField] 
     private GameObject _missionReview;
@@ -123,6 +125,7 @@ public class MissionReviewScreen : MonoBehaviour
 
         _missionReviewScreen.SetActive(true);
         _missionReview.SetActive(true);
+        _missionReviewBackground.SetActive(true);
     }
 
     private void ResetValues()

@@ -3736,6 +3736,11 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0.0024414062
       objectReference: {fileID: 0}
+    - target: {fileID: 3449242809305931687, guid: 786e5dea813778d40b2b2cfff78c3a26,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3449242809580144294, guid: 786e5dea813778d40b2b2cfff78c3a26,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -5985,6 +5990,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3126705425780561215}
     m_Modifications:
+    - target: {fileID: 8284488693864565404, guid: e70101f17aca2d1479d64cb7d52bf2da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8949729789984102395, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
       propertyPath: _playerWorld
@@ -6110,6 +6120,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: PauseScreen
       objectReference: {fileID: 0}
+    - target: {fileID: 8949729790483263179, guid: e70101f17aca2d1479d64cb7d52bf2da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8949729790863817142, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
       propertyPath: m_LocalScale.x
@@ -6128,7 +6143,7 @@ PrefabInstance:
     - target: {fileID: 8949729790863817143, guid: e70101f17aca2d1479d64cb7d52bf2da,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e70101f17aca2d1479d64cb7d52bf2da, type: 3}
