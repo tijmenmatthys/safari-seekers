@@ -65,6 +65,9 @@ MonoBehaviour:
   _timeUntilCrumbleWarning: 0
   _timeUntilCrumble: 2
   _timeUntilRespawn: 5
+  _playerLayerMask:
+    serializedVersion: 2
+    m_Bits: 512
   OnCrumbleWarn:
     m_PersistentCalls:
       m_Calls:
