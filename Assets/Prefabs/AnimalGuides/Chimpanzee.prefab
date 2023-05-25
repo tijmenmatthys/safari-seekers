@@ -41,6 +41,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2493650997030777670, guid: 3d40ad219622e8d46aab4680f5ffb674,
+        type: 3}
+      propertyPath: m_Name
+      value: ChimpanzeePhoto
+      objectReference: {fileID: 0}
     - target: {fileID: 3846148811646557099, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_Sprite
