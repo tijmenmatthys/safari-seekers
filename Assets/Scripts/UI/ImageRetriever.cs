@@ -6,32 +6,54 @@ using UnityEngine;
 public class ImageRetriever : MonoBehaviour
 {
     [SerializeField]
-    private Sprite _chimpanzee;
+    private GameObject _chimpanzee;
     [SerializeField]
-    private Sprite _crocodile;
+    private GameObject _crocodile;
     [SerializeField]
-    private Sprite _dolphin;
+    private GameObject _dolphin;
     [SerializeField]
-    private Sprite _eagle;
+    private GameObject _eagle;
     [SerializeField]
-    private Sprite _fish;
+    private GameObject _fish;
     [SerializeField]
-    private Sprite _giraffe;
+    private GameObject _giraffe;
     [SerializeField]
-    private Sprite _goat;
+    private GameObject _goat;
     [SerializeField]
-    private Sprite _octopus;
+    private GameObject _octopus;
     [SerializeField]
-    private Sprite _parrot;
+    private GameObject _parrot;
     [SerializeField]
-    private Sprite _rabbit;
+    private GameObject _rabbit;
     [SerializeField]
-    private Sprite _snake;
+    private GameObject _snake;
     [SerializeField]
-    private Sprite _tiger;
+    private GameObject _tiger;
 
-    public Sprite GetImage(Animal animal)
+    private List<GameObject> _images = new List<GameObject>();
+    private void Awake()
     {
+        _images.Add(_chimpanzee);
+        _images.Add(_crocodile);
+        _images.Add(_dolphin);
+        _images.Add(_eagle);
+        _images.Add(_fish);
+        _images.Add(_giraffe);
+        _images.Add(_goat);
+        _images.Add(_octopus);
+        _images.Add(_parrot);
+        _images.Add(_rabbit);
+        _images.Add(_snake);
+        _images.Add(_tiger);
+    }
+
+    public GameObject GetImage(Animal animal)
+    {
+        foreach (GameObject image in _images)
+        {
+            image.SetActive(false);
+        }
+
         switch (animal.AnimalType)
         {
             case AnimalType.Chimpanzee:

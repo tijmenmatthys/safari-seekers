@@ -19,8 +19,6 @@ public class MissionReviewScreen : MonoBehaviour
     [SerializeField]
     private TMP_Text _animalNameText;
     [SerializeField]
-    private Image _animalImage;
-    [SerializeField]
     private ImageRetriever _imageRetriever;
 
 
@@ -52,6 +50,8 @@ public class MissionReviewScreen : MonoBehaviour
     public UnityEvent OnWrong;
     public UnityEvent OnFinalCorrect;
     public UnityEvent OnFinalWrong;
+
+    public UnityEvent OnShowNextCriteria;
 
     [SerializeField]
     private GameObject _nextCriteriaScreen;
@@ -179,7 +179,8 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void UpdateSelectedAnimalPhoto(Animal currentAnimal)
     {
-        _animalImage.sprite = _imageRetriever.GetImage(currentAnimal);
+       var image = _imageRetriever.GetImage(currentAnimal);
+       image.SetActive(true);
     }
 
     private void UpdateCurrentCriteriaList(Dictionary<AnimalCriterium, bool> criterias)
@@ -241,6 +242,7 @@ public class MissionReviewScreen : MonoBehaviour
 
     private void ShowNextCriteriaList()
     {
+        OnShowNextCriteria?.Invoke();
         _nextCriteriaScreen.SetActive(true);
         _criteriaList.UpdateCriteriaList(_nextMission);
         _counter = _timeUntilNextMissionFades + 1.5f;

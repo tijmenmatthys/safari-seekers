@@ -78,4 +78,12 @@ public class ScaleTween : MonoBehaviour
     {
         OnTweenDownComplete?.Invoke();
     }
+
+    public void ResetCanvasOpacity()
+    {
+        if (_canvasGroup != null)
+        {
+            _canvasGroup.alpha = 1f;
+        }
+    }
 }
