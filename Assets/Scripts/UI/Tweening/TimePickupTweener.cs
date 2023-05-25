@@ -9,13 +9,15 @@ public class TimePickupTweener : MonoBehaviour
     [SerializeField]
     private Image _panel;
     [SerializeField]
+    private Image _panel2;
+    [SerializeField] 
+    private Sprite _wrongPanel;
+    [SerializeField]
     private TextMeshProUGUI _timeText;
     [SerializeField]
     private CanvasGroup _canvasGroup;
     [SerializeField]
     private LeanTweenType _spawnType;
-    [SerializeField]
-    private Color _wrongColor;
     [SerializeField]
     private float _timeToPopIn = 0.5f, _delay = 0.5f, _timeTillDissapears = 1.5f;
 
@@ -23,7 +25,8 @@ public class TimePickupTweener : MonoBehaviour
     {
         if (timeBonus < 0)
         {
-            _panel.color = _wrongColor;
+            _panel.sprite = _wrongPanel;
+            _panel2.sprite = _wrongPanel;
             _timeText.text = $"{timeBonus}";
         } else
             _timeText.text = $"+{timeBonus}";
