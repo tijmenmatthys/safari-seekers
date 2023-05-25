@@ -83,25 +83,36 @@ public class AudioManager : MonoBehaviour
         UpdatePitch(s);
         s.source.Play();
     }
-
-    public void PlayTimePickupSFX()
+    public void PlaySmallTimePickupSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "TimePickup");
-        UpdatePitch(s);
+        UpdatePitch(s, _originalPitch - 0.1f);
+        s.source.Play();
+    }
+
+    public void PlayMediumTimePickupSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "TimePickup");
+        UpdatePitch(s, _originalPitch);
+        s.source.Play();
+    }
+
+    public void PlayBigTimePickupSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "TimePickup");
+        UpdatePitch(s, _originalPitch + 0.1f);
         s.source.Play();
     }
 
     public void PlayCorrectSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Correct");
-        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayWrongSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
-        UpdatePitch(s);
         s.source.Play();
     }
 
@@ -119,10 +130,8 @@ public class AudioManager : MonoBehaviour
         sound.source.pitch += randomPitchDeviation;
     }
 
-    private void UpdatePitch(Sound sound, float multiplier)
+    private void UpdatePitch(Sound sound, float value)
     {
-        sound.source.pitch = _originalPitch;
-        float randomPitchDeviation = Random.Range(-_deviation, _deviation);
-        sound.source.pitch += randomPitchDeviation;
+        sound.source.pitch = value;
     }
 }
