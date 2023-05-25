@@ -6,8 +6,7 @@ using Random = UnityEngine.Random;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
-    [SerializeField]
-    private float _deviation;
+    private float _deviation = 0.05f;
     [SerializeField]
     private float _originalPitch = 1f;
 
@@ -114,6 +113,13 @@ public class AudioManager : MonoBehaviour
     }
 
     private void UpdatePitch(Sound sound)
+    {
+        sound.source.pitch = _originalPitch;
+        float randomPitchDeviation = Random.Range(-_deviation, _deviation);
+        sound.source.pitch += randomPitchDeviation;
+    }
+
+    private void UpdatePitch(Sound sound, float multiplier)
     {
         sound.source.pitch = _originalPitch;
         float randomPitchDeviation = Random.Range(-_deviation, _deviation);
