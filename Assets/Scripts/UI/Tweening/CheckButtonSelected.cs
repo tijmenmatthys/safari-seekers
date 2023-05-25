@@ -36,6 +36,9 @@ public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandl
             TweenDown(EventSystem.current.currentSelectedGameObject);
 
         TweenUp(this.gameObject);
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(this.gameObject);
+        OnButtonSelected?.Invoke();
     }
 
     public void OnPointerExit(PointerEventData eventData)
