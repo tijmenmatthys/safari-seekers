@@ -4776,6 +4776,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8954274269373619126, guid: 0b99a6e20a4c86042a3668a1bd76d951,
+        type: 3}
+      propertyPath: m_text
+      value: '- Digital Arts and Entertainment, Applied Games
+
+        - Myriam Monterrubio
+
+        -
+        Teaching children English in a fun way!'
+      objectReference: {fileID: 0}
     - target: {fileID: 8954274269425022781, guid: 0b99a6e20a4c86042a3668a1bd76d951,
         type: 3}
       propertyPath: m_Navigation.m_Mode

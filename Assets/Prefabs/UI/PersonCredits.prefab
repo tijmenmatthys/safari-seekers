@@ -713,7 +713,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Level Designer
+  m_text: Level Design
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2, type: 2}
   m_sharedMaterial: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
@@ -741,7 +741,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25.35
+  m_fontSize: 29.8
   m_fontSizeBase: 21.7
   m_fontWeight: 400
   m_enableAutoSizing: 1
