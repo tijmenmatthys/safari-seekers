@@ -1280,10 +1280,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8641555555356166557}
   _duration: 0.5
+  _delay: 0
   _rescaleOnDisable: 0
   _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
   _fadeInAndShrinkOnEnable: 0
+  _scaleUpOnEnable: 1
   _canvasGroup: {fileID: 0}
   easeType: 21
   OnTweenUpComplete:
@@ -2053,9 +2055,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3845627450011956520}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: PlayButtonClickSFX
+      - m_Target: {fileID: 270281484101065051}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2079,19 +2081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnButtonSelected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 270281484101065051}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!82 &270281484101065051
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2399,9 +2389,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 3845627450011956520}
-        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
-        m_MethodName: PlayButtonClickSFX
+      - m_Target: {fileID: 5225428719660715659}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2425,19 +2415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   OnButtonSelected:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5225428719660715659}
-        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!82 &5225428719660715659
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2978,6 +2956,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8641555556081075350}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8641555555640013322}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
+        m_MethodName: set_interactable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &982318854860551011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3170,7 +3172,7 @@ MonoBehaviour:
   creditsClosedButton: {fileID: 7205767815629788748}
   _instructionButton: {fileID: 8641555555640013322}
   _animalGuideButton: {fileID: 8641555556494682684}
-  _creditsButton: {fileID: 9063920954518222835}
+  _creditsButton: {fileID: 7696758121738047727}
 --- !u!114 &8837030357390537833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3607,10 +3609,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tweenObject: {fileID: 8641555556378157936}
   _duration: 0.5
+  _delay: 0
   _rescaleOnDisable: 0
   _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
   _fadeInAndShrinkOnEnable: 0
+  _scaleUpOnEnable: 1
   _canvasGroup: {fileID: 0}
   easeType: 21
   OnTweenUpComplete:
@@ -6214,7 +6218,7 @@ PrefabInstance:
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
@@ -6230,6 +6234,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Mode
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
@@ -6253,6 +6262,11 @@ PrefabInstance:
       objectReference: {fileID: 3845627450011956520}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Target
+      value: 
+      objectReference: {fileID: 8641555555640013322}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -6264,6 +6278,11 @@ PrefabInstance:
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
@@ -6283,6 +6302,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_MethodName
+      value: set_interactable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: ScaleTween, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -6298,6 +6322,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
+      value: UnityEngine.UI.Selectable, UnityEngine.UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
@@ -6309,6 +6338,11 @@ PrefabInstance:
     - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422181122364615974, guid: 87057e7d3dd91a844ae00875f5e7d23b,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4422181122375183540, guid: 87057e7d3dd91a844ae00875f5e7d23b,

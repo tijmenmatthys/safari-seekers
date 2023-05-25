@@ -48,11 +48,13 @@ public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandl
 
     private void TweenUp(GameObject obj)
     {
-        LeanTween.scale(obj, new Vector3(1.5f, 1.5f, 1.5f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
+        if (obj != null)
+            LeanTween.scale(obj, new Vector3(1.5f, 1.5f, 1.5f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
     }
 
     private void TweenDown(GameObject obj)
     {
-        LeanTween.scale(obj, new Vector3(1f, 1f, 1f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
+        if (obj != null)
+            LeanTween.scale(obj, new Vector3(1f, 1f, 1f), 0.15f).setEase(LeanTweenType.easeOutBack).setIgnoreTimeScale(true);
     }
 }

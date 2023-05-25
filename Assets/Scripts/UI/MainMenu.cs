@@ -4,7 +4,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.EventSystems;
 using UnityEngine.Events;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using System;
 
 public class MainMenu : MonoBehaviour
 {
@@ -16,6 +18,7 @@ public class MainMenu : MonoBehaviour
     private Button _animalGuideButton;
     [SerializeField]
     private Button _creditsButton;
+
 
     private void Update()
     {
@@ -104,6 +107,18 @@ public class MainMenu : MonoBehaviour
         EventSystem.current.SetSelectedGameObject(creditsClosedButton);
 
     }
+
+    public void OnPause()
+    {
+        if (instructionsMenuObject.activeSelf && _instructionButton.interactable)
+            _instructionButton.onClick?.Invoke();
+        else if (animalGuideMenuObject.activeSelf && _animalGuideButton.interactable)
+            _animalGuideButton.onClick?.Invoke();
+        else if (creditsMenuObject.activeSelf && _creditsButton.interactable)
+            _creditsButton.onClick?.Invoke();
+
+    }
+
 
     IEnumerator LoadGameScene()
     {
