@@ -30,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
     private CharacterController _charController;
     private Vector2 _inputVector = Vector2.zero;
     private Vector3 _horizontalMovement = Vector3.zero;
+    private float _rotation = 0f;
     private float _verticalMovement = 0f;
     private bool _isJumping = false;
     private bool _isSpringJumping = false;
@@ -43,7 +44,15 @@ public class PlayerMovement : MonoBehaviour
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
     public bool IsWading { get; set; } = false;
     public bool IsOnPlatform { get; set; } = false;
-    public float PlayerRotation { get; private set; } = 0f;
+    public float PlayerRotation
+    {
+        get => _rotation;
+        set
+        {
+            _rotation = value;
+            transform.rotation = Quaternion.Euler(0f, value, 0f);
+        }
+    }
     private bool IsGroundedOrOnPlatform => _charController.isGrounded || IsOnPlatform;
     public PlayerState PlayerState
     {
@@ -101,7 +110,7 @@ public class PlayerMovement : MonoBehaviour
         DebugIsGrounded = _charController.isGrounded;
         if (IsGroundedOrOnPlatform)
         {
-            if (!IsWading &&_horizontalMovement.magnitude > _idleAnimationTreshold)
+            if (!IsWading && _horizontalMovement.magnitude > _idleAnimationTreshold)
             {
                 if (IsMovingForward()) PlayerState = PlayerState.RunningForward;
                 else PlayerState = PlayerState.RunningBackward;
@@ -170,7 +179,6 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyRotation()
     {
         PlayerRotation += _inputVector.x * _rotationSpeed * Time.deltaTime;
-        transform.rotation = Quaternion.Euler(0f, PlayerRotation, 0f);
     }
 
     public void OnSpringJump()
