@@ -27,6 +27,6 @@ public class SpawnPlayer : MonoBehaviour
         _playerCharacterController.enabled = false;
         _player.transform.position = spawn.position;
         _playerMovement.PlayerRotation = spawn.rotation.eulerAngles.y;
-        _playerCharacterController.enabled = false;
+        _playerCharacterController.enabled = true;
     }
 }
