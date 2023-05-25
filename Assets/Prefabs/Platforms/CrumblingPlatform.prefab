@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _timeUntilCrumbleWarning: 0
   _timeUntilCrumble: 2
-  _timeUntilRespawn: 3
+  _timeUntilRespawn: 5
   OnCrumbleWarn:
     m_PersistentCalls:
       m_Calls:
