@@ -8,22 +8,28 @@ using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
-    public GameObject mainMenuObject, instructionsMenuObject, animalGuideMenuObject;
-    public GameObject mainMenuFirstButton, instructionsFirstButton, instructionsClosedButton, animalGuideFirstButton, animalGuideClosedButton;
+    public GameObject mainMenuObject, instructionsMenuObject, animalGuideMenuObject, creditsMenuObject;
+    public GameObject mainMenuFirstButton, instructionsFirstButton, instructionsClosedButton, animalGuideFirstButton, animalGuideClosedButton, creditsFirstButton, creditsClosedButton;
     [SerializeField]
     private Button _instructionButton;
     [SerializeField]
     private Button _animalGuideButton;
+    [SerializeField]
+    private Button _creditsButton;
 
     private void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (_instructionButton.IsActive()) 
                 _instructionButton.onClick?.Invoke();
             if (_animalGuideButton.IsActive())
                 _animalGuideButton.onClick?.Invoke();
+            if (_creditsButton.IsActive())
+                _creditsButton.onClick?.Invoke();
         }
+        */
     }
     public void PlayGame()
     {
@@ -39,9 +45,9 @@ public class MainMenu : MonoBehaviour
 
     public void OpenInstructionsMenu()
     {
-        //mainMenuObject.SetActive(false);
         instructionsMenuObject.SetActive(true);
         animalGuideMenuObject.SetActive(false);
+        creditsMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(instructionsFirstButton);
@@ -49,19 +55,30 @@ public class MainMenu : MonoBehaviour
 
     public void OpenAnimalGuideMenu()
     {
-        //mainMenuObject.SetActive(false);
         instructionsMenuObject.SetActive(false);
         animalGuideMenuObject.SetActive(true);
+        creditsMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(animalGuideFirstButton);
     }
 
+    public void OpenCreditsMenu()
+    {
+        instructionsMenuObject.SetActive(false);
+        animalGuideMenuObject.SetActive(false);
+        creditsMenuObject.SetActive(true);
+
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(creditsFirstButton);
+
+    }
+
     public void CloseInstructionsMenu()
     {
         mainMenuObject.SetActive(true);
-        //instructionsMenuObject.SetActive(false);
         animalGuideMenuObject.SetActive(false);
+        creditsMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(instructionsClosedButton);
@@ -71,10 +88,21 @@ public class MainMenu : MonoBehaviour
     {
         mainMenuObject.SetActive(true);
         instructionsMenuObject.SetActive(false);
-        //animalGuideMenuObject.SetActive(false);
+        creditsMenuObject.SetActive(false);
 
         EventSystem.current.SetSelectedGameObject(null);
         EventSystem.current.SetSelectedGameObject(animalGuideClosedButton);
+    }
+
+    public void CloseCreditsMenu()
+    {
+        mainMenuObject.SetActive(true);
+        instructionsMenuObject.SetActive(false);
+        animalGuideMenuObject.SetActive(false);
+
+        EventSystem.current.SetSelectedGameObject(null);
+        EventSystem.current.SetSelectedGameObject(creditsClosedButton);
+
     }
 
     IEnumerator LoadGameScene()

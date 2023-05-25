@@ -116,6 +116,20 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
 
+    public void PlayFinalCorrectSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Correct");
+        UpdatePitch(s, 0.15f);
+        s.source.Play();
+    }
+
+    public void PlayFinalWrongSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
+        UpdatePitch(s, -0.15f);
+        s.source.Play();
+    }
+
     public void PlayGameOverSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "GameOver");
