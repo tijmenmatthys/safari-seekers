@@ -39,6 +39,11 @@ public class MissionReviewScreen : MonoBehaviour
     private GameObject _overallWrong;
 
     [SerializeField]
+    private GameObject _notificationObject;
+    [SerializeField]
+    private GameObject _spawnLocation;
+
+    [SerializeField]
     private List<GameObject> _currentimageGameObjects;
     [SerializeField]
     private List<Image> _currentImages;
@@ -215,16 +220,19 @@ public class MissionReviewScreen : MonoBehaviour
     {
         if (_finalResult)
         {
+            var obj = Instantiate(_notificationObject, _spawnLocation.transform);
+            obj.GetComponent<TimePickupTweener>().SetUpNotification(_timer.CorrectAnimalRewardTime);
             _overallCorrect.SetActive(true);
             OnCorrect?.Invoke();
         }
         else
         {
+            var obj = Instantiate(_notificationObject, _spawnLocation.transform);
+            obj.GetComponent<TimePickupTweener>().SetUpNotification(-_timer.WrongAnimalPenaltyTime);
             _overallWrong.SetActive(true);
             OnWrong?.Invoke();
         }
-
-        _counter = _timeUntilNextMissionFades;
+        _counter = _timeUntilNextMissionFades + 1;
         _hasFinishedShowingFinalResult = true;
 
     }

@@ -31,6 +31,9 @@ public class Timer : MonoBehaviour
     private float _timeRemainingSeconds;
     [NonSerialized]public float totalTime;
 
+    public float WrongAnimalPenaltyTime => _wrongAnimalPenaltyTime;
+    public float CorrectAnimalRewardTime => _correctAnimalRewardTime;
+
     Animator _timerAnimator;
 
     public float TimeRemainingSeconds

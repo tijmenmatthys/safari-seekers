@@ -66,7 +66,7 @@ public class ScaleTween : MonoBehaviour
     public void ShrinkObjectAndFadeIn()
     {
         LeanTween.alphaCanvas(_canvasGroup, 1f, _duration).setEase(easeType).setIgnoreTimeScale(true);
-        LeanTween.scale(tweenObject, new Vector3(1f, 1f, 1f), _duration).setEase(easeType).setIgnoreTimeScale(true);
+        LeanTween.scale(tweenObject, new Vector3(1f, 1f, 1f), _duration).setEase(easeType).setIgnoreTimeScale(true).setOnComplete(OnTweenDownDone);
     }
 
     private void OnTweenUpDone()
