@@ -47,31 +47,31 @@ MonoBehaviour:
   sounds:
   - name: Jump
     clip: {fileID: 8300000, guid: 4284db1f2826fbc48b9859d2ff19e89c, type: 3}
-    volume: 0.85
+    volume: 0.75
     pitch: 1
     loops: 0
     source: {fileID: 0}
   - name: Running
     clip: {fileID: 8300000, guid: eeb9705daf2f8c34c958fb7b80fd0b56, type: 3}
-    volume: 0.9
+    volume: 0.85
     pitch: 1
     loops: 1
     source: {fileID: 0}
   - name: Spring
     clip: {fileID: 8300000, guid: 34755a54bf841934fb24aee6c6640db7, type: 3}
-    volume: 0.7
+    volume: 0.65
     pitch: 1
     loops: 0
     source: {fileID: 0}
   - name: Crumbling
     clip: {fileID: 8300000, guid: 4f6c36c736e5ffa49a57088b034f4a41, type: 3}
-    volume: 0.5
+    volume: 0.45
     pitch: 1
     loops: 0
     source: {fileID: 0}
   - name: AnimalSelect
     clip: {fileID: 8300000, guid: 427d8aba8d32ad1469e43c1e5b7dfc5c, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loops: 0
     source: {fileID: 0}
@@ -83,13 +83,13 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Correct
     clip: {fileID: 8300000, guid: 4bd3f77b6be90fe46a6466c2279ec169, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loops: 0
     source: {fileID: 0}
   - name: Wrong
     clip: {fileID: 8300000, guid: c5a13897c7c245140ab19df841292726, type: 3}
-    volume: 0.5
+    volume: 0.6
     pitch: 1
     loops: 0
     source: {fileID: 0}
@@ -105,5 +105,4 @@ MonoBehaviour:
     pitch: 1
     loops: 1
     source: {fileID: 0}
-  _deviation: 0.05
   _originalPitch: 1
