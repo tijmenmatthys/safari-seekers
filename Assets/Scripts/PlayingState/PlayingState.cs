@@ -6,6 +6,7 @@ using System.Collections.Generic;
 public class PlayingState : State<States>
 {
     private int _animalsFound = 0;
+    private int _totalAnimalsSelected = 0;
     private Mission _currentMission;
 
     private PlayerInput _playerInput;
@@ -78,6 +79,7 @@ public class PlayingState : State<States>
     private void OnAnimalSelected(Animal animal)
     {
         // Get the result of the mission
+        _totalAnimalsSelected++;
         bool missionSuccess = _currentMission.IsSuccess(animal.AnimalType);
         Dictionary<AnimalCriterium, bool> missionResults = _currentMission.CriteriaSuccesses(animal.AnimalType);
         if (missionSuccess) _animalsFound++;
@@ -97,10 +99,10 @@ public class PlayingState : State<States>
             pickup.Respawn();
     }
 
-    private void OnGameOver()
+    public void OnGameOver()
     {
         Debug.Log("GAME OVER -----------------------------------------");
-        _gameOverScreenUI.ShowGameOverScreen(_timer.totalTime, _animalsFound);
+        _gameOverScreenUI.ShowGameOverScreen(_animalsFound, _totalAnimalsSelected);
         // TODO
     }
 }

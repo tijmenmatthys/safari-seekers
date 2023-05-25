@@ -29,7 +29,6 @@ public class Timer : MonoBehaviour
     private UnityEvent _timeLost;
 
     private float _timeRemainingSeconds;
-    [NonSerialized]public float totalTime;
 
     public float WrongAnimalPenaltyTime => _wrongAnimalPenaltyTime;
     public float CorrectAnimalRewardTime => _correctAnimalRewardTime;
@@ -64,7 +63,6 @@ public class Timer : MonoBehaviour
     void Update()
     {
         TimeRemainingSeconds -= Time.deltaTime;
-        totalTime += Time.deltaTime;
 
         if(TimeRemainingSeconds < _timerLowTime)
         {
@@ -120,5 +118,10 @@ public class Timer : MonoBehaviour
             obj.GetComponent<TimePickupTweener>().SetUpNotification(_bigPickupRewardTime);
         }
         _timeGained.Invoke();
+    }
+
+    public void SetGameOverTime()
+    {
+        TimeRemainingSeconds = 0;
     }
 }

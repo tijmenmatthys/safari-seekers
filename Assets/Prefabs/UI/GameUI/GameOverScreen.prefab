@@ -296,6 +296,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8446519268992818956
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,8 +350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gameOverScreen: {fileID: 8446519269748544001}
-  _timeText: {fileID: 8446519269429180002}
-  _scoreText: {fileID: 8446519270380512635}
+  _guessText: {fileID: 8446519270380512635}
+  _nextMedalText: {fileID: 8446519269429180002}
   _gameOverFirstButton: {fileID: 5774550390678657458}
   OnGameOver:
     m_PersistentCalls:
@@ -365,7 +368,7 @@ GameObject:
   - component: {fileID: 8446519269429179933}
   - component: {fileID: 8446519269429180002}
   m_Layer: 5
-  m_Name: Playtime
+  m_Name: MedalInfo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,12 +387,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8446519269748544000}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.22375003, y: 0.3832593}
-  m_AnchorMax: {x: 0.776, y: 0.48900002}
-  m_AnchoredPosition: {x: 0.11987305, y: -1.5}
-  m_SizeDelta: {x: 1.8668003, y: 5.0241013}
+  m_AnchorMin: {x: 0.18549298, y: 0.20554803}
+  m_AnchorMax: {x: 0.776, y: 0.32664657}
+  m_AnchoredPosition: {x: 44.947754, y: 4.636775}
+  m_SizeDelta: {x: 92.586174, y: -11.502232}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8446519269429179933
 CanvasRenderer:
@@ -419,7 +422,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Total Playtime: 1:20'
+  m_text: 20 Perfect Correct Guesses or more for Platnium!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2, type: 2}
   m_sharedMaterial: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
@@ -447,7 +450,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 96.8
+  m_fontSize: 48.4
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -597,8 +600,8 @@ RectTransform:
   - {fileID: 8446519269696290740}
   - {fileID: 8446519270636609036}
   - {fileID: 8446519270725940956}
-  - {fileID: 8446519269429180003}
   - {fileID: 8446519270380512632}
+  - {fileID: 8446519269429180003}
   - {fileID: 8446519270026662941}
   - {fileID: 8913127615117713846}
   m_Father: {fileID: 8446519268992818959}
@@ -624,6 +627,10 @@ MonoBehaviour:
   tweenObject: {fileID: 8446519269748544001}
   _duration: 0.5
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
+  _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
+  _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
     m_PersistentCalls:
@@ -927,6 +934,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8446519270380512633
 GameObject:
   m_ObjectHideFlags: 0
@@ -958,12 +968,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8446519269748544000}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.20952083, y: 0.23322223}
   m_AnchorMax: {x: 0.79152083, y: 0.3387778}
-  m_AnchoredPosition: {x: -1.1199951, y: -0.76000977}
-  m_SizeDelta: {x: 5.083496, y: 3.6968994}
+  m_AnchoredPosition: {x: 11.125061, y: 268.35297}
+  m_SizeDelta: {x: 254.6855, y: 3.6969}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8446519270380512634
 CanvasRenderer:
@@ -993,7 +1003,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Correct Guesses: 4'
+  m_text: 'Correct Guesses: 4 out of 20'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2, type: 2}
   m_sharedMaterial: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
@@ -1021,7 +1031,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 97.75
+  m_fontSize: 84.35
   m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1234,8 +1244,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.3374792, y: 0.522}
   m_AnchorMax: {x: 0.668862, y: 0.72021943}
-  m_AnchoredPosition: {x: 1.8809204, y: -6.5612264}
-  m_SizeDelta: {x: -0.11589432, y: 1.8486931}
+  m_AnchoredPosition: {x: -1, y: 54}
+  m_SizeDelta: {x: 63.4433, y: -44.5686}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8446519270725940958
 CanvasRenderer:
@@ -1265,7 +1275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Results:'
+  m_text: 'Your Score:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2ae1199786cfa6e4f9d9fa41a5e58405, type: 2}
   m_sharedMaterial: {fileID: 7292315238897906428, guid: 2ae1199786cfa6e4f9d9fa41a5e58405,
@@ -1293,7 +1303,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 147.95
+  m_fontSize: 116.15
   m_fontSizeBase: 125
   m_fontWeight: 400
   m_enableAutoSizing: 1
