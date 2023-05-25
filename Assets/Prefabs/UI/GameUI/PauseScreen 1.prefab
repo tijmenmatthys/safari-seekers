@@ -306,6 +306,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &5322515203171842324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,6 +330,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonSwitchSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &786460487927789918
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,6 +481,69 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3621358119302762081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4893159688792219860}
+  - component: {fileID: 9205569947337228787}
+  m_Layer: 5
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &4893159688792219860
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621358119302762081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8949729790217066452}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &9205569947337228787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3621358119302762081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81886a1204476d4428722a5229502b97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: f107bf196e4fc57499d3b87ba2e9536c, type: 3}
+    volume: 0.7
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  - name: ButtonSwitch
+    clip: {fileID: 8300000, guid: 9583ba4fe39b0f041acfeed3ad1b42d5, type: 3}
+    volume: 0.15
+    pitch: 1
+    loops: 0
+    source: {fileID: 0}
+  _originalPitch: 1
 --- !u!1 &5723830156270161930
 GameObject:
   m_ObjectHideFlags: 0
@@ -578,6 +668,18 @@ MonoBehaviour:
       - m_Target: {fileID: 8949729790190088802}
         m_TargetAssemblyTypeName: PauseUI, Assembly-CSharp
         m_MethodName: PauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1810,7 +1912,9 @@ MonoBehaviour:
   tweenObject: {fileID: 5819899894672497302}
   _duration: 0.5
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -2162,6 +2266,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2450562999361167939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2174,6 +2290,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8284488693864565404
 GameObject:
   m_ObjectHideFlags: 0
@@ -2467,6 +2586,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb9d710db3fd2942ae952f1b210b0e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnPauseGame:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResumeGame:
+    m_PersistentCalls:
+      m_Calls: []
   _pauseScreen: {fileID: 8284488693864565404}
   leaveQuitConfirmationButton: {fileID: 8949729791191566297}
   controlsBackButton: {fileID: 5819899894721437884}
@@ -2507,6 +2632,7 @@ RectTransform:
   - {fileID: 1727408882194712176}
   - {fileID: 2932249094634205568}
   - {fileID: 8949729790190088803}
+  - {fileID: 4893159688792219860}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2761,6 +2887,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &8633426440969269899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2773,6 +2911,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonSwitchSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8949729790483263179
 GameObject:
   m_ObjectHideFlags: 0
@@ -2878,7 +3031,9 @@ MonoBehaviour:
   tweenObject: {fileID: 0}
   _duration: 0.5
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 1
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 1971825902793314622}
   easeType: 22
   OnTweenUpComplete:
@@ -3019,7 +3174,9 @@ MonoBehaviour:
   tweenObject: {fileID: 8949729790815170473}
   _duration: 0.5
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -3171,7 +3328,9 @@ MonoBehaviour:
   tweenObject: {fileID: 8949729790863817143}
   _duration: 0.5
   _rescaleOnDisable: 0
+  _bigRescaleOnDisable: 0
   _fadeInOnEnable: 0
+  _fadeInAndShrinkOnEnable: 0
   _canvasGroup: {fileID: 0}
   easeType: 20
   OnTweenUpComplete:
@@ -3463,6 +3622,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6532332336147169660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3475,6 +3646,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonSwitchSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8949729791222385939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3781,6 +3967,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &3326734997049490260
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3793,6 +3991,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonSwitchSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8949729791578583728
 GameObject:
   m_ObjectHideFlags: 0
@@ -3929,6 +4142,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonClickSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &8949729791578583730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3953,6 +4178,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5e1b545c5fd9ba46a20d03c0010e0b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnButtonSelected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 9205569947337228787}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayButtonSwitchSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8949729791648352728
 GameObject:
   m_ObjectHideFlags: 0
