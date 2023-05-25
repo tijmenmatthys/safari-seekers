@@ -107,25 +107,15 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 1.35
       objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
+    - target: {fileID: 3367605268317058540, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
-      propertyPath: Type
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
+      propertyPath: Type
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8707271680564206390, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}

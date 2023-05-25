@@ -1570,16 +1570,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1671,16 +1661,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1772,16 +1752,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -1949,16 +1919,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679139252973 stripped
@@ -1974,16 +1934,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2075,16 +2025,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2252,16 +2192,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679052569682 stripped
@@ -2277,16 +2207,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2454,16 +2374,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679100927288 stripped
@@ -2555,16 +2465,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679082782955 stripped
@@ -2580,16 +2480,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2757,16 +2647,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679269028640 stripped
@@ -2782,16 +2662,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2883,16 +2753,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -2984,16 +2844,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3079,16 +2929,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3256,16 +3096,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679246149236 stripped
@@ -3281,16 +3111,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3458,16 +3278,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679281198680 stripped
@@ -3483,16 +3293,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3578,16 +3378,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3673,16 +3463,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3844,16 +3624,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679179396910 stripped
@@ -3869,16 +3639,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -3970,16 +3730,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4065,16 +3815,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -4166,16 +3906,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -4343,16 +4073,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679216178165 stripped
@@ -4444,16 +4164,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679390110781 stripped
@@ -4469,16 +4179,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4564,16 +4264,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -4665,16 +4355,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4760,16 +4440,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -4861,16 +4531,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -4956,16 +4616,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5051,16 +4701,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -5228,16 +4868,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679532065444 stripped
@@ -5253,16 +4883,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5348,16 +4968,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5443,16 +5053,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -5620,16 +5220,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679521412900 stripped
@@ -5645,16 +5235,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5740,16 +5320,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5835,16 +5405,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5930,16 +5490,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -6107,16 +5657,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679562119927 stripped
@@ -6208,16 +5748,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679563989631 stripped
@@ -6233,16 +5763,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6328,16 +5848,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -6429,16 +5939,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6524,16 +6024,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6619,16 +6109,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6714,16 +6194,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -6891,16 +6361,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679497173846 stripped
@@ -6916,16 +6376,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7011,16 +6461,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7182,16 +6622,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679477143219 stripped
@@ -7207,16 +6637,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -7308,16 +6728,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -7485,16 +6895,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678576286988 stripped
@@ -7510,16 +6910,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7605,16 +6995,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7776,16 +7156,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678628945831 stripped
@@ -7801,16 +7171,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -7972,16 +7332,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678601839356 stripped
@@ -8073,16 +7423,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678517540398 stripped
@@ -8098,16 +7438,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8193,16 +7523,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8288,16 +7608,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -8389,16 +7699,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8484,16 +7784,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -8585,16 +7875,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -8686,16 +7966,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -8857,16 +8127,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678712540161 stripped
@@ -8958,16 +8218,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678717669095 stripped
@@ -9059,16 +8309,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678704871456 stripped
@@ -9160,16 +8400,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678735034512 stripped
@@ -9261,16 +8491,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678660654619 stripped
@@ -9286,16 +8506,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -9463,16 +8673,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678661500123 stripped
@@ -9488,16 +8688,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9583,16 +8773,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9678,16 +8858,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -9779,16 +8949,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -9950,16 +9110,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678638747913 stripped
@@ -9975,16 +9125,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10070,16 +9210,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10165,16 +9295,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -10266,16 +9386,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10361,16 +9471,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10456,16 +9556,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -10627,16 +9717,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678880940307 stripped
@@ -10728,16 +9808,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678793545555 stripped
@@ -10829,16 +9899,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678801240224 stripped
@@ -10930,16 +9990,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678781681224 stripped
@@ -10955,16 +10005,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11050,16 +10090,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11221,16 +10251,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678992400346 stripped
@@ -11246,16 +10266,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11341,16 +10351,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11436,16 +10436,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -11537,16 +10527,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -11638,16 +10618,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -11733,16 +10703,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -11834,16 +10794,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -11935,16 +10885,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -12036,16 +10976,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12131,16 +11061,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12226,16 +11146,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12397,16 +11307,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531678914971068 stripped
@@ -12422,16 +11322,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12517,16 +11407,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12612,16 +11492,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -12707,16 +11577,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -12808,16 +11668,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -12909,16 +11759,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13004,16 +11844,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -13105,16 +11935,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13276,16 +12096,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680138689749 stripped
@@ -13377,16 +12187,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680142963042 stripped
@@ -13402,16 +12202,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13573,16 +12363,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680112328578 stripped
@@ -13674,16 +12454,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680118289988 stripped
@@ -13699,16 +12469,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -13794,16 +12554,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -13971,16 +12721,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680148536610 stripped
@@ -13996,16 +12736,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14091,16 +12821,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -14192,16 +12912,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14287,16 +12997,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14382,16 +13082,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -14483,16 +13173,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14578,16 +13258,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14749,16 +13419,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680275187639 stripped
@@ -14774,16 +13434,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14869,16 +13519,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -14964,16 +13604,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -15141,16 +13771,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680256383560 stripped
@@ -15166,16 +13786,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15261,16 +13871,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15356,16 +13956,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15451,16 +14041,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15546,16 +14126,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15717,16 +14287,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680470647948 stripped
@@ -15742,16 +14302,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15837,16 +14387,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -15932,16 +14472,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16032,16 +14562,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -16133,16 +14653,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16228,16 +14738,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -16329,16 +14829,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16424,16 +14914,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -16525,16 +15005,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16620,16 +15090,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -16797,16 +15257,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680392039842 stripped
@@ -16898,16 +15348,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680444682972 stripped
@@ -16999,16 +15439,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680424471860 stripped
@@ -17024,16 +15454,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17195,16 +15615,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680420130068 stripped
@@ -17220,16 +15630,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -17321,16 +15721,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17416,16 +15806,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -17517,16 +15897,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -17694,16 +16064,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680591068937 stripped
@@ -17719,16 +16079,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -17814,16 +16164,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -17915,16 +16255,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18086,16 +16416,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680538898408 stripped
@@ -18111,16 +16431,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -18288,16 +16598,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680534045114 stripped
@@ -18313,16 +16613,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18408,16 +16698,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18503,16 +16783,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18598,16 +16868,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18693,16 +16953,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -18788,16 +17038,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -18889,16 +17129,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -19066,16 +17296,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679648135047 stripped
@@ -19091,16 +17311,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19186,16 +17396,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19281,16 +17481,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19452,16 +17642,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679592585085 stripped
@@ -19477,16 +17657,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19572,16 +17742,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19667,16 +17827,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -19768,16 +17918,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19863,16 +18003,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -19958,16 +18088,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20059,16 +18179,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20236,16 +18346,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531679775039083 stripped
@@ -20261,16 +18361,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20362,16 +18452,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20463,16 +18543,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20564,16 +18634,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -20659,16 +18719,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20760,16 +18810,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20861,16 +18901,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -20962,16 +18992,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -21063,16 +19083,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21158,16 +19168,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21253,16 +19253,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21348,16 +19338,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -21443,16 +19423,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -21620,16 +19590,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680069216704 stripped
@@ -21645,16 +19605,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -21746,16 +19696,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -21847,16 +19787,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -21948,16 +19878,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22043,16 +19963,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22214,16 +20124,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680085849507 stripped
@@ -22239,16 +20139,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 3eacb396f2faea84ebab483fe73973bd,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 3eacb396f2faea84ebab483fe73973bd,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -22340,16 +20230,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22435,16 +20315,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22530,16 +20400,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22625,16 +20485,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: ab6a47ce9460f0749905247fb581fbed,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 7122049534063441334, guid: ab6a47ce9460f0749905247fb581fbed,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -22720,16 +20570,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -22897,16 +20737,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680037277154 stripped
@@ -22922,16 +20752,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8763212143330189865}
     m_Modifications:
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3959453367652404127, guid: 1e38833930080f9459bbc424929e0bcc,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     - target: {fileID: 5740592018451778145, guid: 1e38833930080f9459bbc424929e0bcc,
         type: 3}
       propertyPath: m_sharedMaterial
@@ -23099,16 +20919,6 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 9040363053363549957, guid: 7f31f8d14afa0be468f3a0d6ceb9a7b2,
         type: 2}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
-        type: 3}
-      propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayTimePickupSFX
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f68197213a9242142a3a99d0c0666449, type: 3}
 --- !u!4 &8099531680030625546 stripped

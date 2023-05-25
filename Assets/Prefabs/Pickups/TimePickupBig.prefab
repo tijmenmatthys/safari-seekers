@@ -161,12 +161,12 @@ PrefabInstance:
     - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
       propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
       propertyPath: PickupCollected.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6763889495495376831, guid: f68197213a9242142a3a99d0c0666449,
         type: 3}
