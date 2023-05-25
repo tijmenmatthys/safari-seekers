@@ -19673,10 +19673,10 @@ MonoBehaviour:
     MinCriteria: 1
     MaxCriteria: 2
   _correctAnimalsDifficulties:
-  - AnimalsFound: 10
+  - AnimalsFound: 8
     MinCorrectAnimals: 1
     MaxCorrectAnimals: 3
-  - AnimalsFound: 5
+  - AnimalsFound: 4
     MinCorrectAnimals: 3
     MaxCorrectAnimals: 5
   - AnimalsFound: 0
