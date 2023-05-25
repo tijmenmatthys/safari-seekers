@@ -161,6 +161,21 @@ public class AudioManager : MonoBehaviour
         s.source.Play();
     }
 
+    public void PlayButtonSwitchSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "ButtonSwitch");
+        if (s.source != null)
+            s.source.Play();
+    }
+
+    public void PlayButtonClickSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "ButtonClick");
+        if (s.source != null)
+            s.source.Play();
+        s.source.Play();
+    }
+
     private void UpdatePitch(Sound sound)
     {
         sound.source.pitch = _originalPitch;

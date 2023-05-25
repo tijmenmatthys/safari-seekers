@@ -7,6 +7,8 @@ using UnityEngine.EventSystems;
 
 public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandler, IPointerEnterHandler, IPointerExitHandler
 {
+    public UnityEvent OnButtonSelected;
+
     private void OnEnable()
     {
         this.gameObject.transform.localScale = Vector3.one;
@@ -16,6 +18,7 @@ public class CheckButtonSelected : MonoBehaviour, ISelectHandler, IDeselectHandl
         if (eventData.selectedObject == this.gameObject)
         {
             TweenUp(this.gameObject);
+            OnButtonSelected?.Invoke();
         }
     }
 
