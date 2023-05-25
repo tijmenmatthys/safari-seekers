@@ -163,7 +163,8 @@ namespace Polyperfect.Common
         Vector3 wanderTarget;
         IdleState currentIdleState;
         float idleUpdateTime;
-        
+
+        public void ResetStartPosition() => startPosition = transform.position;
 
         public void OnDrawGizmosSelected()
         {

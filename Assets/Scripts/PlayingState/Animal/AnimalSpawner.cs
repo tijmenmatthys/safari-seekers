@@ -57,6 +57,7 @@ public class AnimalSpawner : MonoBehaviour
         _freeSpawnPoints.Add(oldSpawn);
 
         foundAnimal.GetComponent<NavMeshAgent>().Warp(newSpawn.position);
+        foundAnimal.GetComponent<Animal_WanderScript>().ResetStartPosition();
     }
 
     private void SpawnAnimals()
