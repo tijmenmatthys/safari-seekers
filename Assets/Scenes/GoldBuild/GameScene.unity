@@ -16422,6 +16422,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1568789454}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_material
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: UnityEngine.Renderer, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2100000, guid: b689d121ed6b080458fd4018de293a04, type: 2}
+    - target: {fileID: 4549850017937308270, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+        type: 3}
+      propertyPath: OnCrumble.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Material, UnityEngine
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e64f4bf6f5a9d0942ab93facac2543d2, type: 3}
 --- !u!1001 &1238107190
@@ -18961,6 +18996,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d73dcc9d228dee47bcb36182cc910f7, type: 3}
+--- !u!23 &1568789454 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 4260283619474794372, guid: e64f4bf6f5a9d0942ab93facac2543d2,
+    type: 3}
+  m_PrefabInstance: {fileID: 1231494003}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1606907623
 PrefabInstance:
   m_ObjectHideFlags: 0
