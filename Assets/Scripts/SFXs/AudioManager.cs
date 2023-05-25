@@ -1,10 +1,15 @@
 using System;
 using UnityEngine;
 using UnityEngine.Audio;
+using Random = UnityEngine.Random;
 
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
+    [SerializeField]
+    private float _deviation;
+    [SerializeField]
+    private float _originalPitch = 1f;
 
     // Start is called before the first frame update
     void Awake()
@@ -27,6 +32,7 @@ public class AudioManager : MonoBehaviour
     public void PlayJumpSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Jump");
+        UpdatePitch(s);
         s.source.Play();
     }
 
@@ -45,42 +51,56 @@ public class AudioManager : MonoBehaviour
     public void PlaySpringSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Spring");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayCrumblingSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Crumbling");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayAnimalSelectSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "AnimalSelect");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayTimePickupSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "TimePickup");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayCorrectSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Correct");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayWrongSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
+        UpdatePitch(s);
         s.source.Play();
     }
 
     public void PlayGameOverSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "GameOver");
+        UpdatePitch(s);
         s.source.Play();
+    }
+
+    private void UpdatePitch(Sound sound)
+    {
+        sound.source.pitch = _originalPitch;
+        float randomPitchDeviation = Random.Range(-_deviation, _deviation);
+        sound.source.pitch += randomPitchDeviation;
     }
 }

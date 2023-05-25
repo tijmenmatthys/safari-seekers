@@ -99,3 +99,5 @@ MonoBehaviour:
     pitch: 1
     loops: 0
     source: {fileID: 0}
+  _deviation: 0.05
+  _originalPitch: 1
