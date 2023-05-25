@@ -551,7 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _walkingMaxSpeed: 10
-  _wadingMaxSpeed: 2
+  _wadingMaxSpeed: 3
   _movementAcceleration: 40
   _movementDrag: 4
   _rotationSpeed: 200
@@ -560,21 +560,10 @@ MonoBehaviour:
   _gravityUp: 35
   _gravityDown: 45
   _idleAnimationTreshold: 2
+  _idleAnimationTresholdWading: 0.5
   _startedRunningForward:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
-        m_MethodName: ResetIdleTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1466556136371477830}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -590,18 +579,6 @@ MonoBehaviour:
   _startedRunningBackward:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
-        m_MethodName: ResetIdleTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1466556136371477830}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -614,21 +591,39 @@ MonoBehaviour:
           m_StringArgument: RunBackward
           m_BoolArgument: 0
         m_CallState: 2
-  _startedIdle:
+  _startedWadingForward:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
-        m_MethodName: StartIdleTimer
-        m_Mode: 1
+      - m_Target: {fileID: 1466556136371477830}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: WadeForward
           m_BoolArgument: 0
         m_CallState: 2
+  _startedWadingBackward:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1466556136371477830}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: WadeBackward
+          m_BoolArgument: 0
+        m_CallState: 2
+  _startedIdle:
+    m_PersistentCalls:
+      m_Calls:
       - m_Target: {fileID: 1466556136371477830}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger
@@ -644,18 +639,6 @@ MonoBehaviour:
   _startedJump:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameUI, Assembly-CSharp
-        m_MethodName: ResetIdleTimer
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1466556136371477830}
         m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
         m_MethodName: SetTrigger

@@ -17,9 +17,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _gravityUp = 20f;
     [SerializeField] private float _gravityDown = 40f;
     [SerializeField] private float _idleAnimationTreshold = .1f;
+    [SerializeField] private float _idleAnimationTresholdWading = .03f;
 
     [SerializeField] private UnityEvent _startedRunningForward;
     [SerializeField] private UnityEvent _startedRunningBackward;
+    [SerializeField] private UnityEvent _startedWadingForward;
+    [SerializeField] private UnityEvent _startedWadingBackward;
     [SerializeField] private UnityEvent _startedIdle;
     [SerializeField] private UnityEvent _startedJump;
     [SerializeField] private UnityEvent _startedFall;
@@ -53,6 +56,8 @@ public class PlayerMovement : MonoBehaviour
             if (value == PlayerState.Idle) _startedIdle?.Invoke();
             else if (value == PlayerState.RunningForward) _startedRunningForward?.Invoke();
             else if (value == PlayerState.RunningBackward) _startedRunningBackward?.Invoke();
+            else if (value == PlayerState.WadingForward) _startedWadingForward?.Invoke();
+            else if (value == PlayerState.WadingBackward) _startedWadingBackward?.Invoke();
             else if (value == PlayerState.Jump) _startedJump?.Invoke();
             else if (value == PlayerState.Fall) _startedFall?.Invoke();
         }
@@ -94,10 +99,15 @@ public class PlayerMovement : MonoBehaviour
         DebugIsGrounded = _charController.isGrounded;
         if (_charController.isGrounded)
         {
-            if (_horizontalMovement.magnitude > _idleAnimationTreshold)
+            if (!IsWading &&_horizontalMovement.magnitude > _idleAnimationTreshold)
             {
                 if (IsMovingForward()) PlayerState = PlayerState.RunningForward;
                 else PlayerState = PlayerState.RunningBackward;
+            }
+            else if (IsWading && _horizontalMovement.magnitude > _idleAnimationTresholdWading)
+            {
+                if (IsMovingForward()) PlayerState = PlayerState.WadingForward;
+                else PlayerState = PlayerState.WadingBackward;
             }
             else
                 PlayerState = PlayerState.Idle;
@@ -180,6 +190,8 @@ public enum PlayerState
     Idle,
     RunningForward,
     RunningBackward,
+    WadingForward,
+    WadingBackward,
     Jump,
     Fall
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -17,6 +18,11 @@ public class MissionReviewScreen : MonoBehaviour
 
     [SerializeField]
     private TMP_Text _animalNameText;
+    [SerializeField]
+    private Image _animalImage;
+    [SerializeField]
+    private ImageRetriever _imageRetriever;
+
 
     [SerializeField]
     private List<TMP_Text> _criteriaListTextboxes;
@@ -119,6 +125,7 @@ public class MissionReviewScreen : MonoBehaviour
             _resultValues.Add(kvp.Value);
 
         UpdateSelectedAnimalName(currentAnimal);
+        UpdateSelectedAnimalPhoto(currentAnimal);
         UpdateCurrentCriteriaList(missionResults);
         UpdateNextCriteriaList(nextMission);
         _nextMission = nextMission;
@@ -161,6 +168,11 @@ public class MissionReviewScreen : MonoBehaviour
     private void UpdateSelectedAnimalName(Animal currentAnimal)
     {
         _animalNameText.text = $"Selected Animal: {currentAnimal.name}";
+    }
+
+    private void UpdateSelectedAnimalPhoto(Animal currentAnimal)
+    {
+        _animalImage.sprite = _imageRetriever.GetImage(currentAnimal);
     }
 
     private void UpdateCurrentCriteriaList(Dictionary<AnimalCriterium, bool> criterias)
