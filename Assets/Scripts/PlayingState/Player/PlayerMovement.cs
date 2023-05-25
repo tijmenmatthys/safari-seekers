@@ -85,6 +85,12 @@ public class PlayerMovement : MonoBehaviour
         _jumpForce = Mathf.Sqrt(2f * _jumpHeight * _gravityUp);
         _springJumpForce = Mathf.Sqrt(2f * _springJumpHeight * _gravityUp);
     }
+    public void ResetMovement()
+    {
+        _horizontalMovement = Vector3.zero;
+        _verticalMovement = 0;
+        MovementFromPlatforms = Vector3.zero;
+    }
 
     private void FixedUpdate()
     {
