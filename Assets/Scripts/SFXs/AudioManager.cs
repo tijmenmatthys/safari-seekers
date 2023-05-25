@@ -50,6 +50,17 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(sounds, sound => sound.name == "Running");
         s.source.enabled = false;
     }
+    public void LoudenRunSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Running");
+        s.source.volume = 0.9f;
+    }
+
+    public void SilenceRunSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Running");
+        s.source.volume = 0;
+    }
 
     public void PlayWadeSFX()
     {
@@ -61,6 +72,17 @@ public class AudioManager : MonoBehaviour
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Wading");
         s.source.enabled = false;
+    }
+
+    public void LoudenWadeSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Wading");
+        s.source.volume = 0.7f;
+    }
+    public void SilenceWadeSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Wading");
+        s.source.volume = 0;
     }
 
     public void PlaySpringSFX()

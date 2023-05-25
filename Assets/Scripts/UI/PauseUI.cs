@@ -8,6 +8,8 @@ using UnityEngine.Events;
 
 public class PauseUI : MonoBehaviour
 {
+    public UnityEvent OnPauseGame;
+    public UnityEvent OnResumeGame;
     [SerializeField]
     private GameObject _pauseScreen;
 
@@ -43,6 +45,7 @@ public class PauseUI : MonoBehaviour
             CannotExitMenu();
             _pauseScreen.SetActive(true);
             _isPaused = true;
+            OnPauseGame?.Invoke();
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(_pauseFirstButton);
             _gameLoop.TransitionToPause();
@@ -56,6 +59,7 @@ public class PauseUI : MonoBehaviour
         {
             CannotExitMenu();
             _continueButton.onClick?.Invoke();
+            OnResumeGame?.Invoke();
         }
     }
 

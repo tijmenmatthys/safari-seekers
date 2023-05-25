@@ -179,6 +179,7 @@ MonoBehaviour:
     pitch: 1
     loops: 0
     source: {fileID: 0}
+  _originalPitch: 1
 --- !u!1 &719025791853937046
 GameObject:
   m_ObjectHideFlags: 0
