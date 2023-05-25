@@ -13,6 +13,7 @@ public class MovingPlatform : MonoBehaviour
     private int _currentTarget; // current control point that the platform is moving towards
     private bool _isMoving = true; // whether the platform is currently moving towards the next control point
     private bool _isMovingForward = true;
+    private Rigidbody _rigidBody;
 
     public Vector3 Velocity =>
         (_controlPoints[_currentTarget].position - transform.position) .normalized * _movementSpeed;
@@ -21,14 +22,18 @@ public class MovingPlatform : MonoBehaviour
     {
         // start by moving towards the second control point (assuming there is at least one more)
         _currentTarget = 1;
+        _rigidBody = GetComponent<Rigidbody>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (_isMoving)
         {
-            transform.position = Vector3.MoveTowards(transform.position
+            var targetPosition = Vector3.MoveTowards(transform.position
                 , _controlPoints[_currentTarget].position, _movementSpeed * Time.deltaTime);
+
+            //transform.position = targetPosition;
+            _rigidBody.MovePosition(targetPosition);
 
 
             if (transform.position == _controlPoints[_currentTarget].position)

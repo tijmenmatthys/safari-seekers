@@ -11,9 +11,15 @@ public class PlayerPlatformInteractions : MonoBehaviour
     {
         if (!_platformLayerMask.Contains(other.gameObject.layer)) return;
 
+        _playerMovement.IsOnPlatform = true;
+
         var movingPlatform = other.gameObject.GetComponent<MovingPlatform>();
         if (movingPlatform != null)
-            _playerMovement.MovementFromPlatforms = movingPlatform.Velocity;
+        {
+            var horizontalMovement = movingPlatform.Velocity;
+            horizontalMovement.y = 0;
+            _playerMovement.MovementFromPlatforms = horizontalMovement;
+        }
 
         var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();
         if (crumblingPlatform != null)
@@ -29,6 +35,7 @@ public class PlayerPlatformInteractions : MonoBehaviour
     {
         if (!_platformLayerMask.Contains(other.gameObject.layer)) return;
 
+        _playerMovement.IsOnPlatform = false;
         _playerMovement.MovementFromPlatforms = Vector3.zero;
 
         var crumblingPlatform = other.gameObject.GetComponent<CrumblingPlatform>();

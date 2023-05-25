@@ -42,7 +42,9 @@ public class PlayerMovement : MonoBehaviour
 
     public Vector3 MovementFromPlatforms { get; set; } = Vector3.zero;
     public bool IsWading { get; set; } = false;
+    public bool IsOnPlatform { get; set; } = false;
     public float PlayerRotation { get; private set; } = 0f;
+    private bool IsGroundedOrOnPlatform => _charController.isGrounded || IsOnPlatform;
     public PlayerState PlayerState
     {
         get => _playerState;
@@ -75,7 +77,7 @@ public class PlayerMovement : MonoBehaviour
         _springJumpForce = Mathf.Sqrt(2f * _springJumpHeight * _gravityUp);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         ApplyRotation();
         ApplyAcceleration();
@@ -97,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateAnimationStates()
     {
         DebugIsGrounded = _charController.isGrounded;
-        if (_charController.isGrounded)
+        if (IsGroundedOrOnPlatform)
         {
             if (!IsWading &&_horizontalMovement.magnitude > _idleAnimationTreshold)
             {
@@ -123,11 +125,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void ApplyGravity()
     {
+        Debug.Log($"Grounded: {_charController.isGrounded} - Platform: {IsOnPlatform}");
+        //if (IsOnPlatform) return;
+
         if (_charController.isGrounded)
             // Reset vertical movement, but make sure we still collide with ground to make the jump work
             _verticalMovement = -_gravityDown * _charController.skinWidth;
         else
             _verticalMovement -= (_verticalMovement >= 0f ? _gravityUp : _gravityDown) * Time.deltaTime;
+
+        //if (Mathf.Abs(MovementFromPlatforms.y) >= float.Epsilon)
+        //    _verticalMovement -= 2*_gravityDown * _charController.skinWidth;
     }
 
     private void ApplyJump()
@@ -172,7 +180,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnJump(InputValue value)
     {
-        if (_charController.isGrounded) _isJumping = true;
+        if (IsGroundedOrOnPlatform) _isJumping = true;
     }
 
     public void OnMove(InputValue value)

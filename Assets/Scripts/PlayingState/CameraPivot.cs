@@ -15,7 +15,7 @@ public class CameraPivot : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         transform.position = _playerMovement.transform.position;
         RotateY();
