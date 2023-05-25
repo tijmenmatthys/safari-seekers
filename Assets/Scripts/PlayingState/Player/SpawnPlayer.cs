@@ -19,7 +19,7 @@ public class SpawnPlayer : MonoBehaviour
         Respawn();
     }
 
-    private void Respawn()
+    public void Respawn()
     {
         int randomIndex = UnityEngine.Random.Range(0, _spawnPoints.Count);
         Transform spawn = _spawnPoints[randomIndex];
@@ -27,6 +27,7 @@ public class SpawnPlayer : MonoBehaviour
         _playerCharacterController.enabled = false;
         _player.transform.position = spawn.position;
         _playerMovement.PlayerRotation = spawn.rotation.eulerAngles.y;
+        _playerMovement.ResetMovement();
         _playerCharacterController.enabled = true;
     }
 }
