@@ -50,6 +50,8 @@ public class MissionReviewScreen : MonoBehaviour
 
     public UnityEvent OnCorrect;
     public UnityEvent OnWrong;
+    public UnityEvent OnFinalCorrect;
+    public UnityEvent OnFinalWrong;
 
     [SerializeField]
     private GameObject _nextCriteriaScreen;
@@ -223,14 +225,14 @@ public class MissionReviewScreen : MonoBehaviour
             var obj = Instantiate(_notificationObject, _spawnLocation.transform);
             obj.GetComponent<TimePickupTweener>().SetUpNotification(_timer.CorrectAnimalRewardTime);
             _overallCorrect.SetActive(true);
-            OnCorrect?.Invoke();
+            OnFinalCorrect?.Invoke();
         }
         else
         {
             var obj = Instantiate(_notificationObject, _spawnLocation.transform);
             obj.GetComponent<TimePickupTweener>().SetUpNotification(-_timer.WrongAnimalPenaltyTime);
             _overallWrong.SetActive(true);
-            OnWrong?.Invoke();
+            OnFinalWrong?.Invoke();
         }
         _counter = _timeUntilNextMissionFades + 1;
         _hasFinishedShowingFinalResult = true;

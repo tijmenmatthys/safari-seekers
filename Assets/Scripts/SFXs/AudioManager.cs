@@ -107,26 +107,28 @@ public class AudioManager : MonoBehaviour
     public void PlayCorrectSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Correct");
+        UpdatePitch(s, 1f);
         s.source.Play();
     }
 
     public void PlayWrongSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
+        UpdatePitch(s, 1f);
         s.source.Play();
     }
 
     public void PlayFinalCorrectSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Correct");
-        UpdatePitch(s, 0.15f);
+        UpdatePitch(s, _originalPitch + 0.15f);
         s.source.Play();
     }
 
     public void PlayFinalWrongSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Wrong");
-        UpdatePitch(s, -0.15f);
+        UpdatePitch(s, _originalPitch - 0.15f);
         s.source.Play();
     }
 
