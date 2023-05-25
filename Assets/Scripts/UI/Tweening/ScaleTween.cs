@@ -10,6 +10,8 @@ public class ScaleTween : MonoBehaviour
     [SerializeField]
     private float _duration = 0.5f;
     [SerializeField]
+    private float _delay = 0f;
+    [SerializeField]
     private bool _rescaleOnDisable = false;
     [SerializeField]
     private bool _bigRescaleOnDisable = false;
@@ -17,6 +19,8 @@ public class ScaleTween : MonoBehaviour
     private bool _fadeInOnEnable = false;
     [SerializeField]
     private bool _fadeInAndShrinkOnEnable = false;
+    [SerializeField]
+    private bool _scaleUpOnEnable = true;
     [SerializeField]
     private CanvasGroup _canvasGroup;
     public LeanTweenType easeType;
@@ -29,7 +33,7 @@ public class ScaleTween : MonoBehaviour
             FadeObjectIn();
         else if (_fadeInAndShrinkOnEnable)
             ShrinkObjectAndFadeIn();
-        else
+        else if (_scaleUpOnEnable)
             ScaleObjectUp();
     }
 
@@ -65,8 +69,8 @@ public class ScaleTween : MonoBehaviour
 
     public void ShrinkObjectAndFadeIn()
     {
-        LeanTween.alphaCanvas(_canvasGroup, 1f, _duration).setEase(easeType).setIgnoreTimeScale(true);
-        LeanTween.scale(tweenObject, new Vector3(1f, 1f, 1f), _duration).setEase(easeType).setIgnoreTimeScale(true).setOnComplete(OnTweenDownDone);
+        LeanTween.alphaCanvas(_canvasGroup, 1f, _duration).setDelay(_delay).setEase(easeType).setIgnoreTimeScale(true);
+        LeanTween.scale(tweenObject, new Vector3(1f, 1f, 1f), _duration).setDelay(_delay).setEase(easeType).setIgnoreTimeScale(true).setOnComplete(OnTweenDownDone);
     }
 
     private void OnTweenUpDone()

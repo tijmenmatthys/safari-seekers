@@ -1,13 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using JetBrains.Annotations;
-using static UnityEngine.Rendering.DebugUI;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
-using System.Xml.Schema;
-using UnityEngine.ProBuilder.MeshOperations;
+using UnityEngine.UI;
 
 public class GameOverScreenUI : MonoBehaviour
 {
@@ -21,15 +16,25 @@ public class GameOverScreenUI : MonoBehaviour
     private TMP_Text _nextMedalText;
 
     [SerializeField]
+    private Image _medalImage;
+    [SerializeField]
+    private Sprite _bronzeMedal;
+    [SerializeField]
+    private Sprite _silverMedal;
+    [SerializeField]
+    private Sprite _goldMedal;
+    [SerializeField]
+    private Sprite _platniumMedal;
+    [SerializeField]
+    private GameObject _glow;
+
+
+    [SerializeField]
     private GameObject _gameOverFirstButton;
 
     public UnityEvent OnGameOver;
 
     private bool _gameOver = false;
-
-    private void Start()
-    {
-    }
 
     public void ShowGameOverScreen(int score, int totalGuesses)
     {
@@ -41,7 +46,7 @@ public class GameOverScreenUI : MonoBehaviour
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(_gameOverFirstButton);
             _guessText.text = $"Correct Guesses: {score} out of {totalGuesses}";
-            _nextMedalText.text = GetMedalText(score, totalGuesses);
+            _nextMedalText.text = SetMedals(score, totalGuesses);
 
             _gameOver = true;
         }
@@ -52,17 +57,41 @@ public class GameOverScreenUI : MonoBehaviour
         _gameOverScreen.SetActive(false);
     }
 
-    private string GetMedalText(int score, int totalGuesses)
+    private string SetMedals(int score, int totalGuesses)
     {
         if (score < 5)
-            return "5 or More Correct Guesses for Bronze!";
+        {
+            _glow.SetActive(false);
+            _medalImage.sprite = null;
+            _medalImage.gameObject.SetActive(false);
+            return "5+ Correct Guesses for Bronze!";
+        }
         else if (score < 10)
-            return "10 or More Correct Guesses for Silver!";
+        {
+            _medalImage.sprite = _bronzeMedal;
+            _medalImage.gameObject.SetActive(true);
+            _glow.SetActive(true);
+            return "10+ Correct Guesses for Silver!";
+        }
         else if (score < 20)
-            return "20 or More Correct Guesses for Gold!";
-        else if (score >= 20 && totalGuesses == score)
-            return "20 or More Perfect Correct Guesses for Platnium!";
+        {
+            _medalImage.sprite = _silverMedal;
+            _medalImage.gameObject.SetActive(true);
+            _glow.SetActive(true);
+            return "20+ Correct Guesses for Gold!";
+        }
+        else if (score >= 20 && totalGuesses != score)
+        {
+            _medalImage.sprite = _goldMedal;
+            _medalImage.gameObject.SetActive(true);
+            _glow.SetActive(true);
+            return "20+ Perfect Correct Guesses for Platinum!";
+        }
         else
+        {
+            _medalImage.sprite = _platniumMedal;
+            _medalImage.gameObject.SetActive(true);
             return "You are an Animal Master!";
+        }
     }
 }

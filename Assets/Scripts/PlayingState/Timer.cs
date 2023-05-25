@@ -122,6 +122,6 @@ public class Timer : MonoBehaviour
 
     public void SetGameOverTime()
     {
-        TimeRemainingSeconds = 0;
+        TimeRemainingSeconds = 0;   
     }
 }
