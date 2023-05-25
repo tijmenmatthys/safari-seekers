@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 47079786b25aa904cb1b359b013cc78e
+guid: e21b496adbf2689469213fd76ebb6498
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,18 +115,106 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Particicle_CrumblingSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 159
+        width: 179
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07dcf691935ac204e9fa9d45d1b86f1e
+      internalID: -2044630158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particicle_CrumblingSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 159
+        width: 179
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83984339a839c4c823f3dcd40180a7
+      internalID: -1894419139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particicle_CrumblingSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 197
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9a3278c8dbf8143b18880e2823a5e2
+      internalID: 1994186870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particicle_CrumblingSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 197
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56a867e87b648f489792c31de6c20f4
+      internalID: 1837294657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: b5fa52a740c21134392f05d5a7ed4a79
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Particicle_CrumblingSpriteSheet_2: 1994186870
+      Particicle_CrumblingSpriteSheet_3: 1837294657
+      Particicle_CrumblingSpriteSheet_1: -1894419139
+      Particicle_CrumblingSpriteSheet_0: -2044630158
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
