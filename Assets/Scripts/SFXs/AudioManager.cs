@@ -27,6 +27,10 @@ public class AudioManager : MonoBehaviour
         Sound s = Array.Find(sounds, sound => sound.name == "Running");
         if (s != null)
             s.source.enabled = false;
+
+        Sound wade = Array.Find(sounds, sound => sound.name == "Wading");
+        if (wade != null)
+            wade.source.enabled = false;
     }
 
     public void PlayJumpSFX()
@@ -45,6 +49,18 @@ public class AudioManager : MonoBehaviour
     public void StopRunSFX()
     {
         Sound s = Array.Find(sounds, sound => sound.name == "Running");
+        s.source.enabled = false;
+    }
+
+    public void PlayWadeSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Wading");
+        s.source.enabled = true;
+    }
+
+    public void StopWadeSFX()
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == "Wading");
         s.source.enabled = false;
     }
 

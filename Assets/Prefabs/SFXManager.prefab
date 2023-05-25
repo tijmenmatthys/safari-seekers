@@ -99,5 +99,11 @@ MonoBehaviour:
     pitch: 1
     loops: 0
     source: {fileID: 0}
+  - name: Wading
+    clip: {fileID: 8300000, guid: c8a57d76662be814f8738e262f7f28dd, type: 3}
+    volume: 0.7
+    pitch: 1
+    loops: 1
+    source: {fileID: 0}
   _deviation: 0.05
   _originalPitch: 1
