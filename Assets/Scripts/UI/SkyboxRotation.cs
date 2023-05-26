@@ -9,14 +9,16 @@ public class SkyboxRotation : MonoBehaviour
 
     private float _currentRotation;
 
+    private Transform _mainCamTransform;
+
     private void Start()
     {
-        _currentRotation = RenderSettings.skybox.GetFloat("_Rotation");
+        _mainCamTransform = Camera.main.transform;   
     }
 
-    void Update()
+    private void Update()
     {
         _currentRotation += _skyScrollSpeed * Time.deltaTime;
-        RenderSettings.skybox.SetFloat("_Rotation",_currentRotation );
+        _mainCamTransform.rotation = Quaternion.Euler(_mainCamTransform.transform.rotation.eulerAngles.x, _currentRotation, _mainCamTransform.transform.rotation.eulerAngles.z);
     }
 }

@@ -402,7 +402,7 @@ PrefabInstance:
     - target: {fileID: 8415471942271625302, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
-      value: "- Features: \n\t- Has Arms"
+      value: "- Features: \n\t-  Arms"
       objectReference: {fileID: 0}
     - target: {fileID: 8434804602651034146, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
