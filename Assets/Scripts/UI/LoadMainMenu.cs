@@ -5,9 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class LoadMainMenu : MonoBehaviour
 {
+    private GameLoop _gameLoop;
+    private void Awake()
+    {
+     _gameLoop = FindObjectOfType<GameLoop>();   
+    }
     public void LoadMainMenuScene()
     {
         FindObjectOfType<MusicManager>()?.PlayMenuMusic();
+        _gameLoop.TransitionToPlaying();
         StartCoroutine(LoadMenuScene());
     }
 

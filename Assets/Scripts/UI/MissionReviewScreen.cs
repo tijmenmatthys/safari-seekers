@@ -61,6 +61,13 @@ public class MissionReviewScreen : MonoBehaviour
     private List<GameObject> _nextImageGameObjects;
     [SerializeField]
     private List<Image> _nextImages;
+    [SerializeField]
+    private TMP_Text _nextMedalHint;
+    [SerializeField]
+    private Image _medalImage;
+    [SerializeField]
+    private List<Sprite> _medalSprites;
+
 
     [SerializeField]
     private float _timeUntilNextCriteriumCheck = 0.75f;
@@ -77,6 +84,7 @@ public class MissionReviewScreen : MonoBehaviour
     private bool _finalResult, _isActive, _hasFinishedCheckingCriteria, _hasFinishedShowingFinalResult, _hasFinishedShowingNextCriteria;
     private int _currentCriteriaIndex;
     private float _counter;
+    private int _correctGuesses = 0, _totalGuesses = 0;
     private CriteriaList _criteriaList;
     private PrefixAdder _prefixAdder;
     private Mission _nextMission;
@@ -127,6 +135,9 @@ public class MissionReviewScreen : MonoBehaviour
         _isActive = true;
         ResetValues();
         _finalResult = missionSuccess;
+        if (missionSuccess)
+            _correctGuesses++;
+        _totalGuesses++;
 
         foreach (var kvp in missionResults)
             _resultValues.Add(kvp.Value);
@@ -135,6 +146,7 @@ public class MissionReviewScreen : MonoBehaviour
         UpdateSelectedAnimalPhoto(currentAnimal);
         UpdateCurrentCriteriaList(missionResults);
         UpdateNextCriteriaList(nextMission);
+        UpdateMedals();
         _nextMission = nextMission;
 
         _missionReviewScreen.SetActive(true);
@@ -259,6 +271,46 @@ public class MissionReviewScreen : MonoBehaviour
             _nextImageGameObjects[counter].SetActive(true);
             _nextImages[counter].sprite = _iconRetriever.GetIcon(criteria);
             counter++;
+        }
+    }
+
+    private void UpdateMedals()
+    {
+        if (_correctGuesses < 5)
+        {
+            _medalImage.sprite = _medalSprites[0];
+
+            if (5 - _correctGuesses < 2)
+                _nextMedalHint.text = $"{5 - _correctGuesses} More Guess until Bronze!";
+            else
+                _nextMedalHint.text = $"{5 - _correctGuesses} More Guesses until Bronze!";
+        }
+        else if (_correctGuesses < 10)
+        {
+            _medalImage.sprite = _medalSprites[1];
+
+            if (10 - _correctGuesses < 2)
+                _nextMedalHint.text = $"{10 - _correctGuesses} More Guess until Silver!";
+            else
+                _nextMedalHint.text = $"{10 - _correctGuesses} More Guesses until Silver!";
+        } else if (_correctGuesses < 20)
+        {
+            _medalImage.sprite = _medalSprites[2];
+            if (20 - _correctGuesses < 2)
+                _nextMedalHint.text = $"{20 - _correctGuesses} More Guess until Gold!";
+            else
+                _nextMedalHint.text = $"{20 - _correctGuesses} More Guesses until Gold!";
+        } else if (_correctGuesses >= 20 && _correctGuesses != _totalGuesses)
+        {
+            _medalImage.sprite = _medalSprites[3];
+            _nextMedalHint.text = "Don't Guess Wrong for Platnium!";
+        } else
+        {
+            _medalImage.sprite = _medalSprites[3];
+            var tempColor = _medalImage.color;
+            tempColor.a = 1f;
+            _medalImage.color = tempColor;
+            _nextMedalHint.text = "Congratulations!!!";
         }
     }
 
