@@ -246,7 +246,7 @@ PrefabInstance:
     - target: {fileID: 8415471940292285421, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
       propertyPath: m_text
-      value: '- Nutrition: Carnivores'
+      value: '- Nutrition: Carnivore'
       objectReference: {fileID: 0}
     - target: {fileID: 8415471940652226022, guid: 3d40ad219622e8d46aab4680f5ffb674,
         type: 3}
