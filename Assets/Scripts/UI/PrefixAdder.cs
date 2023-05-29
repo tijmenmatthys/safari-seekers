@@ -26,7 +26,7 @@ public class PrefixAdder : MonoBehaviour
             case (AnimalCriterium.Carnivore):
                 return "is a CARNIVORE";
             case (AnimalCriterium.Omnivore):
-                return "is a OMNIVORE";
+                return "is an OMNIVORE";
             case (AnimalCriterium.HasTail):
                 return "has a TAIL";
             case (AnimalCriterium.HasSnout):
