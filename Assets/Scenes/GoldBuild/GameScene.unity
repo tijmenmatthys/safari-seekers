@@ -1223,6 +1223,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 73606518}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &111352948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8949729790190088802, guid: e70101f17aca2d1479d64cb7d52bf2da,
+    type: 3}
+  m_PrefabInstance: {fileID: 813411121}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: feb9d710db3fd2942ae952f1b210b0e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &112151314
 GameObject:
   m_ObjectHideFlags: 0
@@ -10486,11 +10498,16 @@ PrefabInstance:
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
@@ -10500,7 +10517,17 @@ PrefabInstance:
       objectReference: {fileID: 999250860}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 111352948}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
@@ -10510,12 +10537,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetGameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: AudioManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
         type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseUI, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
       propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8446519268992818958, guid: 2e51afa8ec2d73b46a9e15fe153270fe,
+        type: 3}
+      propertyPath: OnGameOver.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8446519268992818959, guid: 2e51afa8ec2d73b46a9e15fe153270fe,

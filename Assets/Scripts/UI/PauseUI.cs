@@ -25,6 +25,7 @@ public class PauseUI : MonoBehaviour
     private bool _isPaused, _inReviewOrOverScreen;
     private bool _inExitConfirmationScreen, _inControlsScreen;
     private bool _canExitMenu = true;
+    private bool _isGameOver = false;
 
     private GameLoop _gameLoop;
     private InputAction _pauseGame;
@@ -118,16 +119,18 @@ public class PauseUI : MonoBehaviour
     private void OnPause(InputAction.CallbackContext obj)
     {
         Debug.Log("Pressed ESC");
-        if (!_inReviewOrOverScreen)
-        {
-            if (!_isPaused)
-                PauseGame();
-            else if (_isPaused && _inExitConfirmationScreen)
-                LeaveQuitConfirmationScreen();
-            else if (_isPaused && _inControlsScreen)
-                LeaveControlsScreen();
-            else if (_isPaused && !_inExitConfirmationScreen && !_inControlsScreen)
-                InvokeContinueButton();
+        if (!_isGameOver) {
+            if (!_inReviewOrOverScreen)
+            {
+                if (!_isPaused)
+                    PauseGame();
+                else if (_isPaused && _inExitConfirmationScreen)
+                    LeaveQuitConfirmationScreen();
+                else if (_isPaused && _inControlsScreen)
+                    LeaveControlsScreen();
+                else if (_isPaused && !_inExitConfirmationScreen && !_inControlsScreen)
+                    InvokeContinueButton();
+            }
         }
     }
 
@@ -149,5 +152,10 @@ public class PauseUI : MonoBehaviour
     public void CannotExitMenu()
     {
         _canExitMenu = false;
+    }
+
+    public void SetGameOver()
+    {
+        _isGameOver = true;
     }
 }
