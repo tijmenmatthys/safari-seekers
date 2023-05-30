@@ -783,6 +783,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8641555555436071489, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8641555555640013325, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -979,6 +984,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MainMenuManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8641555556314841197, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8641555556378157902, guid: 3f3efc4df6cf7274481b03e1f3e4e15b,
         type: 3}
